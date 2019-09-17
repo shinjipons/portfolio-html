@@ -1,0 +1,1547 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ser",
+				"server"
+			],
+			[
+				"favicon",
+				"favicon.svg"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"base",
+				"baseDir"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"wa",
+				"watchHtml"
+			],
+			[
+				"wat",
+				"watch"
+			],
+			[
+				"build",
+				"buildStyles"
+			],
+			[
+				"watch",
+				"watchFiles"
+			],
+			[
+				"curre",
+				"currentChar"
+			],
+			[
+				"random",
+				"randomNumber"
+			],
+			[
+				"pa",
+				"pairArray"
+			],
+			[
+				"pair",
+				"pair4"
+			],
+			[
+				"small",
+				"smallRanInt"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"brosw",
+				"browserSync"
+			],
+			[
+				"style",
+				"styles"
+			],
+			[
+				"styl",
+				"styles"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"animation",
+				"animation-duration\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"brows",
+				"browserSync"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"r",
+				"rows"
+			],
+			[
+				"locat",
+				"locatorValue"
+			],
+			[
+				"Fotn",
+				"FontSize\t"
+			],
+			[
+				"Reac",
+				"ReactDOM"
+			],
+			[
+				"fav",
+				"favoriteFoods"
+			],
+			[
+				"tre",
+				"tree-view.png\tw:2340 h:1158"
+			],
+			[
+				"lis",
+				"list-view.png\tw:2340 h:1158"
+			],
+			[
+				"view",
+				"viewButton"
+			],
+			[
+				"transi",
+				"transition"
+			],
+			[
+				"transio",
+				"transition-delay"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"sc",
+				"script.min.js"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"marin",
+				"margin-left"
+			],
+			[
+				"mouse",
+				"mouseenter"
+			],
+			[
+				"mobil",
+				"mobileScrollOffset"
+			],
+			[
+				"mone",
+				"moneyLink"
+			],
+			[
+				"cv",
+				"_cv-of-successes.scss"
+			],
+			[
+				"ine",
+				"inline"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"counter",
+				"counter-increment"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"flo",
+				"flower-blossom-poster.jpg\tw:1920 h:1200"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"all",
+				"allImages"
+			],
+			[
+				"open",
+				"openerElement"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"lan",
+				"landing-page-poster.jpg\tw:530 h:942"
+			],
+			[
+				"page",
+				"pageTitle"
+			],
+			[
+				"bak",
+				"backgroundColorAlpha"
+			],
+			[
+				"fn",
+				"function"
+			],
+			[
+				"s",
+				"stand-and-lumia-poster.jpg\tw:1920 h:1080"
+			],
+			[
+				"mobile",
+				"mobileBreakpoint"
+			],
+			[
+				"tablet",
+				"tabletBreakpoint"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"mosue",
+				"mouseenter"
+			],
+			[
+				"modulo",
+				"modulo-cover.gif\tw:1600 h:900"
+			],
+			[
+				"pos",
+				"test-1-poster.jpg\tw:1920 h:1080"
+			],
+			[
+				"em",
+				"emphasis-animation-poster.jpg\tw:1920 h:1080"
+			],
+			[
+				"mo",
+				"modulo-cover-video.mov"
+			],
+			[
+				"re",
+				"reveal"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"projec",
+				"_projects-grid.scss"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"anim",
+				"animation-2-poster.jpg\tw:1920 h:1080"
+			],
+			[
+				"anima",
+				"animation-4-poster.jpg\tw:1610 h:1080"
+			],
+			[
+				"j",
+				"jquery-2.2.3.min.js"
+			],
+			[
+				"scr",
+				"scrollY"
+			],
+			[
+				"Sc",
+				"scrollAmount"
+			],
+			[
+				"scroll",
+				"scrollAmount"
+			],
+			[
+				"scrol",
+				"scrollTop"
+			],
+			[
+				"close",
+				"closeMenu"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"trans",
+				"translateX"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"transla",
+				"translateY"
+			],
+			[
+				"ve",
+				"velocity.ui.js"
+			],
+			[
+				"t",
+				"type\tAttr"
+			],
+			[
+				"des",
+				"designs-of-the-year-concept-1-poster.jpg\tw:608 h:1080"
+			],
+			[
+				"gutt",
+				"gutterSize"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"photo",
+				"photo-2.jpg\tw:1758 h:3043"
+			],
+			[
+				"error",
+				"errorLog"
+			],
+			[
+				"ext",
+				"text-align"
+			],
+			[
+				"preview",
+				"previews"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"mdoal",
+				"modalContainer"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"set",
+				"setAttribute"
+			],
+			[
+				"modal",
+				"modalVideo"
+			],
+			[
+				"video",
+				"videoUrl"
+			],
+			[
+				"image",
+				"imageVideoUrl"
+			],
+			[
+				"brow",
+				"browserSync"
+			],
+			[
+				"src",
+				"srcElement"
+			],
+			[
+				"moda",
+				"modalBackgroundRemove"
+			],
+			[
+				"clie",
+				"clientHeight"
+			],
+			[
+				"clien",
+				"clientWidth"
+			],
+			[
+				"getEle",
+				"getElementsByTagName"
+			],
+			[
+				"getEe",
+				"getElementsByTagName"
+			],
+			[
+				"an",
+				"anyImage"
+			],
+			[
+				"appen",
+				"appendChild"
+			],
+			[
+				"create",
+				"createElement"
+			],
+			[
+				"cre",
+				"createElement"
+			],
+			[
+				"iamge",
+				"imageAside"
+			],
+			[
+				"bus",
+				"businessCardLink"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"hide",
+				"hideImageAside"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1281,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<nav>\n\t<p class=\"w2\">\n\t\t<a href=\"index.html\">Shinji Pons</a>\n\t</p>\n\t<div class=\"w4 no-rm\">\n\t\t<a href=\"index.html\">Work</a>\n\t\t<a href=\"archive.html\">Archive</a>\n\t\t<a href=\"about.html\">About</a>\n\t\t<a href=\"contact.html\">Contact</a>\n\t\t<a href=\"links.html\">Links</a>\n\t</div>\n</nav>\n<!-- @@close -->",
+			"file": "_nav.html",
+			"file_size": 294,
+			"file_write_time": 132130428776553849,
+			"settings":
+			{
+				"buffer_size": 294,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "_nav.html"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1826,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/stylesheet.scss",
+			"settings":
+			{
+				"buffer_size": 2981,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 205.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"activ",
+				"Material Theme: Activate theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packaremo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pacpa",
+				"Package Control: List Packages"
+			],
+			[
+				"PACKA",
+				"Package Control: Install Package"
+			],
+			[
+				"packaa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 312.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/shinjipons/Desktop/portfolio-html",
+		"/Users/shinjipons/Desktop/portfolio-html/src",
+		"/Users/shinjipons/Desktop/portfolio-html/src/scss"
+	],
+	"file_history":
+	[
+		"/Users/shinjipons/Desktop/portfolio-html/archive.html",
+		"/Users/shinjipons/Desktop/portfolio-html/links.html",
+		"/Users/shinjipons/Desktop/portfolio-html/src/scss/stylesheet.scss",
+		"/Users/shinjipons/Desktop/portfolio-html/placeholder-text.txt",
+		"/Users/shinjipons/Desktop/portfolio-html/index.html",
+		"/Users/shinjipons/Desktop/portfolio-html/about.html",
+		"/Users/shinjipons/Desktop/portfolio-html/contact.html",
+		"/Users/shinjipons/Desktop/portfolio-html/.gitignore",
+		"/Users/shinjipons/Desktop/portfolio-html/gulpfile.js",
+		"/Users/shinjipons/Desktop/portfolio-html/nav.php",
+		"/Users/shinjipons/Desktop/portfolio-html/dist/css/stylesheet.css",
+		"/Users/shinjipons/Dropbox/Backup-codes-streaming040404.txt",
+		"/Users/shinjipons/Downloads/procrastinateAway.txt",
+		"/Users/shinjipons/Dropbox/Graphic Design/2019/JP Pons Artwork Japan/instructions 2019-08-11.txt",
+		"/Users/shinjipons/Dropbox/Graphic Design/2019/Alias/Alias notes about Apple/Jan 30 2017 Visit/Notes/1.30.2016 - Apple Mtg Notes_NateGoss.boxnote.txt",
+		"/Users/shinjipons/Dropbox/Graphic Design/2019/Alias/Alias notes about Apple/CE3 - Apple Oct 11 2016.boxnote.txt",
+		"/Users/shinjipons/Dropbox/Graphic Design/2019/Alias/Alias notes about Apple/CE2 - GM Summary.boxnote.txt",
+		"/Users/shinjipons/Dropbox/Graphic Design/2019/Alias/Alias notes about Apple/CE2 - Apple.boxnote.txt",
+		"/Users/shinjipons/Dropbox/Graphic Design/2019/Alias/Alias notes about Apple/CE2 - Apple Full Notes - 21 July 16.boxnote.txt",
+		"/Users/shinjipons/Dropbox/Graphic Design/2019/Alias/Alias notes about Apple/1.30.2016 - Apple Mtg Notes_NateGoss.boxnote.txt",
+		"/Users/shinjipons/Desktop/Noun Project Search.html",
+		"/Users/shinjipons/Desktop/external_drives__byeattxawxle_large_2x.jpg",
+		"/Users/shinjipons/Desktop/concept-html/gulpfile.js",
+		"/Users/shinjipons/Desktop/concept-html/src/scss/stylesheet.scss",
+		"/Users/shinjipons/Desktop/concept-html/index.html",
+		"/Users/shinjipons/.bash_profile",
+		"/Volumes/NO NAME/some-crappy-file.txt",
+		"/Volumes/NO NAME/fb-password.txt",
+		"/Volumes/NO NAME/test folder 1/important things.txt",
+		"/private/var/folders/x0/4y7_6qm126sgx7szvpb1h2sc0000gn/T/com.agilebits.onepassword7/com.agilebits.Attachments.noindex/arlybedrinfqvgaue4xvmbp6pa/protonmail_recovery_codes.txt",
+		"/private/var/folders/x0/4y7_6qm126sgx7szvpb1h2sc0000gn/T/com.agilebits.onepassword7/com.agilebits.Attachments.noindex/4ammjh5hkjgivb56qxhdml6ilu/protonmail_recovery_codes.txt",
+		"/Users/shinjipons/Dropbox/generate-illegible-address.html",
+		"/Users/shinjipons/Dropbox/notes about email address generation.txt",
+		"/Users/shinjipons/Dropbox/generate-email-address.js",
+		"/Users/shinjipons/Applications/QtDesignStudio-1.1.1/README.txt",
+		"/private/var/folders/x0/4y7_6qm126sgx7szvpb1h2sc0000gn/T/com.agilebits.onepassword7/com.agilebits.Attachments.noindex/r2djgs5lefclpltemmtiztxjgm/protonmail_recovery_codes.txt",
+		"/Users/shinjipons/Desktop/shinji-cv-html/.gitignore",
+		"/Users/shinjipons/Desktop/shinji-cv-html/src/scss/stylesheet.scss",
+		"/Users/shinjipons/Desktop/shinji-cv-html/index.html",
+		"/Users/shinjipons/Downloads/transfonter.org-20190120-221434/stylesheet.css",
+		"/Users/shinjipons/Desktop/shinji-cv-html/gulpfile.js",
+		"/Users/shinjipons/Desktop/shinji-cv-html/src/sass/stylesheet.scss",
+		"/Users/shinjipons/Desktop/shinji-cv-html/src/sass/stylesheet.sass",
+		"/Users/shinjipons/Desktop/shinji-cv-html/dist/css/stylesheet.css",
+		"/Users/shinjipons/Desktop/shinji-cv-html/package.json",
+		"/Users/shinjipons/Desktop/shinji-cv-html/package-lock.json",
+		"/Users/shinjipons/Dropbox/shinjipons-resume-2019-01-20.txt",
+		"/Users/shinjipons/Dropbox/CV-Compiler notes.txt",
+		"/Users/shinjipons/Dropbox/Exported Images Portfolio 2018/barnbrook.svg",
+		"/Users/shinjipons/Desktop/PC Spec List 2018-08-11.txt",
+		"/Users/shinjipons/Desktop/Names of Contacts.txt",
+		"/Volumes/Ableton 10 [k]/README.txt",
+		"/Users/shinjipons/Dropbox/_Online Store/colors-for-store.txt",
+		"/Users/shinjipons/Desktop/Domain name ideas.txt",
+		"/Users/shinjipons/Desktop/alias-html/index.html",
+		"/Users/shinjipons/Desktop/google-html/index.html",
+		"/Users/shinjipons/Downloads/key.txt",
+		"/Users/shinjipons/Dropbox/_Online Store/BasilJS Scripts/user/Blue-ish Gradient Stack 2018-01-16 v2 (with comments).jsx",
+		"/Users/shinjipons/Dropbox/this is a test.txt",
+		"/Users/shinjipons/Dropbox/BasilJS Scripts/user/Blue-ish Gradient Stack 2018-01-16 v3 (triangular version).jsx",
+		"/Users/shinjipons/Dropbox/BasilJS Scripts/user/No Fill Rectangles 2018-01-03 v1.jsx",
+		"/Users/shinjipons/Desktop/Gym Exercises.txt",
+		"/Users/shinjipons/Dropbox/SoundCloud/SoundCloud Likes.txt",
+		"/Volumes/AutodeskAliasAutoStudio 2018/MID.txt",
+		"/Volumes/SmoothScroll/README.txt",
+		"/Users/shinjipons/Desktop/notes.txt",
+		"/Users/shinjipons/Desktop/lightbulb.svg",
+		"/Users/shinjipons/Downloads/mmn-html-master/index.html",
+		"/Users/shinjipons/.config/configstore/bower-github.json",
+		"/Users/shinjipons/Desktop/Facebook/design-museum-v1/index.html",
+		"/Users/shinjipons/Desktop/Facebook/design-museum-v1/bower.json",
+		"/Users/shinjipons/Desktop/facebook.txt",
+		"/Users/shinjipons/Desktop/Pupil Web Design Screens/_Read Me.txt",
+		"/Users/shinjipons/Desktop/hover-html/index.html",
+		"/Users/shinjipons/Desktop/Pupil Web Design Screens/notes.txt",
+		"/Users/shinjipons/Desktop/mmn-html-master/gulpfile.js",
+		"/Users/shinjipons/Desktop/mmn-html-master/package.json",
+		"/Users/shinjipons/Dropbox/plain-text-cv_shinji-pons.txt",
+		"/Users/shinjipons/Desktop/YNAB 2016-12-28.txt",
+		"/Users/shinjipons/Dropbox/Documents/Rough Student Finance Repayment Calculations.txt",
+		"/Volumes/Flinto [Crack]/How 2 Install.txt",
+		"/Users/shinjipons/Dropbox/Documents/Thomson Reuters/start date.txt",
+		"/Users/shinjipons/Desktop/ReactJS Notes.jsx",
+		"/Users/shinjipons/Desktop/login data.txt",
+		"/Users/shinjipons/Desktop/ReactJS Notes.js",
+		"/Users/shinjipons/Desktop/ReactJS Notes.txt",
+		"/Users/shinjipons/Desktop/mojs/index.html",
+		"/Users/shinjipons/Desktop/mojs/gulpfile.js",
+		"/Users/shinjipons/Desktop/makeappicon.com.txt",
+		"/Users/shinjipons/Desktop/trkd-tour/dist/img/Tree.svg",
+		"/Users/shinjipons/Desktop/trkd-tour/dist/img/List.svg",
+		"/Users/shinjipons/Desktop/trkd-tour/src/js/script.js",
+		"/Users/shinjipons/Desktop/Description of TR Job.txt",
+		"/Users/shinjipons/Desktop/trkd-tour/src/scss/stylesheet.scss",
+		"/Users/shinjipons/Desktop/trkd-tour/dist/img/grid.svg",
+		"/Users/shinjipons/Desktop/trkd-tour/dist/img/tree.svg",
+		"/Users/shinjipons/Desktop/trkd-tour/dist/img/list.svg",
+		"/Users/shinjipons/Desktop/try-it-now/index.html",
+		"/Users/shinjipons/Desktop/portfolio-v2-html/spotify.php",
+		"/Users/shinjipons/Desktop/Try It Now Button/button.html",
+		"/Users/shinjipons/Desktop/Try It Now Button/gulpfile.js",
+		"/Users/shinjipons/Desktop/trkd-tour/index.html",
+		"/Users/shinjipons/Desktop/trkd-tour/src/scss/_scrolltrigger.scss",
+		"/Users/shinjipons/Downloads/webfontkit-20160727-061103/stylesheet.css",
+		"/Users/shinjipons/Desktop/trkd-tour/gulpfile.js",
+		"/Users/shinjipons/Desktop/aframe/gulpfile.js",
+		"/Users/shinjipons/Desktop/aframe/package.json",
+		"/Users/shinjipons/Desktop/portfolio-v2-html/gulpfile.js",
+		"/Users/shinjipons/Desktop/myPexApp/index.html",
+		"/Users/shinjipons/Desktop/myPexApp/main.js",
+		"/Volumes/Plask/README_2015-07-30.txt",
+		"/Users/shinjipons/Desktop/portfolio-v2-html/useful-links.php",
+		"/Users/shinjipons/Desktop/portfolio-v2-html/cv-of-successes.php",
+		"/Users/shinjipons/Desktop/portfolio-v2-html/cv-of-failures.php",
+		"/Users/shinjipons/Desktop/node-wit/examples/template.js",
+		"/Users/shinjipons/Desktop/portfolio-v2-html/templates/head.php",
+		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/_variables.scss",
+		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/stylesheet.scss",
+		"/Users/shinjipons/Desktop/portfolio-v2-html/templates/nav.php",
+		"/Users/shinjipons/Desktop/portfolio-v2-html/index.php",
+		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/_nav.scss",
+		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/_grid.scss",
+		"/Users/shinjipons/Desktop/portfolio-v2-html/bad-cv.php",
+		"/private/var/folders/x0/4y7_6qm126sgx7szvpb1h2sc0000gn/T/TemporaryItems/(A Document Being Saved By Illustrator CC)/ai14643740583.tmp/ai14643740583.txt",
+		"/Users/shinjipons/Desktop/portfolio-v2-html/src/js/main.js",
+		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/_cv-of-successes.scss",
+		"/Users/shinjipons/Desktop/portfolio-v2-html/good-cv.php",
+		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/_cv-of-failures.scss"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 187.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<ul>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/shinjipons/Desktop/portfolio-html"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_nav.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								290,
+								290
+							]
+						],
+						"settings":
+						{
+							"auto_name": "_nav.html",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1826,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								434,
+								434
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/scss/stylesheet.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2981,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Palenight.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.FuseBuildResults":
+	{
+		"height": 114.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"list.",
+				"dist/img/List.svg"
+			],
+			[
+				"tree",
+				"dist/img/Tree.svg"
+			],
+			[
+				".scss",
+				"src/scss/stylesheet.scss"
+			],
+			[
+				"style",
+				"trkd-tour/src/scss/stylesheet.scss"
+			],
+			[
+				"grid.s",
+				"trkd-tour/dist/img/grid.svg"
+			],
+			[
+				"tree.",
+				"trkd-tour/dist/img/tree.svg"
+			],
+			[
+				"list.svg",
+				"trkd-tour/dist/img/list.svg"
+			],
+			[
+				"script",
+				"src/js/script.js"
+			],
+			[
+				"grid",
+				"src/scss/_grid.scss"
+			],
+			[
+				"varia",
+				"src/scss/_variables.scss"
+			],
+			[
+				"index.",
+				"index.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"nav.scss",
+				"src/scss/_nav.scss"
+			],
+			[
+				"idnex",
+				"index.php"
+			],
+			[
+				"nav.php",
+				"templates/nav.php"
+			],
+			[
+				"cv",
+				"src/scss/_cv-of-successes.scss"
+			],
+			[
+				"good-",
+				"good-cv.php"
+			],
+			[
+				"nav",
+				"templates/nav.php"
+			],
+			[
+				"head",
+				"templates/head.php"
+			],
+			[
+				"stylesh",
+				"src/scss/stylesheet.scss"
+			],
+			[
+				"bad",
+				"bad-cv.php"
+			],
+			[
+				"cv-",
+				"src/scss/_cv-of-failures.scss"
+			],
+			[
+				"design",
+				"designs-of-the-year.php"
+			],
+			[
+				"_nav",
+				"src/scss/_nav.scss"
+			],
+			[
+				"cv-f",
+				"src/scss/_cv-of-failures.scss"
+			],
+			[
+				"useful",
+				"useful-links.php"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"variables",
+				"src/scss/_variables.scss"
+			],
+			[
+				"project-pa",
+				"src/scss/_project-page.scss"
+			],
+			[
+				"project-t",
+				"src/scss/_project-tile.scss"
+			],
+			[
+				"use",
+				"useful-links.php"
+			],
+			[
+				"prject",
+				"src/scss/_project-page.scss"
+			],
+			[
+				"proejct",
+				"src/scss/_projects-grid.scss"
+			],
+			[
+				"olym",
+				"olympics.php"
+			],
+			[
+				"modulo",
+				"modulo.php"
+			],
+			[
+				"modul",
+				"modulo.php"
+			],
+			[
+				"project",
+				"src/scss/_projects-grid.scss"
+			],
+			[
+				"designs",
+				"designs-of-the-year.php"
+			],
+			[
+				"bow",
+				"bowie.php"
+			],
+			[
+				"pro",
+				"src/scss/_project-page.scss"
+			],
+			[
+				"basil",
+				"basiljs.php"
+			],
+			[
+				"ha",
+				"src/js/hamburgerFunctions.js"
+			],
+			[
+				"nav.",
+				"src/scss/_nav.scss"
+			],
+			[
+				"main",
+				"src/js/main.js"
+			],
+			[
+				"coming",
+				"coming-soon.php"
+			],
+			[
+				"_head",
+				"templates/_head.php"
+			],
+			[
+				"cv-of-",
+				"cv-of-successes.php"
+			],
+			[
+				"about",
+				"about-me.php"
+			],
+			[
+				"ham",
+				"src/js/hamburgerFunctions.js"
+			],
+			[
+				"main.",
+				"src/js/main.js"
+			],
+			[
+				"nav.scs",
+				"src/scss/_nav.scss"
+			],
+			[
+				"contact",
+				"src/scss/_contact-page.scss"
+			],
+			[
+				"contac",
+				"contact.php"
+			],
+			[
+				"useful-l",
+				"useful-links.php"
+			],
+			[
+				"usef",
+				"src/scss/_useful-links-page.scss"
+			],
+			[
+				"fonts",
+				"dist/css/fonts.css"
+			],
+			[
+				"projec",
+				"src/scss/_projects-grid.scss"
+			],
+			[
+				"com",
+				"coming-soon.php"
+			],
+			[
+				"art",
+				"src/js/artGallery.js"
+			],
+			[
+				"src/js/m",
+				"src/js/main.js"
+			],
+			[
+				"basiljs",
+				"basiljs.php"
+			],
+			[
+				"hamburger",
+				"src/js/hamburgerFunctions.js"
+			],
+			[
+				"hambur",
+				"src/js/hamburgerFunctions.js"
+			],
+			[
+				"scripts",
+				"_scripts.php"
+			],
+			[
+				"hambu",
+				"src/js/hamburgerFunctions.js"
+			],
+			[
+				"project-tile",
+				"src/scss/_project-tile.scss"
+			],
+			[
+				"project-page",
+				"src/scss/_project-page.scss"
+			],
+			[
+				"",
+				"_nav.php"
+			],
+			[
+				"about-",
+				"src/scss/_about-me-page.scss"
+			],
+			[
+				"conta",
+				"contact.php"
+			],
+			[
+				"navho",
+				"src/js/navHoverEffects.js"
+			],
+			[
+				"_nsv",
+				"src/scss/_nav.scss"
+			],
+			[
+				"modlo",
+				"modulo.php"
+			],
+			[
+				"var",
+				"src/scss/_variables.scss"
+			],
+			[
+				"bas",
+				"basiljs.php"
+			],
+			[
+				"con",
+				"contact.php"
+			],
+			[
+				"_script",
+				"_scripts.php"
+			],
+			[
+				"grunt",
+				"gruntfile.js"
+			],
+			[
+				"_hea",
+				"_head.php"
+			],
+			[
+				"bsail",
+				"basiljs.html"
+			],
+			[
+				"hamb",
+				"src/js/hamburgerFunctions.js"
+			],
+			[
+				"hero",
+				"src/js/heroTextAnimation.js"
+			],
+			[
+				"mixin",
+				"src/scss/_mixins.scss"
+			],
+			[
+				"project-",
+				"src/scss/_project-tile.scss"
+			],
+			[
+				"vari",
+				"src/scss/_variables.scss"
+			],
+			[
+				"gri",
+				"src/scss/_grid.scss"
+			],
+			[
+				"templ",
+				"template-head.php"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"styles",
+				"src/scss/stylesheet.scss"
+			],
+			[
+				"temppl",
+				"template-head.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"templa",
+				"template-head.php"
+			],
+			[
+				"close",
+				"dist/img/icons/close-icon.svg"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"stylesheet",
+				"src/scss/stylesheet.scss"
+			],
+			[
+				"syle",
+				"dist/css/stylesheet.css"
+			],
+			[
+				"styl",
+				"dist/css/stylesheet.css"
+			],
+			[
+				"styleshe",
+				"src/scss/stylesheet.scss"
+			],
+			[
+				"stylsheet",
+				"src/scss/stylesheet.scss"
+			],
+			[
+				"template-m",
+				"template-menu.php"
+			],
+			[
+				"desi",
+				"designs-of-the-year.php"
+			],
+			[
+				"template",
+				"template-all-projects.php"
+			],
+			[
+				"cambrid",
+				"cambridge-satchel-company.php"
+			],
+			[
+				"script.js",
+				"src/js/99-script.js"
+			],
+			[
+				"home",
+				"src/scss/home-page.scss"
+			],
+			[
+				"cas",
+				"castiglioni.php"
+			],
+			[
+				"menu",
+				"src/scss/menu.scss"
+			],
+			[
+				"form",
+				"forma.php"
+			],
+			[
+				"menu.s",
+				"src/scss/menu.scss"
+			],
+			[
+				"htac",
+				".htaccess"
+			],
+			[
+				"genera",
+				"src/scss/general-styles.scss"
+			],
+			[
+				"menu.scss",
+				"src/scss/menu.scss"
+			],
+			[
+				"scr",
+				"src/js/7-script.js"
+			],
+			[
+				"gulpfil",
+				"gulpfile.js"
+			],
+			[
+				"doty.php",
+				"doty.php"
+			],
+			[
+				"proje",
+				"src/scss/projects.scss"
+			],
+			[
+				"gene",
+				"src/scss/general-styles.scss"
+			],
+			[
+				"temple",
+				"template-head.php"
+			],
+			[
+				"templte",
+				"template-head.php"
+			],
+			[
+				"templs",
+				"template-scripts.php"
+			],
+			[
+				"fon",
+				"src/scss/fonts.scss"
+			],
+			[
+				"gulpfl",
+				"gulpfile.js"
+			],
+			[
+				"cv.",
+				"cv.php"
+			],
+			[
+				"font",
+				"src/scss/fonts.scss"
+			],
+			[
+				"cv.scss",
+				"src/scss/cv.scss"
+			],
+			[
+				"cv.s",
+				"src/scss/cv.scss"
+			],
+			[
+				"template-",
+				"template-menu.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

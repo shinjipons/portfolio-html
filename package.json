@@ -1,0 +1,25 @@
+{
+  "name": "concept-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "beeper": "^2.0.0",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-cached": "^1.1.1",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-inject-partials": "^1.0.5",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "scss": "^0.2.4"
+  }
+}

@@ -1,0 +1,157 @@
+// One breakpoint
+
+// One font
+// @font-face {
+// 	font-family: "webfont";
+// 	src: url("../data/fonts/webfont.woff2") format("woff2")
+// 		 url("../data/fonts/webfont.woff")  format("woff");
+// }
+$font-family: "NBAkademieLight", sans-serif;
+
+// Two colors
+$white: white;
+$black: black;
+
+// 6 column grid
+$site-margin:      5%;
+$site-size:        2.5rem;
+$line-height:      1.2 * $site-size;
+$site-padding-top: 4.0 * $site-size;
+$grid-gap:         0.8%; // 0% looks like, no bottom gaps
+$grid-col:         6;
+
+@mixin border {
+	border-bottom: 1px solid $black;
+}
+
+@for $i from 1 through 6 {
+	// standard grid widths
+	.w#{$i} {
+		width: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * ( $i - 1 );
+		// code to remove the margins
+		padding: 0;
+		margin-right: $grid-gap;
+		margin-bottom: 0.1rem;
+		float: left;
+	}
+	// centered grid widths
+	.c#{$i} {
+		width: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * ( $i - 1 );
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		clear: both;
+		float: none;
+	}
+	// push content by standard grid widths
+	.p#{$i} {
+		margin-left: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * $i ;
+	}
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	background: $white;
+	font-size: 10px;
+	overflow-y: scroll; // to force scrollbar on all pages
+	margin-bottom: $site-padding-top + $site-size*2;
+}
+
+body {
+	font-family: $font-family;
+	font-size: $site-size;
+	margin-left: $site-margin;
+	margin-right: $site-margin;
+	padding-top: $site-padding-top + $site-size*2;
+}
+
+nav, footer {
+	display: block;
+	position: fixed;
+	background: transparent;
+	width: 100% - $site-margin * 2;
+	z-index: 9;
+}
+
+nav {
+	top: 0;
+	height: $site-padding-top;
+	padding-top: $site-size;
+	a {
+		margin-right: $line-height;
+	}
+}
+
+footer {
+	height: $site-padding-top * 0.5;
+	bottom: 0;
+	padding-bottom: 0;
+}
+
+img {
+	margin-bottom: 0.1rem;
+	// to center the images on project pages
+	float: left;
+}
+
+a {
+	color: $black;
+	text-decoration: none;
+	&:hover {
+		@include border;
+	}
+	img {
+		width: 100%;
+	}
+}
+
+p, h1 {
+	margin: 0;
+	font-size: $site-size;
+	font-family: $font-family;
+	font-weight: normal;
+	line-height: $line-height;
+	display: block;
+	margin-bottom: $line-height * 1;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: $line-height;
+	&:after {
+		content: "—";
+		display: block;
+	}
+}
+
+ol {
+	padding-left: 0;
+}
+
+.tall   { min-height: $line-height * 20; }
+.medium { min-height: $line-height * 10; }
+.short  { min-height: $line-height *  5; }
+
+.no-hover-border {
+	a {
+		&:hover {
+			border: none;
+		}
+	}
+}
+
+.missing {
+	text-decoration: line-through;
+}
+
+// remove the last right margin to make row add to 100%
+.no-rm {
+	margin-right: 0;
+}

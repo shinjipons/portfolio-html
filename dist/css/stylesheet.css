@@ -1,0 +1,196 @@
+@charset "UTF-8";
+.w1 {
+  width: 16%;
+  padding: 0;
+  margin-right: 0.8%;
+  margin-bottom: 0.1rem;
+  float: left; }
+
+.c1 {
+  width: 16%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  float: none; }
+
+.p1 {
+  margin-left: 16.8%; }
+
+.w2 {
+  width: 32.8%;
+  padding: 0;
+  margin-right: 0.8%;
+  margin-bottom: 0.1rem;
+  float: left; }
+
+.c2 {
+  width: 32.8%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  float: none; }
+
+.p2 {
+  margin-left: 33.6%; }
+
+.w3 {
+  width: 49.6%;
+  padding: 0;
+  margin-right: 0.8%;
+  margin-bottom: 0.1rem;
+  float: left; }
+
+.c3 {
+  width: 49.6%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  float: none; }
+
+.p3 {
+  margin-left: 50.4%; }
+
+.w4 {
+  width: 66.4%;
+  padding: 0;
+  margin-right: 0.8%;
+  margin-bottom: 0.1rem;
+  float: left; }
+
+.c4 {
+  width: 66.4%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  float: none; }
+
+.p4 {
+  margin-left: 67.2%; }
+
+.w5 {
+  width: 83.2%;
+  padding: 0;
+  margin-right: 0.8%;
+  margin-bottom: 0.1rem;
+  float: left; }
+
+.c5 {
+  width: 83.2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  float: none; }
+
+.p5 {
+  margin-left: 84%; }
+
+.w6 {
+  width: 100%;
+  padding: 0;
+  margin-right: 0.8%;
+  margin-bottom: 0.1rem;
+  float: left; }
+
+.c6 {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  float: none; }
+
+.p6 {
+  margin-left: 100.8%; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  background: white;
+  font-size: 10px;
+  overflow-y: scroll;
+  margin-bottom: 15rem; }
+
+body {
+  font-family: "NBAkademieLight", sans-serif;
+  font-size: 2.5rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 15rem; }
+
+nav, footer {
+  display: block;
+  position: fixed;
+  background: transparent;
+  width: 90%;
+  z-index: 9; }
+
+nav {
+  top: 0;
+  height: 10rem;
+  padding-top: 2.5rem; }
+  nav a {
+    margin-right: 3rem; }
+
+footer {
+  height: 5rem;
+  bottom: 0;
+  padding-bottom: 0; }
+
+img {
+  margin-bottom: 0.1rem;
+  float: left; }
+
+a {
+  color: black;
+  text-decoration: none; }
+  a:hover {
+    border-bottom: 1px solid black; }
+  a img {
+    width: 100%; }
+
+p, h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: "NBAkademieLight", sans-serif;
+  font-weight: normal;
+  line-height: 3rem;
+  display: block;
+  margin-bottom: 3rem; }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem; }
+  ul:after {
+    content: "—";
+    display: block; }
+
+ol {
+  padding-left: 0; }
+
+.tall {
+  min-height: 60rem; }
+
+.medium {
+  min-height: 30rem; }
+
+.short {
+  min-height: 15rem; }
+
+.no-hover-border a:hover {
+  border: none; }
+
+.missing {
+  text-decoration: line-through; }
+
+.no-rm {
+  margin-right: 0; }
