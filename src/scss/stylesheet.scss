@@ -9,8 +9,8 @@
 $font-family: "NBAkademieLight", sans-serif;
 
 // Two colors
-$white: white;
-$black: black;
+$white: black;
+$black: invert($white);
 
 // 6 column grid
 $site-margin:      5%;
@@ -117,6 +117,7 @@ p, h1 {
 	line-height: $line-height;
 	display: block;
 	margin-bottom: $line-height * 1;
+	color: $black;
 }
 
 ul {
@@ -125,6 +126,7 @@ ul {
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: $line-height;
+	color: $black;
 	&:after {
 		content: "—";
 		display: block;
@@ -133,6 +135,7 @@ ul {
 
 ol {
 	padding-left: 0;
+	color: $black;
 }
 
 .tall   { min-height: $line-height * 20; }

@@ -112,7 +112,7 @@
 
 html {
   box-sizing: border-box;
-  background: white;
+  background: black;
   font-size: 10px;
   overflow-y: scroll;
   margin-bottom: 15rem; }
@@ -148,10 +148,10 @@ img {
   float: left; }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none; }
   a:hover {
-    border-bottom: 1px solid black; }
+    border-bottom: 1px solid white; }
   a img {
     width: 100%; }
 
@@ -162,20 +162,23 @@ p, h1 {
   font-weight: normal;
   line-height: 3rem;
   display: block;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  color: white; }
 
 ul {
   list-style: none;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 3rem; }
+  line-height: 3rem;
+  color: white; }
   ul:after {
     content: "—";
     display: block; }
 
 ol {
-  padding-left: 0; }
+  padding-left: 0;
+  color: white; }
 
 .tall {
   min-height: 60rem; }
