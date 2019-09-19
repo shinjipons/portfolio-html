@@ -17,7 +17,7 @@ gulp.task('css', function() {
 gulp.task('default', function() {
   php.server({
     port: 8000,
-    keepalive: true
+    keepalive: true // default was true
   }, function() {
     browserSync({
       proxy: '127.0.0.1:8000'
