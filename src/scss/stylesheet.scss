@@ -9,11 +9,11 @@
 $font-family: "NBAkademieLight", sans-serif;
 
 // Two colors
-$white: black;
-$black: invert($white);
+$main-color: black;
+$accent-color: darken(white, 20%);
 
 // 6 column grid
-$site-margin:      5%;
+$site-margin:      2.5%;
 $site-size:        2.5rem;
 $line-height:      1.2 * $site-size;
 $site-padding-top: 4.0 * $site-size;
@@ -21,7 +21,7 @@ $grid-gap:         0.8%; // 0% looks like, no bottom gaps
 $grid-col:         6;
 
 @mixin border {
-	border-bottom: 1px solid $black;
+	border-bottom: 1px solid $accent-color;
 }
 
 @for $i from 1 through 6 {
@@ -55,7 +55,7 @@ $grid-col:         6;
 
 html {
 	box-sizing: border-box;
-	background: $white;
+	background: $main-color;
 	font-size: 10px;
 	overflow-y: scroll; // to force scrollbar on all pages
 	margin-bottom: $site-padding-top + $site-size*2;
@@ -94,12 +94,11 @@ footer {
 
 img {
 	margin-bottom: 0.1rem;
-	// to center the images on project pages
 	float: left;
 }
 
 a {
-	color: $black;
+	color: $accent-color;
 	text-decoration: none;
 	&:hover {
 		@include border;
@@ -117,7 +116,7 @@ p, h1 {
 	line-height: $line-height;
 	display: block;
 	margin-bottom: $line-height * 1;
-	color: $black;
+	color: $accent-color;
 }
 
 ul {
@@ -126,7 +125,7 @@ ul {
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: $line-height;
-	color: $black;
+	color: $accent-color;
 	&:after {
 		content: "—";
 		display: block;
@@ -135,7 +134,7 @@ ul {
 
 ol {
 	padding-left: 0;
-	color: $black;
+	color: $accent-color;
 }
 
 .tall   { min-height: $line-height * 20; }
