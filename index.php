@@ -19,7 +19,7 @@
 		<a href="louvre.php" class="c2">
 			<img src="data/img/louvre-cover.png" alt="">
 		</a>
-		<a href="modulo.php" class="c5">
+		<a href="modulo.php" class="c6">
 			<img src="data/img/modulo-cover.png" alt="">
 		</a>
 		<a href="subd.php" class="c4">
