@@ -13,11 +13,17 @@
 		<h1>Louvre Abu Dhabi Signage + Pictogram Design</h1>
 	</section>
 	<section class="project-description">
-		<p>This is the description of the project in a few sentences. Feel free to make it as short or as long as you want.</p>
-		<p>The “organic” sources. Credibly innovate granular internal or “organic” sources whereas high standards in web-readiness. Energistically scale future-proof core competencies vis-a-vis impactful experiences. Dramatically synthesize integrated schemas with optimal networks.</p>
+		<p>For my first work experience, I travelled to Paris to work with Clovis Vallois and Philippe Apeloig as an intern at Ateliers Jean Nouvel.</p>
+		<p>There I worked on the design of the signage and pictograms inspired by the structure of the light seeping through the dome structure of the museum.</p>
+		<p>I worked on the iterative design of the pictograms and mocked many physical props for the signage at real physical size.</p>
+		<p>The most challenging aspects of this projects were working with strict accessibility guidelines along with designing with three languages in mind (English, French and Arabic).</p>
 	</section>
 	
-	<img src="data/img/bowie-1.jpg" class="c4">
+	<img src="data/img/louvre-001.jpg" alt="" class="c3">
+	<img src="data/img/louvre-002.jpg" alt="" class="c5">
+	<img src="data/img/louvre-003.jpg" alt="" class="c4">
+	<img src="data/img/louvre-004.jpg" alt="" class="c3">
+	<img src="data/img/louvre-005.jpg" alt="" class="c5">
 
 	<?php include '_footer.php';?>
 
