@@ -1,13 +1,13 @@
 @charset "UTF-8";
 .w1 {
-  width: 16%;
+  width: 15%;
   padding: 0;
-  margin-right: 0.8%;
+  margin-right: 2%;
   margin-bottom: 0.1rem;
   float: left; }
 
 .c1 {
-  width: 16%;
+  width: 15%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -15,17 +15,17 @@
   float: none; }
 
 .p1 {
-  margin-left: 16.8%; }
+  margin-left: 17%; }
 
-.w2 {
-  width: 32.8%;
+.w2, .project-title {
+  width: 32%;
   padding: 0;
-  margin-right: 0.8%;
+  margin-right: 2%;
   margin-bottom: 0.1rem;
   float: left; }
 
 .c2 {
-  width: 32.8%;
+  width: 32%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -33,17 +33,17 @@
   float: none; }
 
 .p2 {
-  margin-left: 33.6%; }
+  margin-left: 34%; }
 
 .w3 {
-  width: 49.6%;
+  width: 49%;
   padding: 0;
-  margin-right: 0.8%;
+  margin-right: 2%;
   margin-bottom: 0.1rem;
   float: left; }
 
 .c3 {
-  width: 49.6%;
+  width: 49%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -51,17 +51,17 @@
   float: none; }
 
 .p3 {
-  margin-left: 50.4%; }
+  margin-left: 51%; }
 
-.w4 {
-  width: 66.4%;
+.w4, .project-description {
+  width: 66%;
   padding: 0;
-  margin-right: 0.8%;
+  margin-right: 2%;
   margin-bottom: 0.1rem;
   float: left; }
 
 .c4 {
-  width: 66.4%;
+  width: 66%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -69,17 +69,17 @@
   float: none; }
 
 .p4 {
-  margin-left: 67.2%; }
+  margin-left: 68%; }
 
 .w5 {
-  width: 83.2%;
+  width: 83%;
   padding: 0;
-  margin-right: 0.8%;
+  margin-right: 2%;
   margin-bottom: 0.1rem;
   float: left; }
 
 .c5 {
-  width: 83.2%;
+  width: 83%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -87,12 +87,12 @@
   float: none; }
 
 .p5 {
-  margin-left: 84%; }
+  margin-left: 85%; }
 
 .w6 {
   width: 100%;
   padding: 0;
-  margin-right: 0.8%;
+  margin-right: 2%;
   margin-bottom: 0.1rem;
   float: left; }
 
@@ -105,7 +105,7 @@
   float: none; }
 
 .p6 {
-  margin-left: 100.8%; }
+  margin-left: 102%; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -148,10 +148,10 @@ img {
   float: left; }
 
 a {
-  color: #cccccc;
+  color: #e6e6e6;
   text-decoration: none; }
   a:hover {
-    border-bottom: 1px solid #cccccc; }
+    border-bottom: 1px solid #e6e6e6; }
   a img {
     width: 100%; }
 
@@ -163,7 +163,7 @@ p, h1 {
   line-height: 3rem;
   display: block;
   margin-bottom: 3rem;
-  color: #cccccc; }
+  color: #e6e6e6; }
 
 ul {
   list-style: none;
@@ -171,14 +171,14 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 3rem;
-  color: #cccccc; }
+  color: #e6e6e6; }
   ul:after {
     content: "—";
     display: block; }
 
 ol {
   padding-left: 0;
-  color: #cccccc; }
+  color: #e6e6e6; }
 
 .tall {
   min-height: 60rem; }
@@ -186,7 +186,7 @@ ol {
 .medium {
   min-height: 30rem; }
 
-.short {
+.short, .project-title, .project-description {
   min-height: 15rem; }
 
 .no-hover-border a:hover {
@@ -195,5 +195,5 @@ ol {
 .missing {
   text-decoration: line-through; }
 
-.no-rm {
+.no-rm, .project-description {
   margin-right: 0; }
