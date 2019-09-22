@@ -7,10 +7,10 @@
 
 	<?php include '_nav.php';?>
 	
-	<section class="short w2">
+	<section class="project-title">
 		<h1>Bowie - Nothing has Changed</h1>
 	</section>
-	<section class="short w3">
+	<section class="project-description">
 		<p>When I was an intern at Barnbrook, I did some super simple artworking for David Bowie's Nothing has Changed retrospective album.</p>
 	</section>
 
