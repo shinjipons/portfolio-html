@@ -10,25 +10,25 @@
 	<?php include '_nav.php';?>
 
 	<section class="p2 w4 no-rm">
-		<p>Crossed = missing or yet to be filed</p>
+		<p>[Crossed = missing or yet to be filed]</p>
 	</section>
 
 	<section class="short p2 w4 no-rm">
 		<ul>
 			<li>2019</li>
-			<li><a href="basiljs.php">Autodesk Alias Subdivision Modelling</a></li>
+			<li class="missing">Autodesk Alias Subdivision Modelling</li>
 		</ul>
 		<ul>
 			<li>2018</li>
-			<li><a href="basiljs.php">Autodesk Alias Dynamo Modelling</a></li>
+			<li class="missing">Autodesk Alias Dynamo Modelling</li>
 		</ul>
 		<ul>
 			<li>2017</li>
-			<li><a href="basiljs.php">Project name</a></li>
+			<li>Nothing filed here yet.</li>
 		</ul>
 		<ul>
 			<li>2016</li>
-			<li class="missing">Example of missing project</li>
+			<li>Nothing filed here yet.</li>
 		</ul>
 		<ul>
 			<li>2015</li>
@@ -40,7 +40,7 @@
 		</ul>
 		<ul>
 			<li>2013</li>
-			<li class="missing">Example of missing project</li>
+			<li>Nothing filed here yet.</li>
 		</ul>
 		<ul>
 			<li>2012</li>
@@ -48,7 +48,7 @@
 		</ul>
 		<ul>
 			<li>2011</li>
-			<li class="missing">Example of missing project</li>
+			<li>Nothing filed here yet.</li>
 		</ul>
 		<ul>
 			<li>2010</li>
