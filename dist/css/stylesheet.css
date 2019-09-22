@@ -174,7 +174,8 @@ ul {
   color: #e6e6e6; }
   ul:after {
     content: "—";
-    display: block; }
+    display: block;
+    margin-bottom: 3rem; }
 
 ol {
   padding-left: 0;
@@ -183,10 +184,10 @@ ol {
 .tall {
   min-height: 60rem; }
 
-.medium {
+.medium, .project-title, .project-description {
   min-height: 30rem; }
 
-.short, .project-title, .project-description {
+.short {
   min-height: 15rem; }
 
 .no-hover-border a:hover {

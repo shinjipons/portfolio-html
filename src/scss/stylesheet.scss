@@ -129,6 +129,7 @@ ul {
 	&:after {
 		content: "—";
 		display: block;
+		margin-bottom: $line-height;
 	}
 }
 
@@ -160,10 +161,10 @@ ol {
 
 .project-title {
 	@extend .w2;
-	@extend .short;
+	@extend .medium;
 }
 .project-description {
 	@extend .w4;
-	@extend .short;
+	@extend .medium;
 	@extend .no-rm;
 }
