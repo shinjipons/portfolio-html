@@ -19,11 +19,20 @@
 		<p>The most challenging aspects of this projects were working with strict accessibility guidelines along with designing with three languages in mind (English, French and Arabic).</p>
 	</section>
 	
-	<img src="data/img/louvre-001.jpg" alt="" class="c3">
-	<img src="data/img/louvre-002.jpg" alt="" class="c5">
+	<img src="data/img/louvre-001.jpg" alt="" class="c4">
+	<img src="data/img/louvre-002.jpg" alt="" class="c4">
 	<img src="data/img/louvre-003.jpg" alt="" class="c4">
-	<img src="data/img/louvre-004.jpg" alt="" class="c3">
-	<img src="data/img/louvre-005.jpg" alt="" class="c5">
+	<img src="data/img/louvre-004.jpg" alt="" class="c4">
+	<img src="data/img/louvre-005.jpg" alt="" class="c4">
+	<img src="data/img/louvre-006.jpg" alt="" class="c4">
+	<img src="data/img/louvre-007.jpg" alt="" class="c4">
+	<img src="data/img/louvre-008.jpg" alt="" class="c4">
+	<img src="data/img/louvre-009.jpg" alt="" class="c4">
+	<img src="data/img/louvre-010.jpg" alt="" class="c4">
+	<img src="data/img/louvre-011.jpg" alt="" class="c4">
+	<img src="data/img/louvre-012.jpg" alt="" class="c4">
+	<img src="data/img/louvre-013.jpg" alt="" class="c4">
+	<img src="data/img/louvre-014.jpg" alt="" class="c4">
 
 	<?php include '_footer.php';?>
 

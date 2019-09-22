@@ -17,6 +17,7 @@
 			<li><a href="https://www.youtube.com/watch?v=kqsmCUo3xEQ" target="_blank">Bitcoin: A Swiss Bank for Everyone's Pocket</a></li>
 			<li><a href="https://youtu.be/pT19VwBAqKA" target="_blank">Protecting Privacy with Math</a></li>
 			<li><a href="http://bachgarde.se/gridsystem/gridsystem.html"  target="_blank">Marcus Gärde gridsystems based on old books and scrolls</a></li>
+			<li><a href="http://www.adultswim.com/etcetera/elastic-man/" target="_blank">Elastic Man</a></li>
 		</ul>
 	</section>
 

@@ -9,8 +9,8 @@
 $font-family: "NBAkademieLight", sans-serif;
 
 // Two colors
-$main-color: black;
-$accent-color: darken(white, 10%);
+$main-color: white;
+$accent-color: invert($main-color, 90%);
 
 // 6 column grid
 $site-margin:      2.5%;
@@ -157,6 +157,9 @@ ol {
 // remove the last right margin to make row add to 100%
 .no-rm {
 	margin-right: 0;
+}
+.mb {
+	margin-bottom: $line-height;
 }
 
 .project-title {

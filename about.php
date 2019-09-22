@@ -8,6 +8,8 @@
 <body>
 
 	<?php include '_nav.php';?>
+
+	<img src="data/img/about-001.jpg" alt="" class="p2 w2 mb">
 	
 	<section>
 		<section class="w2">
@@ -40,6 +42,29 @@
 
 	<section>
 		<section class="w2">
+			<h1>Where I studied</h1>
+		</section>
+		<section class="w4 no-rm">
+			<ul>
+				<li>London College of Communication</li>
+				<li>Coventry University</li>
+			</ul>
+		</section>
+	</section>
+
+	<section>
+		<section class="w2">
+			<h1>What I studied</h1>
+		</section>
+		<section class="w4 no-rm">
+			<ul>
+				<li>Graphic & Media Design</li>
+			</ul>
+		</section>
+	</section>
+
+	<section>
+		<section class="w2">
 			<h1>I'm really good at</h1>
 		</section>
 		<section class="w4 no-rm">
@@ -51,7 +76,7 @@
 
 	<section>
 		<section class="w2">
-			<h1>I'm want to be better at</h1>
+			<h1>I want to become better at</h1>
 		</section>
 		<section class="w4 no-rm">
 			<ul>

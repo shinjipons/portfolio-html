@@ -112,7 +112,7 @@
 
 html {
   box-sizing: border-box;
-  background: black;
+  background: white;
   font-size: 10px;
   overflow-y: scroll;
   margin-bottom: 15rem; }
@@ -148,10 +148,10 @@ img {
   float: left; }
 
 a {
-  color: #e6e6e6;
+  color: #1a1a1a;
   text-decoration: none; }
   a:hover {
-    border-bottom: 1px solid #e6e6e6; }
+    border-bottom: 1px solid #1a1a1a; }
   a img {
     width: 100%; }
 
@@ -163,7 +163,7 @@ p, h1 {
   line-height: 3rem;
   display: block;
   margin-bottom: 3rem;
-  color: #e6e6e6; }
+  color: #1a1a1a; }
 
 ul {
   list-style: none;
@@ -171,7 +171,7 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 3rem;
-  color: #e6e6e6; }
+  color: #1a1a1a; }
   ul:after {
     content: "—";
     display: block;
@@ -179,7 +179,7 @@ ul {
 
 ol {
   padding-left: 0;
-  color: #e6e6e6; }
+  color: #1a1a1a; }
 
 .tall {
   min-height: 60rem; }
@@ -198,3 +198,6 @@ ol {
 
 .no-rm, .project-description {
   margin-right: 0; }
+
+.mb {
+  margin-bottom: 3rem; }
