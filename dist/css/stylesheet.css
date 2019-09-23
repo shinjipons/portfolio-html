@@ -17,7 +17,7 @@
 .p1 {
   margin-left: 17%; }
 
-.w2, .project-title {
+.w2, .project-title, .project-description {
   width: 32%;
   padding: 0;
   margin-right: 2%;
@@ -53,7 +53,7 @@
 .p3 {
   margin-left: 51%; }
 
-.w4, .project-description {
+.w4 {
   width: 66%;
   padding: 0;
   margin-right: 2%;
@@ -129,7 +129,12 @@ nav, footer {
   position: fixed;
   background: transparent;
   width: 95%;
-  z-index: 9; }
+  z-index: 9;
+  transition: 300ms background;
+  transition-timing-function: ease-in-out; }
+  nav:hover, footer:hover {
+    background: white;
+    transition: 100ms background; }
 
 nav {
   top: 0;
@@ -139,7 +144,8 @@ nav {
     margin-right: 3rem; }
 
 footer {
-  height: 5rem;
+  height: 10rem;
+  padding-top: 2.5rem;
   bottom: 0;
   padding-bottom: 0; }
 
@@ -196,8 +202,11 @@ ol {
 .missing {
   text-decoration: line-through; }
 
-.no-rm, .project-description {
+.no-rm {
   margin-right: 0; }
 
 .mb {
   margin-bottom: 3rem; }
+
+.project-description {
+  margin-bottom: 12rem; }
