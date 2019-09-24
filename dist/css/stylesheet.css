@@ -154,7 +154,7 @@ img {
   float: left; }
 
 a {
-  color: #1a1a1a;
+  color: red;
   text-decoration: none; }
   a:hover {
     border-bottom: 1px solid #1a1a1a; }

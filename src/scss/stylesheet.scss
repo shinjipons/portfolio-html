@@ -105,7 +105,8 @@ img {
 }
 
 a {
-	color: $accent-color;
+	// color: $accent-color;
+	color: red;
 	text-decoration: none;
 	&:hover {
 		@include border;
