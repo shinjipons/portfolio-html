@@ -13,8 +13,7 @@
 		<h1>Project Title</h1>
 	</section>
 	<section class="project-description">
-		<p>This is the description of the project in a few sentences. Feel free to make it as short or as long as you want.</p>
-		<p>The “organic” sources. Credibly innovate granular internal or “organic” sources whereas high standards in web-readiness. Energistically scale future-proof core competencies vis-a-vis impactful experiences. Dramatically synthesize integrated schemas with optimal networks.</p>
+		<p>Yet to be filled.</p>
 	</section>
 	
 	<img src="data/img/bowie-1.jpg" class="c4">
