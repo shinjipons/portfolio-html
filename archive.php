@@ -63,7 +63,7 @@
 		</ul>
 		<ul>
 			<li>2010 - Started my BA in Graphic Design</li>
-			<li class="missing">Charlie May Record Label Logo</li>
+			<li><a href="mayhem.php">Charlie May Record Label Logo</a></li>
 			<li class="missing">Urbantorque Promo CD</li>
 			<li><a href="ir.php">Infrared Photography</a></li>
 			<li><a href="nightclub.php">Nightclub Photography</a></li>
