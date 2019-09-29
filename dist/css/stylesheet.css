@@ -141,13 +141,16 @@ nav {
   height: 10rem;
   padding-top: 2.5rem; }
   nav a {
-    margin-right: 3rem; }
+    margin-right: 3rem;
+    color: #1a1a1a; }
 
 footer {
   height: 10rem;
   padding-top: 2.5rem;
   bottom: 0;
   padding-bottom: 0; }
+  footer a {
+    color: #1a1a1a; }
 
 img {
   margin-bottom: 0.1rem;

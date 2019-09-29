@@ -9,6 +9,7 @@ $font-family: "NBAkademieLight", sans-serif;
 // Two colors
 $main-color: white;
 $accent-color: invert($main-color, 90%);
+$highlight-color: red;
 
 // 6 column grid
 $site-margin:      2.5%;
@@ -89,6 +90,7 @@ nav {
 	padding-top: $site-size;
 	a {
 		margin-right: $line-height;
+		color: $accent-color;
 	}
 }
 
@@ -97,6 +99,9 @@ footer {
 	padding-top: $site-size;
 	bottom: 0;
 	padding-bottom: 0;
+	a {
+		color: $accent-color;
+	}
 }
 
 img {
@@ -105,8 +110,7 @@ img {
 }
 
 a {
-	// color: $accent-color;
-	color: red;
+	color: $highlight-color;
 	text-decoration: none;
 	&:hover {
 		@include border;
