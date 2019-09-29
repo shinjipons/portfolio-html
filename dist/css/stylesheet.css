@@ -17,7 +17,7 @@
 .p1 {
   margin-left: 17%; }
 
-.w2, .project-title, .project-description {
+.w2, .project-title {
   width: 32%;
   padding: 0;
   margin-right: 2%;
@@ -35,7 +35,7 @@
 .p2 {
   margin-left: 34%; }
 
-.w3 {
+.w3, .project-description {
   width: 49%;
   padding: 0;
   margin-right: 2%;
@@ -144,7 +144,8 @@ nav {
     margin-right: 3rem;
     color: #666666; }
     nav a:hover {
-      border-bottom: 1px solid #666666; }
+      color: black;
+      border: none; }
 
 footer {
   height: 10rem;
@@ -154,7 +155,8 @@ footer {
   footer a {
     color: #666666; }
     footer a:hover {
-      border-bottom: 1px solid #666666; }
+      color: black;
+      border: none; }
 
 img, video {
   margin-bottom: 0.1rem;
@@ -164,10 +166,8 @@ video {
   outline: none; }
 
 a {
-  color: #f20d0d;
+  color: red;
   text-decoration: none; }
-  a:hover {
-    border-bottom: 1px solid #f20d0d; }
   a img {
     width: 100%; }
 
