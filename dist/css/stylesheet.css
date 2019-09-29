@@ -143,6 +143,8 @@ nav {
   nav a {
     margin-right: 3rem;
     color: #1a1a1a; }
+    nav a:hover {
+      border-bottom: 1px solid #1a1a1a; }
 
 footer {
   height: 10rem;
@@ -151,6 +153,8 @@ footer {
   padding-bottom: 0; }
   footer a {
     color: #1a1a1a; }
+    footer a:hover {
+      border-bottom: 1px solid #1a1a1a; }
 
 img {
   margin-bottom: 0.1rem;
@@ -160,7 +164,7 @@ a {
   color: red;
   text-decoration: none; }
   a:hover {
-    border-bottom: 1px solid #1a1a1a; }
+    border-bottom: 1px solid red; }
   a img {
     width: 100%; }
 

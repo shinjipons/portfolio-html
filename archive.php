@@ -10,7 +10,7 @@
 	<?php include '_nav.php';?>
 
 	<section class="p2 w4 no-rm">
-		<p>[Crossed = missing or yet to be filed]</p>
+		<p>[Crossed = yet to be filed]</p>
 	</section>
 
 	<section class="short p2 w4 no-rm">
@@ -42,6 +42,7 @@
 		<ul>
 			<li>2014</li>
 			<li><a href="bowie.php">Nothing has Changed</a></li>
+			<li><a href="modulo.php">Modulo Typeface</a></li>
 			<li class="missing">AllCreative</li>
 			<li class="missing">Cambridge Satchel Concepts</li>
 			<li class="missing">LCC Degree Show</li>
@@ -50,7 +51,7 @@
 		</ul>
 		<ul>
 			<li>2013</li>
-			<li class="missing">Modulo Typeface</li>
+			<li>That was the year of the Snowden Leaks.</li>
 		</ul>
 		<ul>
 			<li>2012</li>

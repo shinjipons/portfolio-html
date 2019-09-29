@@ -20,7 +20,7 @@ $grid-gap:         2%;
 $grid-col:         6;
 
 @mixin border {
-	border-bottom: 1px solid $accent-color;
+	border-bottom: 1px solid $highlight-color;
 }
 
 @for $i from 1 through 6 {
@@ -91,6 +91,9 @@ nav {
 	a {
 		margin-right: $line-height;
 		color: $accent-color;
+		&:hover {
+			border-bottom: 1px solid $accent-color;
+		}
 	}
 }
 
@@ -101,6 +104,9 @@ footer {
 	padding-bottom: 0;
 	a {
 		color: $accent-color;
+		&:hover {
+			border-bottom: 1px solid $accent-color;
+		}
 	}
 }
 
