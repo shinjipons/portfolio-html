@@ -45,6 +45,12 @@
 			<li><a href="https://youtu.be/oSaYuI1O0XQ" target="_blank">The Mountain Decides</a></li>
 		</ul>
 	</section>
+	<section class="w2">
+		<h1>Music</h1>
+	</section>
+	<section class="w4 no-rm">
+		<li><a href="https://learningsynths.ableton.com/">Learning Synths</a></li>
+	</section>
 
 	<?php include '_footer.php';?>
 
