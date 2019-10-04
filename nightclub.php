@@ -22,6 +22,7 @@
 	<img src="data/img/nightclub-004.jpg" class="c4">
 	<img src="data/img/nightclub-005.jpg" class="c4">
 	<img src="data/img/nightclub-006.jpg" class="c4">
+	<!-- this is a duplicate image -->
 	<!-- <img src="data/img/nightclub-007.jpg" class="c4"> -->
 	<img src="data/img/nightclub-008.jpg" class="c4">
 	<img src="data/img/nightclub-009.jpg" class="c4">
