@@ -132,9 +132,6 @@ nav, footer {
   z-index: 9;
   transition: 300ms background;
   transition-timing-function: ease-in-out; }
-  nav:hover, footer:hover {
-    background: white;
-    transition: 100ms background; }
 
 nav {
   top: 0;

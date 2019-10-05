@@ -79,8 +79,8 @@ nav, footer {
 	transition: 300ms background;
 	transition-timing-function: ease-in-out;
 	&:hover {
-		background: $main-color;
-		transition: 100ms background;
+		// background: $main-color;
+		// transition: 100ms background;
 	}
 }
 
@@ -126,9 +126,6 @@ video {
 a {
 	color: $highlight-color;
 	text-decoration: none;
-	&:hover {
-		// @include border;
-	}
 	img {
 		width: 100%;
 	}

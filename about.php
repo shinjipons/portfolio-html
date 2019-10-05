@@ -12,14 +12,14 @@
 	<section class="w2">
 		<h1>About me</h1>
 	</section>
-	<section class="w3">
+	<section class="w4 no-rm">
 		<p>Yet to be filled in.</p>
 	</section>
 
 	<section class="w2">
 		<h1>Companies I have worked for</h1>
 	</section>
-	<section class="w3">
+	<section class="w4 no-rm">
 		<ul>
 			<li>LEGO</li>
 			<li>Autodesk</li>
@@ -36,7 +36,7 @@
 	<section class="w2">
 		<h1>Where I studied</h1>
 	</section>
-	<section class="w3">
+	<section class="w4 no-rm">
 		<ul>
 			<li>London College of Communication</li>
 			<li>Coventry University</li>
@@ -46,7 +46,7 @@
 	<section class="w2">
 		<h1>What I studied</h1>
 	</section>
-	<section class="w3">
+	<section class="w4 no-rm">
 		<ul>
 			<li>Graphic & Media Design</li>
 		</ul>
@@ -55,7 +55,7 @@
 	<section class="w2">
 		<h1>I'm really good at</h1>
 	</section>
-	<section class="w3">
+	<section class="w4 no-rm">
 		<ul>
 			<li>Turning something good into something great</li>
 		</ul>
@@ -64,17 +64,17 @@
 	<section class="w2">
 		<h1>I want to become better at</h1>
 	</section>
-	<section class="w3">
+	<section class="w4 no-rm">
 		<ul>
 			<li>Class-A Modelling</li>
 		</ul>
 	</section>
 
-	<section class="w2" id=contact>
+	<section class="w2">
 		<h1>Send requests to →</h1>
 	</section>
 
-	<section class="w3">
+	<section class="w4 no-rm">
 		<p><a href="mailto:hello@shinjipons.com?subject=You%20have%20mail!">hello@shinjipons.com</a></p>
 	</section>
 
