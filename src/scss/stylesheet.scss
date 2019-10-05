@@ -1,9 +1,9 @@
 // One font
-// @font-face {
-// 	font-family: "webfont";
-// 	src: url("../data/fonts/webfont.woff2") format("woff2")
-// 		 url("../data/fonts/webfont.woff")  format("woff");
-// }
+@font-face {
+	font-family: "NBAkademieLight";
+	src: url("../../data/fonts/webfont.woff2") format("woff2"),
+		 url("../../data/fonts/webfont.woff")  format("woff");
+}
 $font-family: "NBAkademieLight", sans-serif;
 
 // Two colors
