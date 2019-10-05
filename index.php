@@ -19,21 +19,11 @@
 	</section>
 
 	<section class="no-hover-border">
-		<a href="louvre.php" class="c2">
-			<img src="data/img/louvre-cover.png" alt="">
-		</a>
-		<a href="modulo.php" class="c6">
-			<img src="data/img/modulo-cover.png" alt="">
-		</a>
-		<a href="subd.php" class="c4">
-			<img src="data/img/subd-cover.jpg" alt="">
-		</a>
-		<a href="doty.php" class="c2">
-			<img src="data/img/doty-cover.png" alt="">
-		</a>
-		<a href="bowie.php" class="c4">
-			<img src="data/img/bowie-cover.jpg" alt="">
-		</a>
+		<a href="louvre.php" class="c2"><img src="data/img/louvre-cover.png"></a>
+		<a href="modulo.php" class="c6"><img src="data/img/modulo-cover.png"></a>
+		<a href="subd.php"   class="c4"><img src="data/img/subd-cover.jpg"></a>
+		<a href="doty.php"   class="c2"><img src="data/img/doty-cover.png"></a>
+		<a href="bowie.php"  class="c4"><img src="data/img/bowie-cover.jpg"></a>
 	</section>
 
 	<?php include '_footer.php';?>

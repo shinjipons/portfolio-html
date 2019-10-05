@@ -18,6 +18,7 @@
 			<li><a href="http://bachgarde.se/gridsystem/gridsystem.html"  target="_blank">Marcus Gärde gridsystems based on old books and scrolls</a></li>
 		</ul>
 	</section>
+	
 	<section class="w2">
 		<h1>Cryptocurrency</h1>
 	</section>
@@ -28,6 +29,7 @@
 			<li><a href="https://youtu.be/L-gQXl4PULg?t=720" target="_blank">Using Certainty To Up Your Game</a></li>
 		</ul>
 	</section>
+
 	<section class="w2">
 		<h1>WebGL</h1>
 	</section>
@@ -37,6 +39,7 @@
 			<li><a href="http://www.adultswim.com/etcetera/elastic-man/" target="_blank">Elastic Man</a></li>
 		</ul>
 	</section>
+
 	<section class="w2">
 		<h1>Racing</h1>
 	</section>
@@ -45,11 +48,14 @@
 			<li><a href="https://youtu.be/oSaYuI1O0XQ" target="_blank">The Mountain Decides</a></li>
 		</ul>
 	</section>
+
 	<section class="w2">
 		<h1>Music</h1>
 	</section>
 	<section class="w4 no-rm">
-		<li><a href="https://learningsynths.ableton.com/">Learning Synths</a></li>
+		<ul>
+			<li><a href="https://learningsynths.ableton.com/">Learning Synths</a></li>
+		</ul>
 	</section>
 
 	<?php include '_footer.php';?>

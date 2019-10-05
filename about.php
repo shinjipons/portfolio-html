@@ -13,7 +13,9 @@
 		<h1>About me</h1>
 	</section>
 	<section class="w4 no-rm">
-		<p>Yet to be filled in.</p>
+		<ul>
+			<li>Yet to be filled in</li>
+		</ul>
 	</section>
 
 	<section class="w2">
@@ -73,9 +75,12 @@
 	<section class="w2">
 		<h1>Send requests to →</h1>
 	</section>
-
 	<section class="w4 no-rm">
-		<p><a href="mailto:hello@shinjipons.com?subject=You%20have%20mail!">hello@shinjipons.com</a></p>
+		<ul>
+			<li>
+				<a href="mailto:hello@shinjipons.com?subject=You%20have%20mail!">hello@shinjipons.com</a>
+			</li>
+		</ul>
 	</section>
 
 	<?php include '_footer.php';?>
