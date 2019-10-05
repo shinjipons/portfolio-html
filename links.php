@@ -37,6 +37,7 @@
 		<ul>
 			<li><a href="https://paveldogreat.github.io/WebGL-Fluid-Simulation/" target="_blank">WebGL Fluid Simulation</a></li>
 			<li><a href="http://www.adultswim.com/etcetera/elastic-man/" target="_blank">Elastic Man</a></li>
+			<li><a href="http://www.georgeandjonathan.com/" target="_blank">George & Jonathan</a></li>
 		</ul>
 	</section>
 
