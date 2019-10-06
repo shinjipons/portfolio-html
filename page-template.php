@@ -17,9 +17,6 @@
 	</section>
 	
 	<img src="data/img/bowie-1.jpg" class="c4">
-	<img src="data/img/bowie-1.jpg" class="c4">
-	<img src="data/img/bowie-1.jpg" class="c4">
-	<img src="data/img/bowie-1.jpg" class="c4">
 
 	<?php include '_footer.php';?>
 

@@ -1,17 +1,14 @@
-// One font
+$font-family: "NBAkademieLight", sans-serif;
 @font-face {
 	font-family: "NBAkademieLight";
 	src: url("../../data/fonts/webfont.woff2") format("woff2"),
 		 url("../../data/fonts/webfont.woff")  format("woff");
 }
-$font-family: "NBAkademieLight", sans-serif;
 
-// Two colors
 $main-color: white;
-$accent-color: invert($main-color, 60%);
-$highlight-color: red; // was red
+$accent-color: invert($main-color);
+$highlight-color: red;
 
-// 6 column grid
 $site-margin:      2.5%;
 $site-size:        2.5rem;
 $line-height:      1.2 * $site-size;
@@ -19,9 +16,7 @@ $site-padding-top: 4.0 * $site-size;
 $grid-gap:         2%;
 $grid-col:         6;
 
-@mixin border {
-	border-bottom: 1px solid $highlight-color;
-}
+@mixin border { border-bottom: 1px solid $highlight-color; }
 
 @for $i from 1 through 6 {
 	.w#{$i} {
@@ -57,6 +52,7 @@ html {
 	box-sizing: border-box;
 	background: $main-color;
 	font-size: 10px;
+
 	// to force scrollbar on all pages
 	overflow-y: scroll;
 	margin-bottom: $site-padding-top + $site-size*2;
@@ -78,10 +74,6 @@ nav, footer {
 	z-index: 9;
 	transition: 300ms background;
 	transition-timing-function: ease-in-out;
-	&:hover {
-		// background: $main-color;
-		// transition: 100ms background;
-	}
 }
 
 nav {
@@ -92,7 +84,6 @@ nav {
 		margin-right: $line-height;
 		color: $accent-color;
 		&:hover {
-			// border-bottom: 1px solid $accent-color;
 			color: invert($main-color);
 			border: none;
 		}
@@ -107,7 +98,6 @@ footer {
 	a {
 		color: $accent-color;
 		&:hover {
-			// border-bottom: 1px solid $accent-color;
 			color: invert($main-color);
 			border: none;
 		}
@@ -174,7 +164,7 @@ ol {
 }
 
 .missing {
-	text-decoration: line-through;
+	color: lighten($accent-color, 60%);
 	cursor: not-allowed;
 }
 

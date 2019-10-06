@@ -143,7 +143,7 @@ nav {
   padding-top: 2.5rem; }
   nav a {
     margin-right: 3rem;
-    color: #666666; }
+    color: black; }
     nav a:hover {
       color: black;
       border: none; }
@@ -154,7 +154,7 @@ footer {
   bottom: 0;
   padding-bottom: 0; }
   footer a {
-    color: #666666; }
+    color: black; }
     footer a:hover {
       color: black;
       border: none; }
@@ -180,7 +180,7 @@ p, h1 {
   line-height: 3rem;
   display: block;
   margin-bottom: 3rem;
-  color: #666666; }
+  color: black; }
 
 ul {
   list-style: none;
@@ -188,7 +188,7 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 3rem;
-  color: #666666; }
+  color: black; }
   ul:after {
     content: "—";
     display: block;
@@ -196,7 +196,7 @@ ul {
 
 ol {
   padding-left: 0;
-  color: #666666; }
+  color: black; }
 
 .tall {
   min-height: 60rem; }
@@ -211,7 +211,7 @@ ol {
   border: none; }
 
 .missing {
-  text-decoration: line-through;
+  color: #999999;
   cursor: not-allowed; }
 
 .no-rm {

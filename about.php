@@ -59,7 +59,7 @@
 	</section>
 	<section class="w4 no-rm">
 		<ul>
-			<li>Turning something good into something great</li>
+			<li>3D creation software design</li>
 		</ul>
 	</section>
 

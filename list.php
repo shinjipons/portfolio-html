@@ -9,17 +9,21 @@
 
 	<?php include '_nav.php';?>
 
-	<!-- <section class="p2 w4 no-rm">
-		<p>[Crossed = yet to be filed]</p>
-	</section> -->
+	<section class="w2">
+		<h1>Everything I've worked on</h1>
+	</section>
+	<section class="w4 no-rm">
+		<ul>
+			<li>If a project is shown in <span class="missing">this color</span>, then it is missing, yet to be filed or confidential.</li>
+		</ul>
+	</section>
 
 	<section class="w2">
 		<h1>2019</h1>
 	</section>
-
 	<section class="w4 no-rm">
 		<ul>
-			<li>This website</li>
+			<li><a href="about.php">shinjipons.com</a></li>
 			<li class="missing">Autodesk Alias Subdivision Modelling</li>
 			<li class="missing">VW ERL Minibus Parametric Dashboard</li>
 			<li class="missing">LEGO Digital Designer Pro</li>
@@ -32,18 +36,18 @@
 	<section class="w4 no-rm">
 		<ul>
 			<li class="missing">Autodesk Alias Dynamo Modelling</li>
-			<li class="missing">Rimac Interview Task</li>
+			<li class="missing">Rimac Automobili Interview Task</li>
 		</ul>
 	</section>
 
-	<section class="w2">
+	<!-- <section class="w2">
 		<h1>2017</h1>
 	</section>
 	<section class="w4 no-rm">
 		<ul>
 			<li>To be filled in</li>
 		</ul>
-	</section>
+	</section> -->
 
 	<section class="w2">
 		<h1>2016</h1>
@@ -60,7 +64,7 @@
 	<section class="w4 no-rm">
 		<ul>
 			<li><a href="doty.php">Designs of the Year Mobile App</a></li>
-			<li class="missing">Style.com</li>
+			<li class="missing">Dyson UI Interview Task</li>
 		</ul>
 	</section>
 
@@ -69,24 +73,25 @@
 	</section>
 	<section class="w4 no-rm">
 		<ul>
-			<li><a href="bowie.php">Nothing has Changed</a></li>
+			<li><a href="bowie.php">David Bowie - Nothing has Changed</a></li>
 			<li><a href="modulo.php">Modulo Typeface</a></li>
+			<li><a href="green-thing.php">Do The Green Thing</a></li>
+			<li class="missing">Style.com</li>
 			<li class="missing">AllCreative</li>
 			<li class="missing">Cambridge Satchel Concepts</li>
 			<li class="missing">LCC Degree Show</li>
-			<li class="missing">Do The Green Thing</li>
 			<li class="missing">Forma Brand Exhibition Panels</li>
 		</ul>
 	</section>
 
-	<section class="w2">
+	<!-- <section class="w2">
 		<h1>2013</h1>
 	</section>
 	<section class="w4 no-rm">
 		<ul>
 			<li>To be filled in</li>
 		</ul>	
-	</section>
+	</section> -->
 
 	<section class="w2">
 		<h1>2012</h1>
@@ -99,14 +104,14 @@
 		</ul>	
 	</section>
 
-	<section class="w2">
+	<!-- <section class="w2">
 		<h1>2011</h1>
 	</section>
 	<section class="w4 no-rm">
 		<ul>
 			<li>To be filled in</li>
 		</ul>
-	</section>
+	</section> -->
 
 	<section class="w2">
 		<h1>2010</h1>
@@ -114,11 +119,11 @@
 	<section class="w4 no-rm">
 		<ul>
 			<li><a href="mayhem.php">Charlie May Record Label Logo</a></li>
-			<li class="missing">Urbantorque Promo CD</li>
 			<li><a href="ir.php">Infrared Photography</a></li>
 			<li><a href="nightclub.php">Nightclub Photography</a></li>
-			<li><a href="cardboard.php">Cardboard Type</a></li>
+			<!-- <li><a href="cardboard.php">Cardboard Type</a></li> -->
 			<li><a href="clay.php">Clay Packaging</a></li>
+			<li class="missing">Urbantorque Promo CD</li>
 		</ul>
 	</section>
 
