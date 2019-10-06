@@ -160,7 +160,7 @@ footer {
       border: none; }
 
 img, video {
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.1rem !important;
   float: left; }
 
 video {
