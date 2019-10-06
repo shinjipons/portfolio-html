@@ -14,7 +14,24 @@
 	</section>
 	<section class="w4 no-rm">
 		<ul>
+			<li>I'll keep adding things that catch my attention and think are worth sharing here.</li>
+		</ul>
+	</section>
+
+	<section class="w2">
+		<h1>Privacy</h1>
+	</section>
+	<section class="w4 no-rm">
+		<ul>
 			<li><a href="https://youtu.be/pT19VwBAqKA" target="_blank">Protecting Privacy with Math</a></li>
+		</ul>
+	</section>
+
+	<section class="w2">
+		<h1>Graphic Design</h1>
+	</section>
+	<section class="w4 no-rm">
+		<ul>
 			<li><a href="http://bachgarde.se/gridsystem/gridsystem.html"  target="_blank">Marcus Gärde gridsystems based on old books and scrolls</a></li>
 		</ul>
 	</section>
