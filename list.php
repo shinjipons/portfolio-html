@@ -23,7 +23,7 @@
 	</section>
 	<section class="w4 no-rm">
 		<ul>
-			<li><a href="about.php">shinjipons.com</a></li>
+			<li><a href="website.php">shinjipons.com</a></li>
 			<li class="missing">Autodesk Alias Hybrid Modelling</li>
 			<li class="missing">VW ERL Minibus Parametric Dashboard</li>
 			<li class="missing">LEGO Digital Designer Pro</li>
