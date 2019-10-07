@@ -22,30 +22,30 @@
 	</section>
 	
 	<video controls src="data/img/modulo-001.mov" class="c4"></video>
-	<img src="data/img/modulo-001.jpg" class="c4">
-	<img src="data/img/modulo-002.jpg" class="c4">
-	<img src="data/img/modulo-003.jpg" class="c4">
-	<img src="data/img/modulo-004.jpg" class="c4">
-	<img src="data/img/modulo-005.jpg" class="c4">
-	<img src="data/img/modulo-006.png" class="c4">
-	<img src="data/img/modulo-007.png" class="c4">
-	<img src="data/img/modulo-008.png" class="c4">
-	<img src="data/img/modulo-009.png" class="c4">
-	<img src="data/img/modulo-010.png" class="c4">
-	<img src="data/img/modulo-011.png" class="c4">
-	<img src="data/img/modulo-012.png" class="c4">
-	<img src="data/img/modulo-013.png" class="c4">
-	<img src="data/img/modulo-014.jpg" class="c4">
-	<img src="data/img/modulo-015.jpg" class="c4">
-	<img src="data/img/modulo-016.jpg" class="c4">
-	<img src="data/img/modulo-017.jpg" class="c4">
-	<img src="data/img/modulo-018.jpg" class="c4">
-	<img src="data/img/modulo-019.jpg" class="c4">
-	<img src="data/img/modulo-020.jpg" class="c4">
-	<img src="data/img/modulo-021.jpg" class="c4">
-	<img src="data/img/modulo-022.jpg" class="c4">
-	<img src="data/img/modulo-023.jpg" class="c4">
-	<img src="data/img/modulo-024.jpg" class="c4">
+	<img src="data/img/modulo/modulo-001.jpg" class="c4">
+	<img src="data/img/modulo/modulo-002.jpg" class="c4">
+	<img src="data/img/modulo/modulo-003.jpg" class="c4">
+	<img src="data/img/modulo/modulo-004.jpg" class="c4">
+	<img src="data/img/modulo/modulo-005.jpg" class="c4">
+	<img src="data/img/modulo/modulo-006.png" class="c4">
+	<img src="data/img/modulo/modulo-007.png" class="c4">
+	<img src="data/img/modulo/modulo-008.png" class="c4">
+	<img src="data/img/modulo/modulo-009.png" class="c4">
+	<img src="data/img/modulo/modulo-010.png" class="c4">
+	<img src="data/img/modulo/modulo-011.png" class="c4">
+	<img src="data/img/modulo/modulo-012.png" class="c4">
+	<img src="data/img/modulo/modulo-013.png" class="c4">
+	<img src="data/img/modulo/modulo-014.jpg" class="c4">
+	<img src="data/img/modulo/modulo-015.jpg" class="c4">
+	<img src="data/img/modulo/modulo-016.jpg" class="c4">
+	<img src="data/img/modulo/modulo-017.jpg" class="c4">
+	<img src="data/img/modulo/modulo-018.jpg" class="c4">
+	<img src="data/img/modulo/modulo-019.jpg" class="c4">
+	<img src="data/img/modulo/modulo-020.jpg" class="c4">
+	<img src="data/img/modulo/modulo-021.jpg" class="c4">
+	<img src="data/img/modulo/modulo-022.jpg" class="c4">
+	<img src="data/img/modulo/modulo-023.jpg" class="c4">
+	<img src="data/img/modulo/modulo-024.jpg" class="c4">
 
 	<?php include '_footer.php';?>
 
