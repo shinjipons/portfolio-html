@@ -42,6 +42,7 @@
 	<section class="w4 no-rm">
 		<ul>
 			<li><a href="https://renderdoc.org/blog/Graphics-in-Plain-Language/" target="_blank">Graphics in Plain Language</a></li>
+			<li><a href="http://240hz.org/index.html" target="_blank">Real-Time Raytracing at 240Hz</a></li>
 		</ul>
 	</section>
 	
