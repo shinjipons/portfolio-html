@@ -17,7 +17,7 @@
 		<p>The poster can be found on their <a href="http://dothegreenthing.com/resource/no-excuses-by-shinji-pons/" target="_blank">website</a>.</p>
 	</section>
 	
-	<img src="data/img/green-thing-001.jpg" class="c2">
+	<img src="data/img/green-thing/green-thing-001.jpg" class="c2">
 
 	<?php include '_footer.php';?>
 

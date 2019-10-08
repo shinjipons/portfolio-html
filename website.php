@@ -9,8 +9,10 @@
 
 	<?php include '_nav.php';?>
 	
-	<section class="short p2 w3">
+	<section class="w2">
 		<h1>Why does this website look so basic?</h1>
+	</section>
+	<section class="w4 no-rm">
 		<p>Well to be completely honest, I was tired of a few things: redesigning my portfolio website every few years to fit the current trends, paying a couple of hundred dollars every year for hosting, domain registration and content management through Squarespace, and investing a lot of effort into maintaining an "online presence".</p>
 		<p>So I decided to go the opposite way - a super simple site that is easy to maintain, cheap to host and runs locally to show to people without Internet.</p>
 		<p>The site uses PHP for templating, has strictly no Javascript/Google Analytics and the CSS weighs 3kb.</p>
