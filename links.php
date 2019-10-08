@@ -35,6 +35,15 @@
 			<li><a href="http://bachgarde.se/gridsystem/gridsystem.html"  target="_blank">Marcus Gärde gridsystems based on old books and scrolls</a></li>
 		</ul>
 	</section>
+
+	<section class="w2">
+		<h1>Graphics & 3D</h1>
+	</section>
+	<section class="w4 no-rm">
+		<ul>
+			<li><a href="https://renderdoc.org/blog/Graphics-in-Plain-Language/" target="_blank">Graphics in Plain Language</a></li>
+		</ul>
+	</section>
 	
 	<section class="w2">
 		<h1>Cryptocurrency</h1>
