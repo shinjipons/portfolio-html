@@ -16,9 +16,9 @@
 		<p>Yet to be filled.</p>
 	</section>
 	
-	<img src="data/img/mos-001.png" class="c4">
-	<img src="data/img/mos-002.png" class="c4">
-	<img src="data/img/mos-003.png" class="c4">
+	<img src="data/img/mos/mos-001.png" class="c4">
+	<img src="data/img/mos/mos-002.png" class="c4">
+	<img src="data/img/mos/mos-003.png" class="c4">
 
 	<?php include '_footer.php';?>
 

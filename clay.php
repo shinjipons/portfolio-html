@@ -16,14 +16,14 @@
 		<p>Yet to be filled.</p>
 	</section>
 	
-	<img src="data/img/clay-001.JPG" class="c4">
-	<img src="data/img/clay-002.JPG" class="c4">
-	<img src="data/img/clay-003.JPG" class="c4">
-	<img src="data/img/clay-004.JPG" class="c4">
-	<img src="data/img/clay-005.JPG" class="c4">
-	<img src="data/img/clay-006.JPG" class="c4">
-	<img src="data/img/clay-007.JPG" class="c4">
-	<img src="data/img/clay-008.JPG" class="c4">
+	<img src="data/img/clay/clay-001.JPG" class="c4">
+	<img src="data/img/clay/clay-002.JPG" class="c4">
+	<img src="data/img/clay/clay-003.JPG" class="c4">
+	<img src="data/img/clay/clay-004.JPG" class="c4">
+	<img src="data/img/clay/clay-005.JPG" class="c4">
+	<img src="data/img/clay/clay-006.JPG" class="c4">
+	<img src="data/img/clay/clay-007.JPG" class="c4">
+	<img src="data/img/clay/clay-008.JPG" class="c4">
 
 	<?php include '_footer.php';?>
 

@@ -16,12 +16,12 @@
 		<p>Yet to be filled.</p>
 	</section>
 	
-	<img src="data/img/ir-001.jpg" class="c4">
-	<img src="data/img/ir-002.jpg" class="c4">
-	<img src="data/img/ir-003.jpg" class="c4">
-	<img src="data/img/ir-004.jpg" class="c4">
-	<img src="data/img/ir-005.jpg" class="c4">
-	<img src="data/img/ir-006.jpg" class="c4">
+	<img src="data/img/ir/ir-001.jpg" class="c4">
+	<img src="data/img/ir/ir-002.jpg" class="c4">
+	<img src="data/img/ir/ir-003.jpg" class="c4">
+	<img src="data/img/ir/ir-004.jpg" class="c4">
+	<img src="data/img/ir/ir-005.jpg" class="c4">
+	<img src="data/img/ir/ir-006.jpg" class="c4">
 
 	<?php include '_footer.php';?>
 

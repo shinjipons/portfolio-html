@@ -16,7 +16,7 @@
 		<p>Yet to be filled.</p>
 	</section>
 	
-	<img src="data/img/cardboard-001.jpg" class="c4">
+	<img src="data/img/cardboard/cardboard-001.jpg" class="c4">
 
 	<?php include '_footer.php';?>
 

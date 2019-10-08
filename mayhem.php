@@ -19,8 +19,8 @@
 		<p>Better late than never!</p>
 	</section>
 	
-	<img src="data/img/mayhem-001.svg" class="c2">
-	<img src="data/img/mayhem-002.png" class="c4">
+	<img src="data/img/mayhem/mayhem-001.svg" class="c2">
+	<img src="data/img/mayhem/mayhem-002.png" class="c4">
 
 	<?php include '_footer.php';?>
 
