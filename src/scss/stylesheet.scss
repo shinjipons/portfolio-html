@@ -155,14 +155,6 @@ ol {
 .medium { min-height: $line-height * 10; }
 .short  { min-height: $line-height *  5; }
 
-.no-hover-border {
-	a {
-		&:hover {
-			border: none;
-		}
-	}
-}
-
 .missing {
 	color: lighten($accent-color, 60%);
 	cursor: not-allowed;
@@ -179,6 +171,14 @@ ol {
 .project-title {
 	@extend .w2;
 	@extend .medium;
+	&:after {
+		display: block;
+		height: 3px * 3 + 1;
+		width:  3px * 40 + 1;
+		background-image: url("../../data/img/general/bg-pattern.png");
+		background-repeat: repeat;
+		content: "";
+	}
 }
 .project-description {
 	@extend .w3;

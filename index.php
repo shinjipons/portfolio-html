@@ -18,13 +18,20 @@
 		<p>For requests, please email <a href="mailto:hello@shinjipons.com">hello@shinjipons.com</a></p>
 	</section>
 
-	<section class="no-hover-border">
-		<a href="louvre.php"      class="c2"><img src="data/img/louvre/louvre-cover.png"></a>
-		<a href="modulo.php"      class="c6"><img src="data/img/modulo/modulo-cover.png"></a>
-		<a href="bowie.php"       class="c4"><img src="data/img/bowie/bowie-cover.jpg"></a>
-		<a href="doty.php"        class="c2"><img src="data/img/doty/doty-cover.png"></a>
-		<a href="subd.php"        class="c4"><img src="data/img/subd/subd-cover.jpg"></a>
-		<a href="green-thing.php" class="c2"><img src="data/img/green-thing/green-thing-001.jpg"></a>
+	<section>
+		<a href="louvre.php"        class="c2"><img src="data/img/louvre/louvre-cover.png"></a>
+		<a href="modulo.php"        class="c6"><img src="data/img/modulo/modulo-cover.png"></a>
+		<a href="bowie.php"         class="c4"><img src="data/img/bowie/bowie-cover.jpg"></a>
+		<a href="doty.php"          class="c1"><img src="data/img/doty/doty-cover.png"></a>
+		<a href="subd.php"          class="c4"><img src="data/img/subd/subd-cover.jpg"></a>
+		<a href="green-thing.php"   class="c2"><img src="data/img/green-thing/green-thing-001.jpg"></a>
+		<a href="business-card.php" class="c3"><img src="data/img/business-card/business-card-001.jpg"></a>
+		<a href="clay.php"          class="c4"><img src="data/img/clay/clay-007.JPG"></a>
+		<a href="ir.php"			class="c3"><img src="data/img/ir/ir-001.jpg"></a>
+		<a href="mayhem.php" 		class="c1"><img src="data/img/mayhem/mayhem-001.svg"></a>
+		<a href="mos.php" 			class="c3"><img src="data/img/mos/mos-001.png"></a>
+		<a href="nightclub.php" 	class="c4"><img src="data/img/nightclub/nightclub-007.jpg"></a>
+		<a href="subd.php" 			class="c5"><img src="data/img/subd/subd-cover.jpg"></a>
 	</section>
 
 	<?php include '_footer.php';?>

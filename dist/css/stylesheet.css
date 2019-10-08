@@ -207,9 +207,6 @@ ol {
 .short {
   min-height: 15rem; }
 
-.no-hover-border a:hover {
-  border: none; }
-
 .missing {
   color: #999999;
   cursor: not-allowed; }
@@ -219,6 +216,14 @@ ol {
 
 .mb {
   margin-bottom: 3rem; }
+
+.project-title:after {
+  display: block;
+  height: 10px;
+  width: 121px;
+  background-image: url("../../data/img/general/bg-pattern.png");
+  background-repeat: repeat;
+  content: ""; }
 
 .project-description {
   margin-bottom: 12rem; }
