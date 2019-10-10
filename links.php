@@ -74,6 +74,7 @@
 	<section class="w4 no-rm">
 		<ul>
 			<li><a href="https://youtu.be/oSaYuI1O0XQ" target="_blank">The Mountain Decides</a></li>
+			<li><a href="https://www.youtube.com/watch?v=QESGXTFFZXM" target="_blank">Gran Turismo Documentary</a></li>
 		</ul>
 	</section>
 
