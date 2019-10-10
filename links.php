@@ -43,6 +43,7 @@
 		<ul>
 			<li><a href="https://renderdoc.org/blog/Graphics-in-Plain-Language/" target="_blank">Graphics in Plain Language</a></li>
 			<li><a href="http://240hz.org/index.html" target="_blank">Real-Time Raytracing at 240Hz</a></li>
+			<li><a href="https://www.scratchapixel.com/" target="_blank">Learn Computer Graphics from Scratch</a></li>
 		</ul>
 	</section>
 	
