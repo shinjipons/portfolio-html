@@ -67,7 +67,8 @@
 			<li><a href="bowie.php">David Bowie - Nothing has Changed</a></li>
 			<li><a href="modulo.php">Modulo Typeface</a></li>
 			<li><a href="green-thing.php">Do The Green Thing</a></li>
-			<li class="missing">InDesign Scripting with basil.js</li>
+			<li><a href="basiljs.php">InDesign Scripting with basil.js</a></li>
+			<!-- <li class="missing">InDesign Scripting with basil.js</li> -->
 			<li class="missing">Style.com</li>
 			<li class="missing">AllCreative</li>
 			<li class="missing">Cambridge Satchel Concepts</li>
