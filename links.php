@@ -24,6 +24,7 @@
 	<section class="w4 no-rm">
 		<ul>
 			<li><a href="https://youtu.be/pT19VwBAqKA" target="_blank">Protecting Privacy with Math</a></li>
+			<li><a href="https://youtu.be/bM0PmwOlifE" target="_blank">Black Hat 2013 - OPSEC Failures of Spies</a></li>
 		</ul>
 	</section>
 
