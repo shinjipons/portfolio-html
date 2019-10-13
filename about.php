@@ -59,7 +59,7 @@
 	</section>
 	<section class="w4 no-rm">
 		<ul>
-			<li>3D creation software design</li>
+			<li>Software design for 3D tools</li>
 		</ul>
 	</section>
 

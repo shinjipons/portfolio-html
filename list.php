@@ -68,7 +68,6 @@
 			<li><a href="modulo.php">Modulo Typeface</a></li>
 			<li><a href="green-thing.php">Do The Green Thing</a></li>
 			<li><a href="basiljs.php">InDesign Scripting with basil.js</a></li>
-			<!-- <li class="missing">InDesign Scripting with basil.js</li> -->
 			<li class="missing">Style.com</li>
 			<li class="missing">AllCreative</li>
 			<li class="missing">Cambridge Satchel Concepts</li>
@@ -97,7 +96,7 @@
 			<li><a href="ir.php">Infrared Photography</a></li>
 			<li><a href="nightclub.php">Nightclub Photography</a></li>
 			<li><a href="clay.php">Clay Packaging</a></li>
-			<li class="missing">Urbantorque Promo CD</li>
+			<li><a href="urbantorque.php">Urbantorque - Focus on: Scope</a></li>
 		</ul>
 	</section>
 
