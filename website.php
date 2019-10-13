@@ -17,7 +17,8 @@
 		<p>So I decided to go the opposite way - a super simple site that is easy to maintain, cheap to host and runs locally to show to people without Internet.</p>
 		<p>The site uses PHP for templating, has strictly no Javascript/Google Analytics and the CSS weighs 3kb.</p>
 		<p>If instead of spending 552$ over 3 years on Squarespace, I had put that money on BTC, I'd be enjoying an extra 3138$ in my investment portfolio.</p>
-		<p>Now I spend 20$/year on hosting. And my only social media presence is on <a href="https://linkedin.com/in/shinji-pons/" target="_blank">Linkedin</a>.</p>
+		<p>Now I spend 60$/year on hosting and have full control over my website.</p>
+		<p>My only social media presence is on <a href="https://linkedin.com/in/shinji-pons/" target="_blank">Linkedin</a>.</p>
 	</section>
 
 	<?php include '_footer.php';?>

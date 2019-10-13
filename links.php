@@ -56,6 +56,7 @@
 			<li><a href="https://www.youtube.com/watch?v=kqsmCUo3xEQ" target="_blank">Bitcoin: A Swiss Bank for Everyone's Pocket</a></li>
 			<li><a href="http://galgitron.net/Post/Coin-Robbery" target="_blank">Coin Robbery</a></li>
 			<li><a href="https://youtu.be/L-gQXl4PULg?t=720" target="_blank">Using Certainty To Up Your Game</a></li>
+			<li><a href="https://xmr.to/" target="_blank">Anonymously send Bitcoin using Monero</a></li>
 		</ul>
 	</section>
 
