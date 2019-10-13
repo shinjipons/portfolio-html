@@ -1,0 +1,2 @@
+If there is only one folder of the same name, then it contains the large images.
+If there are two folders of the same name, the one with the 'raw' suffix contains the full size, uncompressed images.
