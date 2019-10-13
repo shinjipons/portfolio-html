@@ -50,7 +50,7 @@
 	</section>
 	<section class="w4 no-rm">
 		<ul>
-			<li>Graphic & Media Design</li>
+			<li>Graphic & Media Design until 2014</li>
 		</ul>
 	</section>
 
