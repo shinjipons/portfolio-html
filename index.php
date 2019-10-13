@@ -20,6 +20,7 @@
 
 	<section>
 		<a href="louvre.php"        class="c2"><img src="data/img/louvre/louvre-cover.png"></a>
+		<a href="urbantorque.php"   class="c4"><img src="data/img/urbantorque/urbantorque-004.jpg"></a>
 		<a href="modulo.php"        class="c6"><img src="data/img/modulo/modulo-cover.png"></a>
 		<a href="bowie.php"         class="c4"><img src="data/img/bowie/bowie-cover.jpg"></a>
 		<a href="doty.php"          class="c1"><img src="data/img/doty/doty-cover.png"></a>
