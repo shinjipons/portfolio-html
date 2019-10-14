@@ -1,2 +1,27 @@
+// About the folder structure:
 If there is only one folder of the same name, then it contains the large images.
 If there are two folders of the same name, the one with the 'raw' suffix contains the full size, uncompressed images.
+
+// How to convert from the large images folder to the web friendly folder:
+	Download XnConvert (https://www.xnview.com/en/xnconvert/). It's free and cross-platform.
+	Load the input folder one by one
+	Action
+		Resize
+		Mode: Width - 2000 pixels
+		Leave "use gamma correction" unchecked
+		Enlarge/Reduce: Reduce only
+		Resample: Lanczos (this was the default)
+	Output
+		Choose the corresponding folder (without the -raw suffix)
+		Filename: {Filename}
+			Case: no change
+			Start index: 1
+		Format: As original
+			Settings:
+				JPEG:
+					Quality: 25
+					Progressive checked ON
+					Smoothing factor: 0
+					Subsampling factor: default
+				PNG:
+					Compression level: 7
