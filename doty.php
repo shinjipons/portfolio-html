@@ -22,7 +22,7 @@
 		<p>Of the most engaged visitors 674 hours were spent in the exhibition space, with 273 hours of this representing content engagement. 25 hours were spent consuming audio and video, 11 hours engaging in debate, with nearly 10,000 words used by visitors to comment on the transport exhibit alone. The platform provides a dynamic way to communicate and engage visitors but also allows deep understanding of consumer behaviours.</p>
 	</section>
 	
-	<video controls src="data/img/doty/doty.mp4" class="c4"></video>
+	<video controls src="data/mov/doty/doty.mp4" class="c4"></video>
 	<img src="data/img/doty/doty-001.jpg" class="c4">
 	<img src="data/img/doty/doty-002.jpg" class="c4">
 	<img src="data/img/doty/doty-003.jpg" class="c4">

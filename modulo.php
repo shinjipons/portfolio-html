@@ -21,7 +21,7 @@
 		<p>Since this typeface is meant to be used in layers, basiljs was a great tool to programmatically lay out my type in InDesign without human error.</p>
 	</section>
 	
-	<video controls src="data/img/modulo/modulo-001.mov" class="c4"></video>
+	<video controls src="data/mov/modulo/modulo-001.mov" class="c4"></video>
 	<img src="data/img/modulo/modulo-001.jpg" class="c4">
 	<img src="data/img/modulo/modulo-002.jpg" class="c4">
 	<img src="data/img/modulo/modulo-003.jpg" class="c4">
