@@ -33,7 +33,7 @@
 	</section>
 	<section class="w4 no-rm">
 		<ul>
-			<li><a href="http://bachgarde.se/gridsystem/gridsystem.html"  target="_blank">Marcus Gärde gridsystems based on old books and scrolls</a></li>
+			<li><a href="http://bachgarde.se/gridsystem/gridsystem.html" target="_blank">Marcus Gärde gridsystems based on old books and scrolls</a></li>
 		</ul>
 	</section>
 
