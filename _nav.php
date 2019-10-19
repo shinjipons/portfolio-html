@@ -6,5 +6,6 @@
 		<a href="list.php">List</a>
 		<a href="about.php">About</a>
 		<a href="links.php">Bookmarks</a>
+		<a href="https://www.linkedin.com/in/shinji-pons/" target="_blank">Resume</a>
 	</div>
 </nav>
