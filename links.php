@@ -19,6 +19,15 @@
 	</section>
 
 	<section class="w2">
+		<h1>Tools</h1>
+	</section>
+	<section class="w4 no-rm">
+		<ul>
+			<li><a href="https://www.xnview.com/en/xnconvert/" target="_blank">XnView</a></li>
+		</ul>
+	</section>
+
+	<section class="w2">
 		<h1>Privacy</h1>
 	</section>
 	<section class="w4 no-rm">
