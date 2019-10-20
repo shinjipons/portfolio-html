@@ -35,7 +35,7 @@
 	</section>
 	<section class="w4 no-rm">
 		<ul>
-			<li class="missing">Autodesk Alias Dynamo Modelling</li>
+			<li><a href="dynamo.php">Autodesk Alias Dynamo Modelling</a></li>
 			<li class="missing">Rimac Automobili Interview Task</li>
 		</ul>
 	</section>
