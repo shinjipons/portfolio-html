@@ -26,7 +26,7 @@
 		<a href="basiljs.php"		class="c4"><img src="data/img/basiljs/basiljs-012.jpg"></a>
 		<a href="doty.php"          class="c2"><img src="data/img/doty/doty-cover.png"></a>
 		<!-- <a href="subd.php"          class="c4"><img src="data/img/subd/subd-cover.jpg"></a> -->
-		<!-- <a href="dynamo.php" 		class="c6"><img src="data/img/dynamo/dynamo-001.jpg"></a> -->
+		<a href="dynamo.php" 		class="c4"><img src="data/img/dynamo/dynamo-cover.png"></a>
 		<a href="green-thing.php"   class="c2"><img src="data/img/green-thing/green-thing-001.jpg"></a>
 		<a href="business-card.php" class="c4"><img src="data/img/business-card/business-card-001.jpg"></a>
 		<a href="clay.php"          class="c4"><img src="data/img/clay/clay-007.JPG"></a>
