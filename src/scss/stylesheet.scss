@@ -10,7 +10,7 @@ $accent-color: invert($main-color);
 $highlight-color: red;
 
 $site-margin:             2.5%;
-$site-margin-mobile:      3.0%;
+$site-margin-mobile:      5%;
 $site-size:               2.5rem;
 $site-size-mobile:        2.0rem;
 $line-height:             1.2 * $site-size;
@@ -32,7 +32,8 @@ $mobile-breakpoint: 500px;
 		margin-bottom: 0.1rem;
 		float: left;
 		@media only screen and (max-width: $mobile-breakpoint) {
-			width: 100%;
+			width: 100% - $site-margin-mobile * 2;
+			margin-left: $site-margin-mobile;
 		}
 		@media only screen and (min-width: $mobile-breakpoint + 1px) {
 			width: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * ( $i - 1 );
@@ -85,8 +86,10 @@ body {
 	font-family: $font-family;
 	font-size: $site-size;
 	@media only screen and (max-width: $mobile-breakpoint) {
-		margin-left:  $site-margin-mobile;
-		margin-right: $site-margin-mobile;
+		// margin-left:  $site-margin-mobile;
+		// margin-right: $site-margin-mobile;
+		margin-left: 0px;
+		margin-right: 0px;
 		padding-top: $site-padding-top + $site-size-mobile;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
@@ -101,8 +104,13 @@ nav, footer {
 	display: block;
 	position: fixed;
 	background: transparent;
-	width: 100% - $site-margin * 2;
 	z-index: 9;
+	@media only screen and (max-width: $mobile-breakpoint) {
+		width: 100%;
+	}
+	@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		width: 100% - $site-margin * 2;
+	}
 }
 
 nav {
@@ -111,13 +119,19 @@ nav {
 	padding-top: $site-size;
 	@media only screen and (max-width: $mobile-breakpoint) {
 		background: $main-color;
+		box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.2);
 	}
 	@media only screen and (min-width: $mobile-breakpoint) {
 		background: transparent;
 	}
 	a {
-		margin-right: $line-height;
 		color: $accent-color;
+		@media only screen and (max-width: $mobile-breakpoint) {
+			margin-right: $line-height-mobile;
+		}
+		@media only screen and (min-width: $mobile-breakpoint + 1px) {
+			margin-right: $line-height;
+		}
 	}
 }
 
@@ -234,7 +248,7 @@ ol {
 	@extend .w3;
 	@extend .medium;
 	@media only screen and (max-width: $mobile-breakpoint) {
-		margin-bottom: $line-height-mobile * 2;
+		margin-bottom: $line-height-mobile * 0;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
 		margin-bottom: $line-height * 4;

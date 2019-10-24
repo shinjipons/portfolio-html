@@ -120,7 +120,6 @@ footer {
   display: block;
   position: fixed;
   background: transparent;
-  width: 95%;
   z-index: 9;
 }
 
@@ -131,7 +130,6 @@ nav {
 }
 
 nav a {
-  margin-right: 3rem;
   color: black;
 }
 
@@ -319,6 +317,15 @@ ol {
     padding-top: 15rem;
   }
 
+  nav,
+  footer {
+    width: 95%;
+  }
+
+  nav a {
+    margin-right: 3rem;
+  }
+
   .medium,
   .project-title,
   .project-description {
@@ -332,7 +339,8 @@ ol {
 
 @media only screen and (max-width: 500px) {
   .w1 {
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
   }
 
   .c1 {
@@ -345,7 +353,8 @@ ol {
 
   .w2,
   .project-title {
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
   }
 
   .c2 {
@@ -358,7 +367,8 @@ ol {
 
   .w3,
   .project-description {
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
   }
 
   .c3 {
@@ -370,7 +380,8 @@ ol {
   }
 
   .w4 {
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
   }
 
   .c4 {
@@ -382,7 +393,8 @@ ol {
   }
 
   .w5 {
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
   }
 
   .c5 {
@@ -394,7 +406,8 @@ ol {
   }
 
   .w6 {
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
   }
 
   .c6 {
@@ -410,13 +423,23 @@ ol {
   }
 
   body {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 0px;
+    margin-right: 0px;
     padding-top: 12rem;
+  }
+
+  nav,
+  footer {
+    width: 100%;
   }
 
   nav {
     background: white;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  nav a {
+    margin-right: 2.4rem;
   }
 
   footer {
@@ -430,6 +453,6 @@ ol {
   }
 
   .project-description {
-    margin-bottom: 4.8rem;
+    margin-bottom: 0rem;
   }
 }
