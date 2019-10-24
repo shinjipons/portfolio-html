@@ -108,15 +108,11 @@ html {
   background: white;
   font-size: 10px;
   overflow-y: scroll;
-  margin-bottom: 15rem;
 }
 
 body {
   font-family: "NBAkademieLight", sans-serif;
   font-size: 2.5rem;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  padding-top: 15rem;
 }
 
 nav,
@@ -126,8 +122,6 @@ footer {
   background: transparent;
   width: 95%;
   z-index: 9;
-  transition: 300ms background;
-  transition-timing-function: ease-in-out;
 }
 
 nav {
@@ -139,11 +133,6 @@ nav {
 nav a {
   margin-right: 3rem;
   color: black;
-}
-
-nav a:hover {
-  color: black;
-  border: none;
 }
 
 footer {
@@ -172,6 +161,18 @@ video {
   outline: none;
 }
 
+p,
+h1 {
+  margin: 0;
+  display: block;
+  font-family: "NBAkademieLight", sans-serif;
+  font-weight: normal;
+  color: black;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+}
+
 a {
   color: red;
   text-decoration: none;
@@ -179,18 +180,6 @@ a {
 
 a img {
   width: 100%;
-}
-
-p,
-h1 {
-  margin: 0;
-  font-size: 2.5rem;
-  font-family: "NBAkademieLight", sans-serif;
-  font-weight: normal;
-  line-height: 3rem;
-  display: block;
-  margin-bottom: 3rem;
-  color: black;
 }
 
 ul {
@@ -217,12 +206,6 @@ ol {
   min-height: 60rem;
 }
 
-.medium,
-.project-title,
-.project-description {
-  min-height: 30rem;
-}
-
 .short {
   min-height: 15rem;
 }
@@ -236,10 +219,6 @@ ol {
   margin-right: 0;
 }
 
-.mb {
-  margin-bottom: 3rem;
-}
-
 .project-title:after {
   display: block;
   height: 10px;
@@ -249,8 +228,10 @@ ol {
   content: "";
 }
 
-.project-description {
-  margin-bottom: 12rem;
+@media only screen and (min-width: 500px) {
+  nav {
+    background: transparent;
+  }
 }
 
 @media only screen and (min-width: 501px) {
@@ -327,6 +308,26 @@ ol {
   .p6 {
     margin-left: 102%;
   }
+
+  html {
+    margin-bottom: 15rem;
+  }
+
+  body {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-top: 15rem;
+  }
+
+  .medium,
+  .project-title,
+  .project-description {
+    min-height: 30rem;
+  }
+
+  .project-description {
+    margin-bottom: 12rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -402,5 +403,33 @@ ol {
 
   .p6 {
     margin-left: 0px;
+  }
+
+  html {
+    margin-bottom: 4rem;
+  }
+
+  body {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 12rem;
+  }
+
+  nav {
+    background: white;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .medium,
+  .project-title,
+  .project-description {
+    min-height: 12rem;
+  }
+
+  .project-description {
+    margin-bottom: 4.8rem;
   }
 }

@@ -9,12 +9,16 @@ $main-color: white;
 $accent-color: invert($main-color);
 $highlight-color: red;
 
-$site-margin:      2.5%;
-$site-size:        2.5rem;
-$line-height:      1.2 * $site-size;
-$site-padding-top: 4.0 * $site-size;
-$grid-gap:         2%;
-$grid-col:         6;
+$site-margin:             2.5%;
+$site-margin-mobile:      3.0%;
+$site-size:               2.5rem;
+$site-size-mobile:        2.0rem;
+$line-height:             1.2 * $site-size;
+$line-height-mobile:      1.2 * $site-size-mobile;
+$site-padding-top:        4.0 * $site-size;
+$site-padding-top-mobile: 1.0 * $site-size-mobile;
+$grid-gap:                2%;
+$grid-col:                6;
 
 $mobile-breakpoint: 500px;
 
@@ -59,50 +63,61 @@ $mobile-breakpoint: 500px;
 	}
 }
 
+// General purpose and content section tags
 *, *:before, *:after {
-	// remove the funny box model out of the box
-	box-sizing: inherit;
+	box-sizing: inherit; // remove the funny box model out of the box
 }
 
 html {
 	box-sizing: border-box;
 	background: $main-color;
 	font-size: 10px;
-
-	// to force scrollbar on all pages
-	overflow-y: scroll;
-	margin-bottom: $site-padding-top + $site-size*2;
+	overflow-y: scroll; // to force scrollbar on all pages
+	@media only screen and (max-width: $mobile-breakpoint) {
+		margin-bottom: $site-padding-top-mobile + $site-size-mobile;
+	}
+	@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		margin-bottom: $site-padding-top + $site-size * 2;
+	}
 }
 
 body {
 	font-family: $font-family;
 	font-size: $site-size;
-	margin-left: $site-margin;
-	margin-right: $site-margin;
-	padding-top: $site-padding-top + $site-size*2;
+	@media only screen and (max-width: $mobile-breakpoint) {
+		margin-left:  $site-margin-mobile;
+		margin-right: $site-margin-mobile;
+		padding-top: $site-padding-top + $site-size-mobile;
+	}
+	@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		margin-left: $site-margin;
+		margin-right: $site-margin;
+		padding-top: $site-padding-top + $site-size * 2;
+	}
 }
 
+// Navigation
 nav, footer {
 	display: block;
 	position: fixed;
 	background: transparent;
 	width: 100% - $site-margin * 2;
 	z-index: 9;
-	transition: 300ms background;
-	transition-timing-function: ease-in-out;
 }
 
 nav {
 	top: 0;
 	height: $site-padding-top;
 	padding-top: $site-size;
+	@media only screen and (max-width: $mobile-breakpoint) {
+		background: $main-color;
+	}
+	@media only screen and (min-width: $mobile-breakpoint) {
+		background: transparent;
+	}
 	a {
 		margin-right: $line-height;
 		color: $accent-color;
-		&:hover {
-			color: invert($main-color);
-			border: none;
-		}
 	}
 }
 
@@ -111,6 +126,9 @@ footer {
 	padding-top: $site-size;
 	bottom: 0;
 	padding-bottom: 0;
+	@media only screen and (max-width: $mobile-breakpoint) {
+		display: none;
+	}
 	a {
 		color: $accent-color;
 		&:hover {
@@ -120,6 +138,7 @@ footer {
 	}
 }
 
+// Rich media content
 img, video {
 	margin-bottom: 0.1rem !important;
 	float: left;
@@ -127,6 +146,18 @@ img, video {
 
 video {
 	outline: none;
+}
+
+// Text
+p, h1 {
+	margin: 0;
+	display: block;
+	font-family: $font-family;
+	font-weight: normal;
+	color: $accent-color;
+	font-size: $site-size;
+	line-height: $line-height;
+	margin-bottom: $line-height * 1;
 }
 
 a {
@@ -137,17 +168,7 @@ a {
 	}
 }
 
-p, h1 {
-	margin: 0;
-	font-size: $site-size;
-	font-family: $font-family;
-	font-weight: normal;
-	line-height: $line-height;
-	display: block;
-	margin-bottom: $line-height * 1;
-	color: $accent-color;
-}
-
+// Lists
 ul {
 	list-style: none;
 	padding-left: 0;
@@ -167,23 +188,36 @@ ol {
 	color: $accent-color;
 }
 
-.tall   { min-height: $line-height * 20; }
-.medium { min-height: $line-height * 10; }
-.short  { min-height: $line-height *  5; }
+// To modify the minimum height of some text blocks
+.tall   {
+	min-height: $line-height * 20;
+}
 
+.medium {
+	@media only screen and (max-width: $mobile-breakpoint) {
+		min-height: $line-height-mobile * 5;
+	}
+	@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		min-height: $line-height * 10;
+	}
+}
+
+.short  {
+	min-height: $line-height *  5;
+}
+
+// Style for the missing and yet to be filed projects in -list.php
 .missing {
 	color: lighten($accent-color, 60%);
 	cursor: not-allowed;
 }
 
+// Removes the last right margin to make row add to 100%
 .no-rm {
-	// remove the last right margin to make row add to 100%
 	margin-right: 0;
 }
-.mb {
-	margin-bottom: $line-height;
-}
 
+// Classes specific for the project page
 .project-title {
 	@extend .w2;
 	@extend .medium;
@@ -199,5 +233,10 @@ ol {
 .project-description {
 	@extend .w3;
 	@extend .medium;
-	margin-bottom: $line-height * 4;
+	@media only screen and (max-width: $mobile-breakpoint) {
+		margin-bottom: $line-height-mobile * 2;
+	}
+	@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		margin-bottom: $line-height * 4;
+	}
 }
