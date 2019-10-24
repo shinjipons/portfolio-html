@@ -5,11 +5,13 @@ var php = require('gulp-connect-php');
 var plumber = require('gulp-plumber');
 var notify = require('gulp-notify');
 var beeper = require('beeper');
+var gcmq = require('gulp-group-css-media-queries');
 
 gulp.task('css', function() {
   return gulp.src('src/scss/stylesheet.scss')
     .pipe(plumbError())
     .pipe(sass())
+    .pipe(gcmq())
     .pipe(gulp.dest('dist/css/'))
     .pipe(browserSync.reload({stream:true}));
 });
