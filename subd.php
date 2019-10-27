@@ -19,19 +19,19 @@
 	</section>
 	
 	<video controls src="data/mov/subd/subd.mp4" class="c4"></video>
-	<img src="data/img/subd-raw/subd-001.jpg" class="c4">
-	<img src="data/img/subd-raw/subd-002.jpg" class="c4">
-	<img src="data/img/subd-raw/subd-003.jpg" class="c4">
-	<img src="data/img/subd-raw/subd-004.png" class="c4">
-	<img src="data/img/subd-raw/subd-005.jpg" class="c4">
-	<img src="data/img/subd-raw/subd-006.jpg" class="c4">
-	<img src="data/img/subd-raw/subd-007.jpg" class="c4">
-	<img src="data/img/subd-raw/subd-008.png" class="c4">
-	<img src="data/img/subd-raw/subd-009.png" class="c4">
-	<img src="data/img/subd-raw/subd-010.png" class="c4">
-	<img src="data/img/subd-raw/subd-011.png" class="c4">
-	<img src="data/img/subd-raw/subd-013.jpg" class="c4">
-	<img src="data/img/subd-raw/subd-012.jpg" class="c4">
+	<img src="data/img/subd/subd-001.jpg" class="c4">
+	<img src="data/img/subd/subd-002.jpg" class="c4">
+	<img src="data/img/subd/subd-003.jpg" class="c4">
+	<img src="data/img/subd/subd-004.png" class="c4">
+	<img src="data/img/subd/subd-005.jpg" class="c4">
+	<img src="data/img/subd/subd-006.jpg" class="c4">
+	<img src="data/img/subd/subd-007.jpg" class="c4">
+	<img src="data/img/subd/subd-008.png" class="c4">
+	<img src="data/img/subd/subd-009.png" class="c4">
+	<img src="data/img/subd/subd-010.png" class="c4">
+	<img src="data/img/subd/subd-011.png" class="c4">
+	<img src="data/img/subd/subd-013.jpg" class="c4">
+	<img src="data/img/subd/subd-012.jpg" class="c4">
 
 	<?php include '_footer.php';?>
 
