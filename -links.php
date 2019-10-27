@@ -32,6 +32,7 @@
 	</section>
 	<section class="w4 no-rm">
 		<ul>
+			<li><a href="https://www.privacytools.io/" target="_blank">privacytools.io</a></li>
 			<li><a href="https://youtu.be/pT19VwBAqKA" target="_blank">Protecting Privacy with Math</a></li>
 			<li><a href="https://youtu.be/bM0PmwOlifE" target="_blank">Black Hat 2013 - OPSEC Failures of Spies</a></li>
 			<li><a href="https://youtu.be/efs3QRr8LWw" target="_blank">Joe Rogan Experience #1368 - Edward Snowden</a></li>
