@@ -163,8 +163,9 @@ p,
 h1 {
   margin: 0;
   display: block;
-  font-family: "NBAkademieLight", sans-serif;
   font-weight: normal;
+  word-wrap: break-word;
+  font-family: "NBAkademieLight", sans-serif;
   color: black;
   font-size: 2.5rem;
   line-height: 3rem;
@@ -226,13 +227,13 @@ ol {
   content: "";
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 540px) {
   nav {
     background: transparent;
   }
 }
 
-@media only screen and (min-width: 501px) {
+@media only screen and (min-width: 541px) {
   .w1 {
     width: 15%;
   }
@@ -337,7 +338,7 @@ ol {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 540px) {
   .w1 {
     width: 90%;
     margin-left: 5%;

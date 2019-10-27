@@ -9,18 +9,20 @@ $main-color: white;
 $accent-color: invert($main-color);
 $highlight-color: red;
 
+$mobile-breakpoint: 540px;
+
 $site-margin:             2.5%;
-$site-margin-mobile:      5%;
 $site-size:               2.5rem;
-$site-size-mobile:        2.0rem;
 $line-height:             1.2 * $site-size;
-$line-height-mobile:      1.2 * $site-size-mobile;
 $site-padding-top:        4.0 * $site-size;
+
+$site-margin-mobile:      5%;
+$site-size-mobile:        2.0rem;
+$line-height-mobile:      1.2 * $site-size-mobile;
 $site-padding-top-mobile: 1.0 * $site-size-mobile;
+
 $grid-gap:                2%;
 $grid-col:                6;
-
-$mobile-breakpoint: 500px;
 
 @mixin border { border-bottom: 1px solid $highlight-color; }
 
@@ -166,8 +168,9 @@ video {
 p, h1 {
 	margin: 0;
 	display: block;
-	font-family: $font-family;
 	font-weight: normal;
+	word-wrap: break-word;
+	font-family: $font-family;
 	color: $accent-color;
 	font-size: $site-size;
 	line-height: $line-height;
