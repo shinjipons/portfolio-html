@@ -24,6 +24,9 @@
 	<section class="w4 no-rm">
 		<ul>
 			<li><a href="https://www.xnview.com/en/xnconvert/" target="_blank">XnView</a></li>
+			<li><a href="https://www.rotato.xyz/" target="_blank">Rotato Design Camera</a></li>
+			<li><a href="https://artboard.studio/" target="_blank">Artboard Studio</a></li>
+			<li><a href="https://letsenhance.io/">letsenhance.io</a></li>
 		</ul>
 	</section>
 
@@ -57,6 +60,8 @@
 			<li><a href="http://240hz.org/index.html" target="_blank">Real-Time Raytracing at 240Hz</a></li>
 			<li><a href="https://www.scratchapixel.com/" target="_blank">Learn Computer Graphics from Scratch</a></li>
 			<li><a href="https://chrisbrejon.com/cg-cinematography/" target="_blank">CG Cinematography</a></li>
+			<li><a href="https://youtu.be/F2Mvzm-9-v4" target="_blank">Procedural double curvature</a></li>
+			<li><a href="https://www.mimicformaya.com/" target="_blank">Mimic for Maya</a></li>
 		</ul>
 	</section>
 	
