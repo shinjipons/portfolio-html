@@ -5,22 +5,27 @@ $font-family: "NBAkademieLight", sans-serif;
 		 url("../../data/fonts/webfont.woff")  format("woff");
 }
 
+// Colors
 $main-color: white;
 $accent-color: invert($main-color);
 $highlight-color: red;
 
+// Breakpoint
 $mobile-breakpoint: 540px;
 
+// Site spacing desktop
 $site-margin:             2.5%;
 $site-size:               2.5rem;
 $line-height:             1.2 * $site-size;
 $site-padding-top:        4.0 * $site-size;
 
+// Site spacing mobile
 $site-margin-mobile:      5%;
 $site-size-mobile:        2.0rem;
 $line-height-mobile:      1.2 * $site-size-mobile;
 $site-padding-top-mobile: 1.0 * $site-size-mobile;
 
+// Grid settings (except margin)
 $grid-gap:                2%;
 $grid-col:                6;
 
