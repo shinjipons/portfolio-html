@@ -27,6 +27,7 @@
 			<li><a href="https://www.rotato.xyz/" target="_blank">Rotato Design Camera</a></li>
 			<li><a href="https://artboard.studio/" target="_blank">Artboard Studio</a></li>
 			<li><a href="https://letsenhance.io/">letsenhance.io</a></li>
+			<li><a href="http://nvidia-research-mingyuliu.com/gaugan" target="_blank">NVIDIA GauGAN</a></li>
 		</ul>
 	</section>
 
@@ -39,6 +40,16 @@
 			<li><a href="https://youtu.be/pT19VwBAqKA" target="_blank">Protecting Privacy with Math</a></li>
 			<li><a href="https://youtu.be/bM0PmwOlifE" target="_blank">Black Hat 2013 - OPSEC Failures of Spies</a></li>
 			<li><a href="https://youtu.be/efs3QRr8LWw" target="_blank">Joe Rogan Experience #1368 - Edward Snowden</a></li>
+			<li><a href="https://samharris.org/podcasts/152-trouble-facebook/" target="_blank">The trouble with Facebook</a></li>
+		</ul>
+	</section>
+
+	<section class="w2">
+		<h1>Digital Industry</h1>
+	</section>
+	<section class="w4 no-rm">
+		<ul>
+			<li><a href="https://medium.com/swlh/state-of-the-digital-nation-2020-venture-road-22de4377836" target="_blank">State of the Digital Nation 2020: Venture Road</a></li>
 		</ul>
 	</section>
 
