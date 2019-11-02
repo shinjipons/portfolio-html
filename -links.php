@@ -114,7 +114,8 @@
 	</section>
 	<section class="w4 no-rm">
 		<ul>
-			<li><a href="https://learningsynths.ableton.com/">Learning Synths</a></li>
+			<li><a href="https://learningsynths.ableton.com/" target="_blank">Learning Synths</a></li>
+			<li><a href="https://echospacedetroit.bandcamp.com/" target="_blank">Echospace Detroit</a></li>
 		</ul>
 	</section>
 
