@@ -41,6 +41,8 @@
 			<li><a href="https://youtu.be/bM0PmwOlifE" target="_blank">Black Hat 2013 - OPSEC Failures of Spies</a></li>
 			<li><a href="https://youtu.be/efs3QRr8LWw" target="_blank">Joe Rogan Experience #1368 - Edward Snowden</a></li>
 			<li><a href="https://samharris.org/podcasts/152-trouble-facebook/" target="_blank">The trouble with Facebook</a></li>
+			<li><a href="https://www.reddit.com/r/privacy/wiki/de-google#wiki_cutting_google_out_of_your_life_.282019.29" target="_blank">Cutting Google out of your life</a></li>
+			<li><a href="https://www.throwawaymail.com/" target="_blank">ThrowAwayMail.com</a></li>
 		</ul>
 	</section>
 
