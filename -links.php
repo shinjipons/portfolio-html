@@ -28,6 +28,7 @@
 			<li><a href="https://artboard.studio/" target="_blank">Artboard Studio</a></li>
 			<li><a href="https://letsenhance.io/">letsenhance.io</a></li>
 			<li><a href="http://nvidia-research-mingyuliu.com/gaugan" target="_blank">NVIDIA GauGAN</a></li>
+			<li><a href="https://msurguy.github.io/flow-lines/" target="_blank">SVG Flow Lines</a></li>
 		</ul>
 	</section>
 
@@ -136,6 +137,15 @@
 	<section class="w4 no-rm">
 		<ul>
 			<li><a href="https://youtu.be/7KOsM5Xfe_E" target="_blank">How Star Wars Trailers Weaponize Nostalgia</a></li>
+		</ul>
+	</section>
+
+	<section class="w2">
+		<h1>Random</h1>
+	</section>
+	<section class="w4 no-rm">
+		<ul>
+			<li><a href="https://www.jonsauer.com/product-page/copy-of-copy-of-rose-engine-patterns-by-jon-sauer" target="_blank">Rose Engine Patterns by Jon Sauer</a></li>
 		</ul>
 	</section>
 
