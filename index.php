@@ -18,7 +18,7 @@
 	</section>
 
 	<section>
-		<a href="subd.php"          class="c6"><img src="data/img/subd-raw/subd-006.jpg"></a>
+		<a href="subd.php"          class="c6"><img src="data/img/subd/subd-006.jpg"></a>
 		<a href="dynamo.php" 		class="c4"><img src="data/img/dynamo/dynamo-cover.png"></a>
 		<a href="louvre.php"        class="c2"><img src="data/img/louvre/louvre-cover.png"></a>
 		<a href="urbantorque.php"   class="c4"><img src="data/img/urbantorque/urbantorque-004.jpg"></a>
