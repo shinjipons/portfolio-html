@@ -128,7 +128,7 @@
 		<ul>
 			<li><a href="https://learningsynths.ableton.com/" target="_blank">Learning Synths</a></li>
 			<li><a href="https://echospacedetroit.bandcamp.com/" target="_blank">Echospace Detroit</a></li>
-			<li><a href-"https://echospacestudio.bandcamp.com/album/vortexual-tape-sessions-series-collection" target="_blank">Vortexual tape sessions</a></li>
+			<li><a href="https://echospacestudio.bandcamp.com/album/vortexual-tape-sessions-series-collection" target="_blank">Vortexual tape sessions</a></li>
 		</ul>
 	</section>
 
