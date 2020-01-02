@@ -148,6 +148,7 @@
 	<section class="w4 no-rm">
 		<ul>
 			<li><a href="https://www.jonsauer.com/product-page/copy-of-copy-of-rose-engine-patterns-by-jon-sauer" target="_blank">Rose Engine Patterns by Jon Sauer</a></li>
+			<li><a href="https://youtu.be/Unzc731iCUY" target="_blank">How To Speak by Patrick Winston</a></li>
 		</ul>
 	</section>
 
