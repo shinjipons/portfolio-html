@@ -85,6 +85,7 @@
 			<li><a href="https://chrisbrejon.com/cg-cinematography/" target="_blank">CG Cinematography</a></li>
 			<li><a href="https://youtu.be/F2Mvzm-9-v4" target="_blank">Procedural double curvature</a></li>
 			<li><a href="https://www.mimicformaya.com/" target="_blank">Mimic for Maya</a></li>
+			<li><a href="https://skfb.ly/6Qp8K" target="_blank">Pixel Canals</a></li>
 		</ul>
 	</section>
 	
