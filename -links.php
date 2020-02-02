@@ -86,6 +86,7 @@
 			<li><a href="https://youtu.be/F2Mvzm-9-v4" target="_blank">Procedural double curvature</a></li>
 			<li><a href="https://www.mimicformaya.com/" target="_blank">Mimic for Maya</a></li>
 			<li><a href="https://skfb.ly/6Qp8K" target="_blank">Pixel Canals</a></li>
+			<li><a href="http://archive.today/2020.02.02-205547/https://www.linkedin.com/posts/activity-6629480257273630720-VBVi/" target="_blank">Always question convention and established systems</a></li>
 		</ul>
 	</section>
 	
