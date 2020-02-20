@@ -24,6 +24,7 @@
 	<section class="w4 no-rm">
 		<ul>
 			<li class="missing">LEGO Digital Designer Pro</li>
+			<li><a href="cad-sculptor.php">CAD Sculptor Exercise</a></li>
 		</ul>
 	</section>
 
