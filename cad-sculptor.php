@@ -13,7 +13,7 @@
 		<h1>CAD Sculptor Exercise</h1>
 	</section>
 	<section class="project-description">
-		<p>Modelling exercise for a job.</p>
+		<p>Modelling exercise.</p>
 		<p>The brief was to surface bubble letters in Alias with good flow and conitnuity between the surface patches, while keeping a cylindrical profile.</p>
 		<p>Wire file and design documentation are available upon request.</p>
 		<p>All images rendered in Cycles.</p>
