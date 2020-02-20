@@ -73,7 +73,8 @@ $grid-col:                6;
 
 // General purpose and content section tags
 *, *:before, *:after {
-	box-sizing: inherit; // remove the funny box model out of the box
+	// remove the funny box model out of the box
+	box-sizing: inherit;
 }
 
 html {
@@ -82,10 +83,10 @@ html {
 	font-size: 10px;
 	overflow-y: scroll; // to force scrollbar on all pages
 	@media only screen and (max-width: $mobile-breakpoint) {
-		margin-bottom: $site-padding-top-mobile + $site-size-mobile;
+		padding-bottom: $site-padding-top-mobile + $site-size-mobile * 2;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		margin-bottom: $site-padding-top + $site-size * 2;
+		padding-bottom: $site-padding-top + $site-size * 2;
 	}
 }
 
@@ -93,8 +94,6 @@ body {
 	font-family: $font-family;
 	font-size: $site-size;
 	@media only screen and (max-width: $mobile-breakpoint) {
-		// margin-left:  $site-margin-mobile;
-		// margin-right: $site-margin-mobile;
 		margin-left: 0px;
 		margin-right: 0px;
 		padding-top: $site-padding-top + $site-size-mobile;
