@@ -128,7 +128,7 @@
 	</section>
 	<section class="w4 no-rm">
 		<ul>
-			<li><a href="https://soundcloud.com/shnjpns/sets/shinji-pons-public-playlist" target="_blank">My Soundcloud Mixes</a></li>
+			<li><a href="https://soundcloud.com/s123s123s123s123/sets/shinji-pons-public-playlist" target="_blank">My Soundcloud Mixes</a></li>
 			<li><a href="https://learningsynths.ableton.com/" target="_blank">Learning Synths</a></li>
 			<li><a href="https://echospacedetroit.bandcamp.com/" target="_blank">Echospace Detroit</a></li>
 			<li><a href="https://echospacestudio.bandcamp.com/album/vortexual-tape-sessions-series-collection" target="_blank">Vortexual tape sessions</a></li>
