@@ -6,6 +6,6 @@
 		<a href="-list.php">List</a>
 		<a href="-about.php">About</a>
 		<a href="-links.php">Bookmarks</a>
-		<a href="--quotes.php">Quotes</a>
+		<a href="-quotes.php">Quotes</a>
 	</div>
 </nav>
