@@ -5,7 +5,7 @@
 	<div class="w4 no-rm">
 		<a href="-list.php">List</a>
 		<a href="-about.php">About</a>
-		<a href="-links.php">Bookmarks</a>
+		<a href="-links.php">Links</a>
 		<a href="-quotes.php">Quotes</a>
 	</div>
 </nav>
