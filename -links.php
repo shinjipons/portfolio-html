@@ -33,10 +33,12 @@
 	</section>
 
 	<section class="w2">
-		<h1>Books</h1>
+		<h1>Reading</h1>
 	</section>
 	<section class="w4 no-rm">
 		<ul>
+			<li><a href="https://cognitivemedium.com/tat/" target="_blank">Thought as a Technology by Michael Nielsen</a></li>
+			<li><a href="https://dominiccummings.com/2019/06/26/on-the-referendum-33-high-performance-government-cognitive-technologies-michael-nielsen-bret-victor-seeing-rooms/" target="_blank">High performance government, ‘cognitive technologies’, Michael Nielsen, Bret Victor, & ‘Seeing Rooms’</a></li>
 			<li><a href="https://www.amazon.co.uk/Laws-Power-Robert-Greene-Collection/dp/1861972784/ref=sr_1_2?crid=21IJFHOEPCT63&keywords=the+48+laws+of+power&qid=1573068879&sprefix=the+48%2Caps%2C171&sr=8-2" target="_blank">The 48 Laws of Power</a></li>			
 		</ul>
 	</section>
