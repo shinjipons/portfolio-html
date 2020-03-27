@@ -102,7 +102,7 @@
 	<section class="w4 no-rm">
 		<ul>
 			<li><a href="mayhem.php">Charlie May Record Label Logo</a></li>
-			<!-- <li><a href="ir.php">Infrared Photography</a></li> -->
+			<li class="missing">Infrared Photography</li>
 			<li><a href="nightclub.php">Nightclub Photography</a></li>
 			<li><a href="clay.php">Clay Packaging</a></li>
 			<li><a href="urbantorque.php">Urbantorque - Focus on: Scope</a></li>
