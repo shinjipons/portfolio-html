@@ -5,11 +5,11 @@
 	<meta name="viewport" content="width=device-width">
 	<meta name="robots" content="noindex,nofollow">
 	<title>Shinji Pons</title>
-	<link rel="preload" href="data/fonts/webfont.woff2" as="font" crossorigin="anonymous">
+	<link rel="preload" href="../data/fonts/webfont.woff2" as="font" crossorigin="anonymous">
 	<style>
 		@font-face {
 			font-family: "NBAkademieLight";
-			src: url("data/fonts/webfont.woff2") format("woff2"), url("data/fonts/webfont.woff") format("woff");
+			src: url("../data/fonts/webfont.woff2") format("woff2"), url("../data/fonts/webfont.woff") format("woff");
 		}
 		html, body {
 			margin: 0;
@@ -55,19 +55,19 @@
 			transform: translateY(0px);
 		}
 		.ldd {
-			background: url(data/img/case-studies/ldd.png) center center no-repeat;
+			background: url(../data/img/case-studies/ldd.png) center center no-repeat;
 			background-size: cover;
 		}
 		.subd {
-			background: url(data/img/case-studies/subd.jpg) center center no-repeat;
+			background: url(../data/img/case-studies/subd.jpg) center center no-repeat;
 			background-size: cover;
 		}
 		.dynamo {
-			background: url(data/img/case-studies/dynamo.png) center center no-repeat;
+			background: url(../data/img/case-studies/dynamo.png) center center no-repeat;
 			background-size: cover;
 		}
 		.website {
-			background: url(data/img/case-studies/website.png) center center no-repeat;
+			background: url(../data/img/case-studies/website.png) center center no-repeat;
 			background-size: contain;
 		}
 		@media only screen and (max-width: 540px) {
@@ -107,7 +107,7 @@
 		</div>
 
 		<div class="grid-item website">
-			<a href="index.php" target="_blank">Portfolio website</a>
+			<a href="../index.php" target="_blank">Portfolio website</a>
 		</div>
 
 	</div>
