@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Shinji Pons</title>
+	<link rel="preload" href="data/fonts/webfont.woff2" as="font" crossorigin="anonymous">
 	<style>
 		@font-face {
 			font-family: "NBAkademieLight";
@@ -43,27 +47,42 @@
 			opacity: 0;
 			transition-duration: 0.12s;
 			transition-timing-function: ease-out;
-			transform: translateY(10px);
+			transform: translateY(6px);
 		}
 		.grid-item:hover a {
 			opacity: 1;
 			transform: translateY(0px);
 		}
 		.ldd {
-			background: url(data/img/case-studies-raw/ldd.png) center center no-repeat;
+			background: url(data/img/case-studies/ldd.png) center center no-repeat;
 			background-size: cover;
 		}
 		.subd {
-			background: url(data/img/case-studies-raw/subd.jpg) center center no-repeat;
+			background: url(data/img/case-studies/subd.jpg) center center no-repeat;
 			background-size: cover;
 		}
 		.dynamo {
-			background: url(data/img/case-studies-raw/dynamo.png) center center no-repeat;
+			background: url(data/img/case-studies/dynamo.png) center center no-repeat;
 			background-size: cover;
 		}
 		.website {
-			background: url(data/img/case-studies-raw/website.png) center center no-repeat;
+			background: url(data/img/case-studies/website.png) center center no-repeat;
 			background-size: contain;
+		}
+		@media only screen and (max-width: 540px) {
+			html {
+				overflow-y: scroll;
+			}
+			.grid-container {
+				grid-template-columns: 1fr;
+			}
+			.grid-item {
+				width: 100vw;
+			}
+			.grid-item a {
+				opacity: 1;
+				transform: translateY(0px);
+			}
 		}
 	</style>
 </head>
