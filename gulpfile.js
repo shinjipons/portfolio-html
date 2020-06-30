@@ -33,12 +33,15 @@ gulp.task('default', function() {
     }
   });
 
-  gulp.watch('*.html', gulp.series('fileinclude'));
+  // watch the source files and run file include on them
+  gulp.watch('./src/html/*.html', gulp.series('fileinclude'));
 
-  gulp.watch('*.html').on('change', function() {
+  // once processed, browserSync will reload them
+  gulp.watch('./*.html').on('change', function() {
     browserSync.reload();
   });
 
+  // watch, compile and stream the CSS
   gulp.watch('src/scss/stylesheet.scss', gulp.series('css'));
 });
 
