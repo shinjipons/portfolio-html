@@ -9,11 +9,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
   "devDependencies": {
     "beeper": "^2.0.0",
     "browser-sync": "^2.26.7",
-    "gulp": "^4.0.2",
     "gulp-cached": "^1.1.1",
     "gulp-connect-php": "^1.0.3",
     "gulp-file-include": "^2.2.2",
