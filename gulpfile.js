@@ -33,11 +33,7 @@ gulp.task('default', function() {
     }
   });
 
-  // watch the source files and run file include on them
-  // gulp.watch('./src/html/**/*.html', gulp.series('fileinclude'));
-
   // once processed, browserSync will reload them
-  // gulp.watch('./src/html/**/*.html').on('change', function() {browserSync.reload()});
   gulp.watch('./src/html/**/*', gulp.series('fileinclude')).on('change', function() {browserSync.reload()});
 
   // watch, compile and stream the CSS
