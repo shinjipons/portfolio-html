@@ -17,8 +17,8 @@ gulp.task('css', function() {
     .pipe(browserSync.reload({stream:true}));
 });
 
-gulp.task('fileinclude', function() {
-  gulp.src(['./src/html/*.html'])
+gulp.task('fileinclude', async function() {
+  gulp.src(['./src/html/**/*'])
     .pipe(fileinclude({
       prefix: '@@',
       basepath: '@file'
@@ -34,12 +34,11 @@ gulp.task('default', function() {
   });
 
   // watch the source files and run file include on them
-  gulp.watch('./src/html/*.html', gulp.series('fileinclude'));
+  // gulp.watch('./src/html/**/*.html', gulp.series('fileinclude'));
 
   // once processed, browserSync will reload them
-  gulp.watch('./*.html').on('change', function() {
-    browserSync.reload();
-  });
+  // gulp.watch('./src/html/**/*.html').on('change', function() {browserSync.reload()});
+  gulp.watch('./src/html/**/*', gulp.series('fileinclude')).on('change', function() {browserSync.reload()});
 
   // watch, compile and stream the CSS
   gulp.watch('src/scss/stylesheet.scss', gulp.series('css'));
