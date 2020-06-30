@@ -34,7 +34,7 @@ $grid-col:                6;
 @for $i from 1 through 6 {
 	.w#{$i} {
 		// code to remove the margins
-		padding: 0;
+		padding: 0; // original value is 0
 		margin-right: $grid-gap;
 		margin-bottom: 0.1rem;
 		float: left;
