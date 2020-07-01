@@ -5,7 +5,8 @@
   src: url("../../data/fonts/webfont.woff2") format("woff2"), url("../../data/fonts/webfont.woff") format("woff");
 }
 
-.w1 {
+.w1,
+.project-title {
   padding: 0;
   margin-right: 2%;
   margin-bottom: 0.1rem;
@@ -20,8 +21,7 @@
   float: none;
 }
 
-.w2,
-.project-title {
+.w2 {
   padding: 0;
   margin-right: 2%;
   margin-bottom: 0.1rem;
@@ -226,8 +226,31 @@ ol {
   content: "";
 }
 
+.card {
+  position: relative;
+  width: auto;
+  height: 70rem;
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+}
+
+.card p {
+  color: white;
+  position: absolute;
+  margin-top: 5rem;
+}
+
+.apple {
+  background-image: url("../../data/img/cad-sculptor/cad-sculptor-001.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+
 @media only screen and (min-width: 541px) {
-  .w1 {
+  .w1,
+  .project-title {
     width: 15%;
   }
 
@@ -239,8 +262,11 @@ ol {
     margin-left: 17%;
   }
 
-  .w2,
-  .project-title {
+  .f1 {
+    margin-right: 17%;
+  }
+
+  .w2 {
     width: 32%;
   }
 
@@ -250,6 +276,10 @@ ol {
 
   .p2 {
     margin-left: 34%;
+  }
+
+  .f2 {
+    margin-right: 34%;
   }
 
   .w3,
@@ -265,6 +295,10 @@ ol {
     margin-left: 51%;
   }
 
+  .f3 {
+    margin-right: 51%;
+  }
+
   .w4 {
     width: 66%;
   }
@@ -275,6 +309,10 @@ ol {
 
   .p4 {
     margin-left: 68%;
+  }
+
+  .f4 {
+    margin-right: 68%;
   }
 
   .w5 {
@@ -289,6 +327,10 @@ ol {
     margin-left: 85%;
   }
 
+  .f5 {
+    margin-right: 85%;
+  }
+
   .w6 {
     width: 100%;
   }
@@ -299,6 +341,10 @@ ol {
 
   .p6 {
     margin-left: 102%;
+  }
+
+  .f6 {
+    margin-right: 102%;
   }
 
   html {
@@ -337,7 +383,8 @@ ol {
 }
 
 @media only screen and (max-width: 540px) {
-  .w1 {
+  .w1,
+  .project-title {
     width: 90%;
     margin-left: 5%;
   }
@@ -350,8 +397,11 @@ ol {
     margin-left: 0px;
   }
 
-  .w2,
-  .project-title {
+  .f1 {
+    margin-right: 0px;
+  }
+
+  .w2 {
     width: 90%;
     margin-left: 5%;
   }
@@ -362,6 +412,10 @@ ol {
 
   .p2 {
     margin-left: 0px;
+  }
+
+  .f2 {
+    margin-right: 0px;
   }
 
   .w3,
@@ -378,6 +432,10 @@ ol {
     margin-left: 0px;
   }
 
+  .f3 {
+    margin-right: 0px;
+  }
+
   .w4 {
     width: 90%;
     margin-left: 5%;
@@ -389,6 +447,10 @@ ol {
 
   .p4 {
     margin-left: 0px;
+  }
+
+  .f4 {
+    margin-right: 0px;
   }
 
   .w5 {
@@ -404,6 +466,10 @@ ol {
     margin-left: 0px;
   }
 
+  .f5 {
+    margin-right: 0px;
+  }
+
   .w6 {
     width: 90%;
     margin-left: 5%;
@@ -415,6 +481,10 @@ ol {
 
   .p6 {
     margin-left: 0px;
+  }
+
+  .f6 {
+    margin-right: 0px;
   }
 
   html {

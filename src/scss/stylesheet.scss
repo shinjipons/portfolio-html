@@ -32,6 +32,8 @@ $grid-col:                6;
 @mixin border { border-bottom: 1px solid $highlight-color; }
 
 @for $i from 1 through 6 {
+
+	// this sets the width of the element
 	.w#{$i} {
 		// code to remove the margins
 		padding: 0; // original value is 0
@@ -46,6 +48,8 @@ $grid-col:                6;
 			width: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * ( $i - 1 );
 		}
 	}
+
+	// this sets the width of the centered element
 	.c#{$i} {
 		display: block;
 		margin-left: auto;
@@ -60,6 +64,8 @@ $grid-col:                6;
 			width: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * ( $i - 1 );
 		}
 	}
+
+	// this pushes the element to the right by adding a left margin
 	.p#{$i} {
 		@media only screen and (max-width: $mobile-breakpoint) {
 			margin-left: 0px;
@@ -67,6 +73,16 @@ $grid-col:                6;
 		@media only screen and (min-width: $mobile-breakpoint + 1px) {
 			// push content by standard grid widths
 			margin-left: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * $i;
+		}
+	}
+
+	// this fills the space to the right of the element, to make the next element in the next grid row
+	.f#{$i} {
+		@media only screen and (max-width: $mobile-breakpoint) {
+			margin-right: 0px;
+		}
+		@media only screen and (min-width: $mobile-breakpoint + 1px) {
+			margin-right: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * $i;
 		}
 	}
 }
@@ -241,7 +257,7 @@ ol {
 
 // Classes specific for the project page
 .project-title {
-	@extend .w2;
+	@extend .w1;
 	@extend .medium;
 	&:after {
 		display: block;
@@ -261,4 +277,26 @@ ol {
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
 		margin-bottom: $line-height * 4;
 	}
+}
+
+// homepage card
+.card {
+	position: relative;
+	width: auto;
+	height: $site-size*2*14;
+	overflow: hidden;
+	margin-bottom: $site-size*1;
+	p {
+		color: $main-color;
+		position: absolute;
+		margin-top: $site-size*2;
+	}
+}
+
+.apple {
+	background-image: url("../../data/img/cad-sculptor/cad-sculptor-001.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: black;
 }
