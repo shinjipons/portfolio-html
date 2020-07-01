@@ -281,12 +281,15 @@ ol {
 
 // homepage card
 .card {
+	@extend .c6;
 	position: relative;
 	width: auto;
 	height: $site-size*2*14;
 	overflow: hidden;
 	margin-bottom: $site-size*1;
 	p {
+		@extend .p1;
+		@extend .w2;
 		color: $main-color;
 		position: absolute;
 		margin-top: $site-size*2;
