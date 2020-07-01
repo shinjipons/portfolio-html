@@ -233,7 +233,10 @@ ol {
   width: auto;
   height: 70rem;
   overflow: hidden;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .card p {
@@ -244,10 +247,22 @@ ol {
 
 .apple {
   background-image: url("../../data/img/cad-sculptor/cad-sculptor-001.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: black;
+}
+
+.subd {
+  background-image: url("../../data/img/subd/subd-005.jpg");
+  background-color: black;
+}
+
+.louvre {
+  background-image: url("../../data/img/louvre/louvre-cover.png");
+  background-color: black;
+}
+
+.modulo {
+  background-image: url("../../data/img/modulo/modulo-cover.png");
+  background-color: #000AFF;
 }
 
 @media only screen and (min-width: 541px) {
@@ -368,8 +383,17 @@ ol {
   }
 
   nav {
-    background: transparent;
     padding-top: 2.5rem;
+    background: transparent;
+    opacity: 0;
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+  }
+
+  nav:hover {
+    background: white;
+    opacity: 1;
+    transition-duration: 100ms;
   }
 
   nav a {
