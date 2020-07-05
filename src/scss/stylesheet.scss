@@ -1,8 +1,7 @@
 $font-family: "NBAkademieLight", sans-serif;
 @font-face {
 	font-family: "NBAkademieLight";
-	src: url("../../data/fonts/webfont.woff2") format("woff2"),
-		 url("../../data/fonts/webfont.woff")  format("woff");
+	src: url("../../data/fonts/webfont.woff2") format("woff2"), url("../../data/fonts/webfont.woff")  format("woff");
 }
 
 // Colors
@@ -32,11 +31,9 @@ $grid-col:                6;
 @mixin border { border-bottom: 1px solid $highlight-color; }
 
 @for $i from 1 through 6 {
-
-	// this sets the width of the element
 	.w#{$i} {
-		// code to remove the margins
-		padding: 0; // original value is 0
+		// this sets the width of the element
+		padding: 0; // code to remove the margins
 		margin-right: $grid-gap;
 		margin-bottom: 0.1rem;
 		float: left;
@@ -49,8 +46,8 @@ $grid-col:                6;
 		}
 	}
 
-	// this sets the width of the centered element
 	.c#{$i} {
+		// this sets the width of the centered element
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
@@ -60,24 +57,20 @@ $grid-col:                6;
 			width: 100%;
 		}
 		@media only screen and (min-width: $mobile-breakpoint + 1px) {
-			// centered grid widths
 			width: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * ( $i - 1 );
 		}
 	}
-
-	// this pushes the element to the right by adding a left margin
 	.p#{$i} {
+		// this pushes the element to the right by adding a left margin
 		@media only screen and (max-width: $mobile-breakpoint) {
 			margin-left: 0px;
 		}
 		@media only screen and (min-width: $mobile-breakpoint + 1px) {
-			// push content by standard grid widths
 			margin-left: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * $i;
 		}
 	}
-
-	// this fills the space to the right of the element, to make the next element in the next grid row
 	.f#{$i} {
+		// this fills the space to the right of the element, to make the next element in the next grid row
 		@media only screen and (max-width: $mobile-breakpoint) {
 			margin-right: 0px;
 		}
@@ -87,8 +80,8 @@ $grid-col:                6;
 	}
 }
 
-// General purpose and content section tags
 *, *:before, *:after {
+	// General purpose and content section tags
 	// remove the funny box model out of the box
 	box-sizing: inherit;
 }
@@ -193,8 +186,8 @@ video {
 	outline: none;
 }
 
-// Text
 p, h1 {
+	// Text
 	margin: 0;
 	display: block;
 	font-weight: normal;
@@ -214,8 +207,8 @@ a {
 	}
 }
 
-// Lists
 ul {
+	// Lists
 	list-style: none;
 	padding-left: 0;
 	margin-top: 0;
@@ -234,8 +227,8 @@ ol {
 	color: $accent-color;
 }
 
-// To modify the minimum height of some text blocks
-.tall   {
+.tall {
+	// To modify the minimum height of some text blocks
 	min-height: $line-height * 20;
 }
 
@@ -252,19 +245,19 @@ ol {
 	min-height: $line-height *  5;
 }
 
-// Style for the missing and yet to be filed projects in -list.php
 .missing {
+	// Style for the missing and yet to be filed projects in -list.php
 	color: lighten($accent-color, 60%);
 	cursor: not-allowed;
 }
 
-// Removes the last right margin to make row add to 100%
 .no-rm {
+	// Removes the last right margin to make row add to 100%
 	margin-right: 0;
 }
 
-// Classes specific for the project page
 .project-title {
+	// Classes specific for the project page
 	@extend .w1;
 	@extend .medium;
 	&:after {
@@ -287,14 +280,13 @@ ol {
 	}
 }
 
-// homepage card
 .card {
+	// homepage card
 	@extend .c6;
 	position: relative;
 	width: auto;
 	height: $site-size*2*14;
 	overflow: hidden;
-	// margin-bottom: $site-size*1;
 	margin-bottom: 1px;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -326,4 +318,9 @@ ol {
 .modulo {
 	background-image: url("../../data/img/modulo/modulo-cover.png");
 	background-color: #000AFF;
+}
+
+.nightclub {
+	background-image: url("../../data/img/nightclub/nightclub-007.jpg");
+	background-color: black;
 }

@@ -265,6 +265,11 @@ ol {
   background-color: #000AFF;
 }
 
+.nightclub {
+  background-image: url("../../data/img/nightclub/nightclub-007.jpg");
+  background-color: black;
+}
+
 @media only screen and (min-width: 541px) {
   .w1,
   .project-title {
