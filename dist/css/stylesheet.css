@@ -246,7 +246,7 @@ ol {
 }
 
 .apple {
-  background-image: url("../../data/img/cad-sculptor/cad-sculptor-001.jpg");
+  background-image: url("../../data/img/cad-sculptor-raw/cad-sculptor-001.jpg");
   background-color: black;
 }
 
@@ -261,12 +261,17 @@ ol {
 }
 
 .modulo {
-  background-image: url("../../data/img/modulo/modulo-cover.png");
-  background-color: #000AFF;
+  background-image: url("../../data/img/modulo-raw/modulo-cover.png");
+  background-color: black;
 }
 
 .nightclub {
   background-image: url("../../data/img/nightclub/nightclub-007.jpg");
+  background-color: black;
+}
+
+.dynamo {
+  background-image: url("../../data/img/dynamo/dynamo-cover.png");
   background-color: black;
 }
 
@@ -377,14 +382,14 @@ ol {
   }
 
   body {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin-left: 4%;
+    margin-right: 4%;
     padding-top: 15rem;
   }
 
   nav,
   footer {
-    width: 95%;
+    width: 92%;
   }
 
   nav {

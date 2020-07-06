@@ -13,15 +13,13 @@ $highlight-color: red;
 $mobile-breakpoint: 540px;
 
 // Site spacing desktop
-$site-margin:             2.5%;
-$site-size:               2.5rem;
-$line-height:             1.2 * $site-size;
-$site-padding-top:        4.0 * $site-size;
-
-// Site spacing mobile
+$site-margin:             4%;
 $site-margin-mobile:      5%;
+$site-size:               2.5rem; // absolute value for gaps between things vertically
 $site-size-mobile:        2.0rem;
+$line-height:             1.2 * $site-size;
 $line-height-mobile:      1.2 * $site-size-mobile;
+$site-padding-top:        4.0 * $site-size;
 $site-padding-top-mobile: 1.0 * $site-size-mobile;
 
 // Grid settings (except margin)
@@ -301,26 +299,32 @@ ol {
 }
 
 .apple {
-	background-image: url("../../data/img/cad-sculptor/cad-sculptor-001.jpg");
-	background-color: black;
+	background-image: url("../../data/img/cad-sculptor-raw/cad-sculptor-001.jpg");
+	background-color: $accent-color;
 }
 
 .subd {
 	background-image: url("../../data/img/subd/subd-005.jpg");
-	background-color: black;
+	background-color: $accent-color;
 }
 
 .louvre {
 	background-image: url("../../data/img/louvre/louvre-cover.png");
-	background-color: black;
+	background-color: $accent-color;
 }
 
 .modulo {
-	background-image: url("../../data/img/modulo/modulo-cover.png");
-	background-color: #000AFF;
+	background-image: url("../../data/img/modulo-raw/modulo-cover.png");
+	background-color: $accent-color;
 }
 
 .nightclub {
 	background-image: url("../../data/img/nightclub/nightclub-007.jpg");
-	background-color: black;
+	background-color: $accent-color;
+	// background-size: cover;
+}
+
+.dynamo {
+	background-image: url("../../data/img/dynamo/dynamo-cover.png");
+	background-color: $accent-color;
 }
