@@ -19,7 +19,7 @@ $site-size:               2.5rem; // absolute value for gaps between things vert
 $site-size-mobile:        2.0rem;
 $line-height:             1.2 * $site-size;
 $line-height-mobile:      1.2 * $site-size-mobile;
-$site-padding-top:        4.0 * $site-size;
+$site-padding-top:        3.4 * $site-size;
 $site-padding-top-mobile: 1.0 * $site-size-mobile;
 
 // Grid settings (except margin)
@@ -99,14 +99,14 @@ body {
 	font-family: $font-family;
 	font-size: $site-size;
 	@media only screen and (max-width: $mobile-breakpoint) {
-		margin-left: 0px;
+		margin-left:  0px;
 		margin-right: 0px;
-		padding-top: $site-padding-top + $site-size-mobile;
+		padding-top:  $site-padding-top + $site-size-mobile;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		margin-left: $site-margin;
+		margin-left:  $site-margin;
 		margin-right: $site-margin;
-		padding-top: $site-padding-top + $site-size * 2;
+		padding-top:  $site-padding-top + $site-size * 2;
 	}
 }
 
@@ -133,8 +133,8 @@ nav {
 		padding-top: $site-size * 0.9;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		padding-top: $site-size;
 		background: $primary-color;
+		padding-top: $site-size;
 	}
 	a {
 		color: $secondary-color;

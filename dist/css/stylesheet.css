@@ -127,7 +127,7 @@ footer {
 
 nav {
   top: 0;
-  height: 10rem;
+  height: 8.5rem;
 }
 
 nav a {
@@ -135,7 +135,7 @@ nav a {
 }
 
 footer {
-  height: 10rem;
+  height: 8.5rem;
   padding-top: 2.5rem;
   bottom: 0;
   padding-bottom: 0;
@@ -406,13 +406,13 @@ ol {
   }
 
   html {
-    padding-bottom: 15rem;
+    padding-bottom: 13.5rem;
   }
 
   body {
     margin-left: 4%;
     margin-right: 4%;
-    padding-top: 15rem;
+    padding-top: 13.5rem;
   }
 
   nav,
@@ -421,8 +421,8 @@ ol {
   }
 
   nav {
-    padding-top: 2.5rem;
     background: #FFFFFF;
+    padding-top: 2.5rem;
   }
 
   nav a {
@@ -560,7 +560,7 @@ ol {
   body {
     margin-left: 0px;
     margin-right: 0px;
-    padding-top: 12rem;
+    padding-top: 10.5rem;
   }
 
   nav,
