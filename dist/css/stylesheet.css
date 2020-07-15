@@ -107,7 +107,7 @@
 
 html {
   box-sizing: border-box;
-  background: white;
+  background: #FFFFFF;
   font-size: 10px;
   overflow-y: scroll;
 }
@@ -240,9 +240,10 @@ ol {
 }
 
 .card p {
-  color: white;
+  color: #FFFFFF;
   position: absolute;
   margin-top: 5rem;
+  text-shadow: 0px 0px 4px black;
 }
 
 .apple {
@@ -272,6 +273,16 @@ ol {
 
 .dynamo {
   background-image: url("../../data/img/dynamo-raw/test-current-window.jpg");
+  background-color: black;
+}
+
+.urbantorque {
+  background-image: url("../../data/img/urbantorque-raw/urbantorque-cover.jpg");
+  background-color: black;
+}
+
+.bowie {
+  background-image: url("../../data/img/bowie-raw/bowie-2.jpg");
   background-color: black;
 }
 
@@ -394,16 +405,7 @@ ol {
 
   nav {
     padding-top: 2.5rem;
-    background: transparent;
-    opacity: 0;
-    transition-duration: 400ms;
-    transition-timing-function: ease-in-out;
-  }
-
-  nav:hover {
-    background: white;
-    opacity: 1;
-    transition-duration: 100ms;
+    background: #FFFFFF;
   }
 
   nav a {
@@ -418,6 +420,10 @@ ol {
 
   .project-description {
     margin-bottom: 12rem;
+  }
+
+  .card {
+    border: 3rem solid black;
   }
 }
 
@@ -545,7 +551,7 @@ ol {
   }
 
   nav {
-    background: white;
+    background: #FFFFFF;
     box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
     padding-top: 2.25rem;
   }
@@ -566,5 +572,9 @@ ol {
 
   .project-description {
     margin-bottom: 0rem;
+  }
+
+  .card {
+    border: 2.4rem solid black;
   }
 }

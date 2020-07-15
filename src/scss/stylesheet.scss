@@ -5,8 +5,8 @@ $font-family: "NBAkademieLight", sans-serif;
 }
 
 // Colors
-$main-color: white;
-$accent-color: invert($main-color);
+$primary-color: #FFFFFF;
+$secondary-color: invert($primary-color);
 $highlight-color: red;
 
 // Breakpoint
@@ -25,8 +25,6 @@ $site-padding-top-mobile: 1.0 * $site-size-mobile;
 // Grid settings (except margin)
 $grid-gap:                2%;
 $grid-col:                6;
-
-@mixin border { border-bottom: 1px solid $highlight-color; }
 
 @for $i from 1 through 6 {
 	.w#{$i} {
@@ -86,7 +84,7 @@ $grid-col:                6;
 
 html {
 	box-sizing: border-box;
-	background: $main-color;
+	background: $primary-color;
 	font-size: 10px;
 	overflow-y: scroll; // to force scrollbar on all pages
 	@media only screen and (max-width: $mobile-breakpoint) {
@@ -130,24 +128,16 @@ nav {
 	top: 0;
 	height: $site-padding-top;
 	@media only screen and (max-width: $mobile-breakpoint) {
-		background: $main-color;
+		background: $primary-color;
 		box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.2);
 		padding-top: $site-size * 0.9;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
 		padding-top: $site-size;
-		background: transparent;
-		opacity: 0;
-		transition-duration: 400ms;
-		transition-timing-function: ease-in-out;
-		&:hover {
-			background: $main-color;
-			opacity: 1;
-			transition-duration: 100ms;
-		}
+		background: $primary-color;
 	}
 	a {
-		color: $accent-color;
+		color: $secondary-color;
 		@media only screen and (max-width: $mobile-breakpoint) {
 			margin-right: $line-height-mobile * 0.25;
 		}
@@ -166,9 +156,9 @@ footer {
 		display: none;
 	}
 	a {
-		color: $accent-color;
+		color: $secondary-color;
 		&:hover {
-			color: invert($main-color);
+			color: invert($primary-color);
 			border: none;
 		}
 	}
@@ -191,7 +181,7 @@ p, h1 {
 	font-weight: normal;
 	word-wrap: break-word;
 	font-family: $font-family;
-	color: $accent-color;
+	color: $secondary-color;
 	font-size: $site-size;
 	line-height: $line-height;
 	margin-bottom: $line-height * 1;
@@ -206,13 +196,12 @@ a {
 }
 
 ul {
-	// Lists
 	list-style: none;
 	padding-left: 0;
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: $line-height;
-	color: $accent-color;
+	color: $secondary-color;
 	&:after {
 		content: "—";
 		display: block;
@@ -222,7 +211,7 @@ ul {
 
 ol {
 	padding-left: 0;
-	color: $accent-color;
+	color: $secondary-color;
 }
 
 .tall {
@@ -245,7 +234,7 @@ ol {
 
 .missing {
 	// Style for the missing and yet to be filed projects in -list.php
-	color: lighten($accent-color, 60%);
+	color: lighten($secondary-color, 60%);
 	cursor: not-allowed;
 }
 
@@ -292,40 +281,55 @@ ol {
 	p {
 		@extend .p1;
 		@extend .w2;
-		color: $main-color;
+		color: $primary-color;
 		position: absolute;
 		margin-top: $site-size*2;
+		text-shadow: 0px 0px 4px $secondary-color;
+	}
+	@media only screen and (max-width: $mobile-breakpoint) {
+		border: $line-height-mobile solid $secondary-color;
+	}
+	@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		border: $line-height solid $secondary-color;
 	}
 }
 
 .apple {
 	background-image: url("../../data/img/cad-sculptor-raw/cad-sculptor-001.jpg");
-	background-color: $accent-color;
+	background-color: $secondary-color;
 }
 
 .subd {
 	background-image: url("../../data/img/subd/subd-005.jpg");
-	background-color: $accent-color;
+	background-color: $secondary-color;
 }
 
 .louvre {
 	background-image: url("../../data/img/louvre/louvre-cover.png");
-	background-color: $accent-color;
+	background-color: $secondary-color;
 }
 
 .modulo {
 	background-image: url("../../data/img/modulo-raw/modulo-cover.png");
-	background-color: $accent-color;
+	background-color: $secondary-color;
 }
 
 .nightclub {
 	background-image: url("../../data/img/nightclub/nightclub-007.jpg");
-	background-color: $accent-color;
-	// background-size: cover;
+	background-color: $secondary-color;
 }
 
 .dynamo {
-	// background-image: url("../../data/img/dynamo-raw/blender-export.png");
 	background-image: url("../../data/img/dynamo-raw/test-current-window.jpg");
-	background-color: $accent-color;
+	background-color: $secondary-color;
+}
+
+.urbantorque {
+	background-image: url("../../data/img/urbantorque-raw/urbantorque-cover.jpg");
+	background-color: $secondary-color;
+}
+
+.bowie {
+	background-image: url("../../data/img/bowie-raw/bowie-2.jpg");
+	background-color: $secondary-color;
 }
