@@ -245,7 +245,7 @@ ol {
 }
 
 .apple {
-  background-image: url("../../data/img/cad-sculptor-raw/cad-sculptor-001.jpg");
+  background-image: url("../../data/img/cad-sculptor/cad-sculptor-001.jpg");
 }
 
 .subd {
@@ -257,7 +257,7 @@ ol {
 }
 
 .modulo {
-  background-image: url("../../data/img/modulo-raw/modulo-cover.png");
+  background-image: url("../../data/img/modulo/modulo-cover.png");
 }
 
 .nightclub {
@@ -265,15 +265,15 @@ ol {
 }
 
 .dynamo {
-  background-image: url("../../data/img/dynamo-raw/test-current-window.jpg");
+  background-image: url("../../data/img/dynamo/dynamo-cover.png");
 }
 
 .urbantorque {
-  background-image: url("../../data/img/urbantorque-raw/urbantorque-cover.jpg");
+  background-image: url("../../data/img/urbantorque/urbantorque-cover.jpg");
 }
 
 .bowie {
-  background-image: url("../../data/img/bowie-raw/bowie-2.jpg");
+  background-image: url("../../data/img/bowie/bowie-2.jpg");
 }
 
 .basiljs {
@@ -293,7 +293,7 @@ ol {
 }
 
 .mayhem {
-  background-image: url("../../data/img/mayhem-raw/mayhem-001-1.svg");
+  background-image: url("../../data/img/mayhem/mayhem-001.svg");
 }
 
 .mos {

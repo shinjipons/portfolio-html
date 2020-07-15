@@ -278,7 +278,6 @@ ol {
 	margin-bottom: 1px;
 	background-repeat: no-repeat;
 	background-position: center;
-	
 	p {
 		@extend .p1;
 		@extend .w2;
@@ -290,7 +289,7 @@ ol {
 	@media only screen and (max-width: $mobile-breakpoint) {
 		border-top:    $line-height-mobile solid $secondary-color;
 		border-bottom: $line-height-mobile solid $secondary-color;
-		height: $site-size * 1 * 14;
+		height:  	   $site-size * 1 * 14;
 		background-size: contain;
 		p {
 			visibility: hidden;
@@ -299,13 +298,13 @@ ol {
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
 		border-top:    $line-height solid $secondary-color;
 		border-bottom: $line-height solid $secondary-color;
-		height: $site-size * 2 * 14;
+		height:    	   $site-size * 2 * 14;
 		background-size: contain;
 	}
 }
 
 .apple { 
-	background-image: url("../../data/img/cad-sculptor-raw/cad-sculptor-001.jpg");
+	background-image: url("../../data/img/cad-sculptor/cad-sculptor-001.jpg");
 }
 .subd { 
 	background-image: url("../../data/img/subd/subd-005.jpg");
@@ -314,19 +313,19 @@ ol {
 	background-image: url("../../data/img/louvre/louvre-cover.png");
 }
 .modulo { 
-	background-image: url("../../data/img/modulo-raw/modulo-cover.png");
+	background-image: url("../../data/img/modulo/modulo-cover.png");
 }
 .nightclub { 
 	background-image: url("../../data/img/nightclub/nightclub-007.jpg");
 }
 .dynamo { 
-	background-image: url("../../data/img/dynamo-raw/test-current-window.jpg");
+	background-image: url("../../data/img/dynamo/dynamo-cover.png");
 }
 .urbantorque { 
-	background-image: url("../../data/img/urbantorque-raw/urbantorque-cover.jpg");
+	background-image: url("../../data/img/urbantorque/urbantorque-cover.jpg");
 }
 .bowie { 
-	background-image: url("../../data/img/bowie-raw/bowie-2.jpg");
+	background-image: url("../../data/img/bowie/bowie-2.jpg");
 }
 .basiljs {
 	background-image: url("../../data/img/basiljs/basiljs-011.jpg");
@@ -341,7 +340,7 @@ ol {
 	background-image: url("../../data/img/clay/clay-007.jpg");
 }
 .mayhem {
-	background-image: url("../../data/img/mayhem-raw/mayhem-001-1.svg");
+	background-image: url("../../data/img/mayhem/mayhem-001.svg");
 }
 .mos {
 	background-image: url("../../data/img/mos/mos-001.png");
