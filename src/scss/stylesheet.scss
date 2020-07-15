@@ -10,7 +10,7 @@ $secondary-color: invert($primary-color);
 $highlight-color: red;
 
 // Breakpoint
-$mobile-breakpoint: 540px;
+$mobile-breakpoint: 960px;
 
 // Site spacing desktop
 $site-margin:             4%;
@@ -126,13 +126,14 @@ nav, footer {
 
 nav {
 	top: 0;
-	height: $site-padding-top;
 	@media only screen and (max-width: $mobile-breakpoint) {
+		height: $site-padding-top-mobile * 6;
 		background: $primary-color;
 		box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.2);
-		padding-top: $site-size * 0.9;
+		padding-top: $site-size * 1;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		height: $site-padding-top;
 		background: $primary-color;
 		padding-top: $site-size;
 	}
@@ -272,13 +273,12 @@ ol {
 	@extend .c6;
 	position: relative;
 	width: auto;
-	height: $site-size * 2 * 14;
+	background-color: $secondary-color;
 	overflow: hidden;
 	margin-bottom: 1px;
-	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: $secondary-color;
+	
 	p {
 		@extend .p1;
 		@extend .w2;
@@ -290,10 +290,17 @@ ol {
 	@media only screen and (max-width: $mobile-breakpoint) {
 		border-top:    $line-height-mobile solid $secondary-color;
 		border-bottom: $line-height-mobile solid $secondary-color;
+		height: $site-size * 1 * 14;
+		background-size: contain;
+		p {
+			visibility: hidden;
+		}
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
 		border-top:    $line-height solid $secondary-color;
 		border-bottom: $line-height solid $secondary-color;
+		height: $site-size * 2 * 14;
+		background-size: contain;
 	}
 }
 
