@@ -1,40 +1,35 @@
 $font-family: "NBAkademieLight", sans-serif;
 @font-face {
 	font-family: "NBAkademieLight";
-	src: url("../../data/fonts/webfont.woff2") format("woff2"),
-		 url("../../data/fonts/webfont.woff")  format("woff");
+	src: url("../../data/fonts/webfont.woff2") format("woff2"), url("../../data/fonts/webfont.woff")  format("woff");
 }
 
 // Colors
-$main-color: white;
-$accent-color: invert($main-color);
+$primary-color: #FFFFFF;
+$secondary-color: invert($primary-color);
 $highlight-color: red;
 
 // Breakpoint
-$mobile-breakpoint: 540px;
+$mobile-breakpoint: 960px;
 
 // Site spacing desktop
-$site-margin:             2.5%;
-$site-size:               2.5rem;
-$line-height:             1.2 * $site-size;
-$site-padding-top:        4.0 * $site-size;
-
-// Site spacing mobile
+$site-margin:             4%;
 $site-margin-mobile:      5%;
+$site-size:               2.5rem; // absolute value for gaps between things vertically
 $site-size-mobile:        2.0rem;
+$line-height:             1.2 * $site-size;
 $line-height-mobile:      1.2 * $site-size-mobile;
+$site-padding-top:        3.4 * $site-size;
 $site-padding-top-mobile: 1.0 * $site-size-mobile;
 
 // Grid settings (except margin)
 $grid-gap:                2%;
 $grid-col:                6;
 
-@mixin border { border-bottom: 1px solid $highlight-color; }
-
 @for $i from 1 through 6 {
 	.w#{$i} {
-		// code to remove the margins
-		padding: 0;
+		// this sets the width of the element
+		padding: 0; // code to remove the margins
 		margin-right: $grid-gap;
 		margin-bottom: 0.1rem;
 		float: left;
@@ -46,7 +41,9 @@ $grid-col:                6;
 			width: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * ( $i - 1 );
 		}
 	}
+
 	.c#{$i} {
+		// this sets the width of the centered element
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
@@ -56,30 +53,38 @@ $grid-col:                6;
 			width: 100%;
 		}
 		@media only screen and (min-width: $mobile-breakpoint + 1px) {
-			// centered grid widths
 			width: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * ( $i - 1 );
 		}
 	}
 	.p#{$i} {
+		// this pushes the element to the right by adding a left margin
 		@media only screen and (max-width: $mobile-breakpoint) {
 			margin-left: 0px;
 		}
 		@media only screen and (min-width: $mobile-breakpoint + 1px) {
-			// push content by standard grid widths
 			margin-left: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * $i;
+		}
+	}
+	.f#{$i} {
+		// this fills the space to the right of the element, to make the next element in the next grid row
+		@media only screen and (max-width: $mobile-breakpoint) {
+			margin-right: 0px;
+		}
+		@media only screen and (min-width: $mobile-breakpoint + 1px) {
+			margin-right: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * $i;
 		}
 	}
 }
 
-// General purpose and content section tags
 *, *:before, *:after {
+	// General purpose and content section tags
 	// remove the funny box model out of the box
 	box-sizing: inherit;
 }
 
 html {
 	box-sizing: border-box;
-	background: $main-color;
+	background: $primary-color;
 	font-size: 10px;
 	overflow-y: scroll; // to force scrollbar on all pages
 	@media only screen and (max-width: $mobile-breakpoint) {
@@ -94,14 +99,14 @@ body {
 	font-family: $font-family;
 	font-size: $site-size;
 	@media only screen and (max-width: $mobile-breakpoint) {
-		margin-left: 0px;
+		margin-left:  0px;
 		margin-right: 0px;
-		padding-top: $site-padding-top + $site-size-mobile;
+		padding-top:  $site-padding-top + $site-size-mobile;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		margin-left: $site-margin;
+		margin-left:  $site-margin;
 		margin-right: $site-margin;
-		padding-top: $site-padding-top + $site-size * 2;
+		padding-top:  $site-padding-top + $site-size * 2;
 	}
 }
 
@@ -121,18 +126,19 @@ nav, footer {
 
 nav {
 	top: 0;
-	height: $site-padding-top;
 	@media only screen and (max-width: $mobile-breakpoint) {
-		background: $main-color;
+		height: $site-padding-top-mobile * 6;
+		background: $primary-color;
 		box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.2);
-		padding-top: $site-size * 0.9;
+		padding-top: $site-size * 1;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		background: transparent;
+		height: $site-padding-top;
+		background: $primary-color;
 		padding-top: $site-size;
 	}
 	a {
-		color: $accent-color;
+		color: $secondary-color;
 		@media only screen and (max-width: $mobile-breakpoint) {
 			margin-right: $line-height-mobile * 0.25;
 		}
@@ -151,9 +157,9 @@ footer {
 		display: none;
 	}
 	a {
-		color: $accent-color;
+		color: $secondary-color;
 		&:hover {
-			color: invert($main-color);
+			color: invert($primary-color);
 			border: none;
 		}
 	}
@@ -169,14 +175,14 @@ video {
 	outline: none;
 }
 
-// Text
 p, h1 {
+	// Text
 	margin: 0;
 	display: block;
 	font-weight: normal;
 	word-wrap: break-word;
 	font-family: $font-family;
-	color: $accent-color;
+	color: $secondary-color;
 	font-size: $site-size;
 	line-height: $line-height;
 	margin-bottom: $line-height * 1;
@@ -190,14 +196,13 @@ a {
 	}
 }
 
-// Lists
 ul {
 	list-style: none;
 	padding-left: 0;
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: $line-height;
-	color: $accent-color;
+	color: $secondary-color;
 	&:after {
 		content: "—";
 		display: block;
@@ -207,11 +212,11 @@ ul {
 
 ol {
 	padding-left: 0;
-	color: $accent-color;
+	color: $secondary-color;
 }
 
-// To modify the minimum height of some text blocks
-.tall   {
+.tall {
+	// To modify the minimum height of some text blocks
 	min-height: $line-height * 20;
 }
 
@@ -228,20 +233,20 @@ ol {
 	min-height: $line-height *  5;
 }
 
-// Style for the missing and yet to be filed projects in -list.php
 .missing {
-	color: lighten($accent-color, 60%);
+	// Style for the missing and yet to be filed projects in -list.php
+	color: lighten($secondary-color, 60%);
 	cursor: not-allowed;
 }
 
-// Removes the last right margin to make row add to 100%
 .no-rm {
+	// Removes the last right margin to make row add to 100%
 	margin-right: 0;
 }
 
-// Classes specific for the project page
 .project-title {
-	@extend .w2;
+	// Classes specific for the project page
+	@extend .w1;
 	@extend .medium;
 	&:after {
 		display: block;
@@ -261,4 +266,82 @@ ol {
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
 		margin-bottom: $line-height * 4;
 	}
+}
+
+.card {
+	// homepage card
+	@extend .c6;
+	position: relative;
+	width: auto;
+	background-color: $secondary-color;
+	overflow: hidden;
+	margin-bottom: 1px;
+	background-repeat: no-repeat;
+	background-position: center;
+	p {
+		@extend .p1;
+		@extend .w2;
+		color: $primary-color;
+		position: absolute;
+		margin-top: $site-size * 2;
+		text-shadow: 0rem 0rem 0.5rem $secondary-color;
+	}
+	@media only screen and (max-width: $mobile-breakpoint) {
+		border-top:    $line-height-mobile solid $secondary-color;
+		border-bottom: $line-height-mobile solid $secondary-color;
+		height:  	   $site-size * 1 * 14;
+		background-size: contain;
+		p {
+			visibility: hidden;
+		}
+	}
+	@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		border-top:    $line-height solid $secondary-color;
+		border-bottom: $line-height solid $secondary-color;
+		height:    	   $site-size * 2 * 14;
+		background-size: contain;
+	}
+}
+
+.apple { 
+	background-image: url("../../data/img/cad-sculptor/cad-sculptor-001.jpg");
+}
+.subd { 
+	background-image: url("../../data/img/subd/subd-005.jpg");
+}
+.louvre { 
+	background-image: url("../../data/img/louvre/louvre-cover.png");
+}
+.modulo { 
+	background-image: url("../../data/img/modulo/modulo-cover.png");
+}
+.nightclub { 
+	background-image: url("../../data/img/nightclub/nightclub-007.jpg");
+}
+.dynamo { 
+	background-image: url("../../data/img/dynamo/dynamo-cover.png");
+}
+.urbantorque { 
+	background-image: url("../../data/img/urbantorque/urbantorque-cover.jpg");
+}
+.bowie { 
+	background-image: url("../../data/img/bowie/bowie-2.jpg");
+}
+.basiljs {
+	background-image: url("../../data/img/basiljs/basiljs-011.jpg");
+}
+.doty {
+	background-image: url("../../data/img/doty/doty-cover.png");
+}
+.business-card {
+	background-image: url("../../data/img/business-card/business-card-001.jpg");
+}
+.clay {
+	background-image: url("../../data/img/clay/clay-007.jpg");
+}
+.mayhem {
+	background-image: url("../../data/img/mayhem/mayhem-001.svg");
+}
+.mos {
+	background-image: url("../../data/img/mos/mos-001.png");
 }

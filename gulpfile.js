@@ -1,7 +1,8 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync');
-var php = require('gulp-connect-php');
+// var php = require('gulp-connect-php');
+var fileinclude = require('gulp-file-include');
 var plumber = require('gulp-plumber');
 var notify = require('gulp-notify');
 var beeper = require('beeper');
@@ -16,20 +17,26 @@ gulp.task('css', function() {
     .pipe(browserSync.reload({stream:true}));
 });
 
+gulp.task('fileinclude', async function() {
+  gulp.src(['./src/html/**/*'])
+    .pipe(fileinclude({
+      prefix: '@@',
+      basepath: '@file'
+    }))
+    .pipe(gulp.dest('./'));
+});
+
 gulp.task('default', function() {
-  php.server({
-    port: 8000,
-    keepalive: true // default was true
-  }, function() {
-    browserSync({
-      proxy: '127.0.0.1:8000'
-    });
+  browserSync.init({
+    server: {
+      baseDir: "./"
+    }
   });
 
-  gulp.watch('*.php').on('change', function() {
-    browserSync.reload();
-  });
+  // once processed, browserSync will reload them
+  gulp.watch('./src/html/**/*', gulp.series('fileinclude')).on('change', function() {browserSync.reload()});
 
+  // watch, compile and stream the CSS
   gulp.watch('src/scss/stylesheet.scss', gulp.series('css'));
 });
 
