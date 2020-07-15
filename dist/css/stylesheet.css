@@ -237,53 +237,70 @@ ol {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: black;
 }
 
 .card p {
   color: #FFFFFF;
   position: absolute;
   margin-top: 5rem;
-  text-shadow: 0px 0px 4px black;
+  text-shadow: 0rem 0rem 0.5rem black;
 }
 
 .apple {
   background-image: url("../../data/img/cad-sculptor-raw/cad-sculptor-001.jpg");
-  background-color: black;
 }
 
 .subd {
   background-image: url("../../data/img/subd/subd-005.jpg");
-  background-color: black;
 }
 
 .louvre {
   background-image: url("../../data/img/louvre/louvre-cover.png");
-  background-color: black;
 }
 
 .modulo {
   background-image: url("../../data/img/modulo-raw/modulo-cover.png");
-  background-color: black;
 }
 
 .nightclub {
   background-image: url("../../data/img/nightclub/nightclub-007.jpg");
-  background-color: black;
 }
 
 .dynamo {
   background-image: url("../../data/img/dynamo-raw/test-current-window.jpg");
-  background-color: black;
 }
 
 .urbantorque {
   background-image: url("../../data/img/urbantorque-raw/urbantorque-cover.jpg");
-  background-color: black;
 }
 
 .bowie {
   background-image: url("../../data/img/bowie-raw/bowie-2.jpg");
-  background-color: black;
+}
+
+.basiljs {
+  background-image: url("../../data/img/basiljs/basiljs-011.jpg");
+}
+
+.doty {
+  background-image: url("../../data/img/doty/doty-cover.png");
+}
+
+.business-card {
+  background-image: url("../../data/img/business-card/business-card-001.jpg");
+}
+
+.clay {
+  background-image: url("../../data/img/clay/clay-007.jpg");
+}
+
+.mayhem {
+  background-image: url("../../data/img/mayhem-raw/mayhem-001-1.svg");
+}
+
+.mos {
+  background-image: url("../../data/img/mos/mos-001.png");
 }
 
 @media only screen and (min-width: 541px) {
@@ -423,7 +440,8 @@ ol {
   }
 
   .card {
-    border: 3rem solid black;
+    border-top: 3rem solid black;
+    border-bottom: 3rem solid black;
   }
 }
 
@@ -575,6 +593,7 @@ ol {
   }
 
   .card {
-    border: 2.4rem solid black;
+    border-top: 2.4rem solid black;
+    border-bottom: 2.4rem solid black;
   }
 }

@@ -272,64 +272,70 @@ ol {
 	@extend .c6;
 	position: relative;
 	width: auto;
-	height: $site-size*2*14;
+	height: $site-size * 2 * 14;
 	overflow: hidden;
 	margin-bottom: 1px;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-color: $secondary-color;
 	p {
 		@extend .p1;
 		@extend .w2;
 		color: $primary-color;
 		position: absolute;
-		margin-top: $site-size*2;
-		text-shadow: 0px 0px 4px $secondary-color;
+		margin-top: $site-size * 2;
+		text-shadow: 0rem 0rem 0.5rem $secondary-color;
 	}
 	@media only screen and (max-width: $mobile-breakpoint) {
-		border: $line-height-mobile solid $secondary-color;
+		border-top:    $line-height-mobile solid $secondary-color;
+		border-bottom: $line-height-mobile solid $secondary-color;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		border: $line-height solid $secondary-color;
+		border-top:    $line-height solid $secondary-color;
+		border-bottom: $line-height solid $secondary-color;
 	}
 }
 
-.apple {
+.apple { 
 	background-image: url("../../data/img/cad-sculptor-raw/cad-sculptor-001.jpg");
-	background-color: $secondary-color;
 }
-
-.subd {
+.subd { 
 	background-image: url("../../data/img/subd/subd-005.jpg");
-	background-color: $secondary-color;
 }
-
-.louvre {
+.louvre { 
 	background-image: url("../../data/img/louvre/louvre-cover.png");
-	background-color: $secondary-color;
 }
-
-.modulo {
+.modulo { 
 	background-image: url("../../data/img/modulo-raw/modulo-cover.png");
-	background-color: $secondary-color;
 }
-
-.nightclub {
+.nightclub { 
 	background-image: url("../../data/img/nightclub/nightclub-007.jpg");
-	background-color: $secondary-color;
 }
-
-.dynamo {
+.dynamo { 
 	background-image: url("../../data/img/dynamo-raw/test-current-window.jpg");
-	background-color: $secondary-color;
 }
-
-.urbantorque {
+.urbantorque { 
 	background-image: url("../../data/img/urbantorque-raw/urbantorque-cover.jpg");
-	background-color: $secondary-color;
 }
-
-.bowie {
+.bowie { 
 	background-image: url("../../data/img/bowie-raw/bowie-2.jpg");
-	background-color: $secondary-color;
+}
+.basiljs {
+	background-image: url("../../data/img/basiljs/basiljs-011.jpg");
+}
+.doty {
+	background-image: url("../../data/img/doty/doty-cover.png");
+}
+.business-card {
+	background-image: url("../../data/img/business-card/business-card-001.jpg");
+}
+.clay {
+	background-image: url("../../data/img/clay/clay-007.jpg");
+}
+.mayhem {
+	background-image: url("../../data/img/mayhem-raw/mayhem-001-1.svg");
+}
+.mos {
+	background-image: url("../../data/img/mos/mos-001.png");
 }
