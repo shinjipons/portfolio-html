@@ -7,13 +7,15 @@ var notify = require('gulp-notify');
 var beeper = require('beeper');
 var gcmq = require('gulp-group-css-media-queries');
 var cleanCSS = require('gulp-clean-css');
+var purgecss = require('gulp-purgecss');
 
 gulp.task('css', function() {
   return gulp.src('src/scss/stylesheet.scss')
     .pipe(plumbError())    
     .pipe(sass())
-    .pipe(gcmq())
-    .pipe(cleanCSS())
+      .pipe(purgecss({content:['*.html']}))
+      .pipe(gcmq())
+      .pipe(cleanCSS())
     .pipe(gulp.dest('dist/css/'))
     .pipe(browserSync.reload({stream:true}));
 });
