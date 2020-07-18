@@ -101,7 +101,7 @@ body {
 	@media only screen and (max-width: $mobile-breakpoint) {
 		margin-left:  0px;
 		margin-right: 0px;
-		padding-top:  $site-padding-top + $site-size-mobile;
+		padding-top:  $site-padding-top-mobile * 3 + $site-size-mobile;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
 		margin-left:  $site-margin;
@@ -127,7 +127,7 @@ nav, footer {
 nav {
 	top: 0;
 	@media only screen and (max-width: $mobile-breakpoint) {
-		height: $site-padding-top-mobile * 6;
+		height: $site-padding-top-mobile * 4;
 		background: $primary-color;
 		box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.2);
 		padding-top: $site-size * 1;
@@ -344,4 +344,21 @@ ol {
 }
 .mos {
 	background-image: url("../../data/img/mos/mos-001.png");
+}
+
+.desktop-only {
+	@media only screen and (max-width: $mobile-breakpoint) {
+		display: none;
+	}
+	@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		display: inline-block;
+	}
+}
+.mobile-only {
+	@media only screen and (max-width: $mobile-breakpoint) {
+		display: inline-block;
+	}
+	@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		display: none;
+	}
 }
