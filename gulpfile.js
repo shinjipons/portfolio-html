@@ -1,7 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync');
-// var php = require('gulp-connect-php');
 var fileinclude = require('gulp-file-include');
 var plumber = require('gulp-plumber');
 var notify = require('gulp-notify');
@@ -11,8 +10,10 @@ var gcmq = require('gulp-group-css-media-queries');
 gulp.task('css', function() {
   return gulp.src('src/scss/stylesheet.scss')
     .pipe(plumbError())
+    
     .pipe(sass())
     .pipe(gcmq())
+
     .pipe(gulp.dest('dist/css/'))
     .pipe(browserSync.reload({stream:true}));
 });
