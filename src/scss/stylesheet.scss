@@ -345,6 +345,9 @@ ol {
 .mos {
 	background-image: url("../../data/img/mos/mos-001.png");
 }
+.alias {
+	background-image: url("../../data/img/alias-raw/heatspreader-000.png");
+}
 
 .desktop-only {
 	@media only screen and (max-width: $mobile-breakpoint) {
