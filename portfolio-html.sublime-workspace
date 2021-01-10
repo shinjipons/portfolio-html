@@ -519,6 +519,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/html/alias.html",
+			"settings":
+			{
+				"buffer_size": 651,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -606,10 +615,6 @@
 	"expanded_folders":
 	[
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img/alias",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img/alias-raw",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss"
@@ -747,7 +752,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -788,8 +793,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/html/alias.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								483,
+								483
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
