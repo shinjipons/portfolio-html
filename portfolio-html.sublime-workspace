@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"hea",
+				"heatspreader-001"
+			],
+			[
 				"ser",
 				"server"
 			],
@@ -510,55 +514,11 @@
 			[
 				"background",
 				"background-image"
-			],
-			[
-				"hide",
-				"hideImageAside"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 1281,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<nav>\n\t<p class=\"w2\">\n\t\t<a href=\"index.html\">Shinji Pons</a>\n\t</p>\n\t<div class=\"w4 no-rm\">\n\t\t<a href=\"index.html\">Work</a>\n\t\t<a href=\"archive.html\">Archive</a>\n\t\t<a href=\"about.html\">About</a>\n\t\t<a href=\"contact.html\">Contact</a>\n\t\t<a href=\"links.html\">Links</a>\n\t</div>\n</nav>\n<!-- @@close -->",
-			"file": "_nav.html",
-			"file_size": 294,
-			"file_write_time": 132130428776553849,
-			"settings":
-			{
-				"buffer_size": 294,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "_nav.html"
-			}
-		},
-		{
-			"file": "gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 1826,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/scss/stylesheet.scss",
-			"settings":
-			{
-				"buffer_size": 2981,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -645,12 +605,24 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/shinjipons/Desktop/portfolio-html",
-		"/Users/shinjipons/Desktop/portfolio-html/src",
-		"/Users/shinjipons/Desktop/portfolio-html/src/scss"
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img/alias",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img/alias-raw",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss"
 	],
 	"file_history":
 	[
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/alias.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/index.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img/_read-me.txt",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/gulpfile.js",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/_nav.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/index.html",
 		"/Users/shinjipons/Desktop/portfolio-html/archive.html",
 		"/Users/shinjipons/Desktop/portfolio-html/links.html",
 		"/Users/shinjipons/Desktop/portfolio-html/src/scss/stylesheet.scss",
@@ -771,18 +743,11 @@
 		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/stylesheet.scss",
 		"/Users/shinjipons/Desktop/portfolio-v2-html/templates/nav.php",
 		"/Users/shinjipons/Desktop/portfolio-v2-html/index.php",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/_nav.scss",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/_grid.scss",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/bad-cv.php",
-		"/private/var/folders/x0/4y7_6qm126sgx7szvpb1h2sc0000gn/T/TemporaryItems/(A Document Being Saved By Illustrator CC)/ai14643740583.tmp/ai14643740583.txt",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/src/js/main.js",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/_cv-of-successes.scss",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/good-cv.php",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/_cv-of-failures.scss"
+		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/_nav.scss"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -797,6 +762,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".img",
+			"jpg",
 			"<ul>"
 		],
 		"highlight": true,
@@ -815,140 +782,20 @@
 	"folders":
 	[
 		{
-			"path": "/Users/shinjipons/Desktop/portfolio-html"
+			"path": "C:\\Users\\Shinji\\Documents\\GitHub\\portfolio-html"
 		}
 	],
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1281,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								164,
-								164
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_nav.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 294,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								290,
-								290
-							]
-						],
-						"settings":
-						{
-							"auto_name": "_nav.html",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1826,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								434,
-								434
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/scss/stylesheet.scss",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2981,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Palenight.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -989,7 +836,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 46.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1535,11 +1382,11 @@
 	"settings":
 	{
 	},
-	"show_minimap": false,
+	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 233.0,
+	"side_bar_visible": true,
+	"side_bar_width": 320.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
