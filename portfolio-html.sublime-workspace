@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-image"
+			],
+			[
 				"hea",
 				"heatspreader-001"
 			],
@@ -510,20 +514,35 @@
 			[
 				"bus",
 				"businessCardLink"
-			],
-			[
-				"background",
-				"background-image"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "src/html/alias.html",
+			"file": "src/html/blender-shading.html",
 			"settings":
 			{
-				"buffer_size": 651,
+				"buffer_size": 540,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "blender-shading.html"
+			}
+		},
+		{
+			"file": "src/html/-list.html",
+			"settings":
+			{
+				"buffer_size": 3233,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/html/index.html",
+			"settings":
+			{
+				"buffer_size": 2053,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -621,8 +640,8 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/alias.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/alias.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/index.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img/_read-me.txt",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/gulpfile.js",
@@ -793,24 +812,57 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/html/alias.html",
+					"file": "src/html/blender-shading.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 651,
+						"buffer_size": 540,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								651,
-								651
+								382,
+								382
+							],
+							[
+								455,
+								455
+							]
+						],
+						"settings":
+						{
+							"auto_name": "blender-shading.html",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/html/-list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								522,
+								522
 							]
 						],
 						"settings":
@@ -823,6 +875,34 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/html/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2053,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								675,
+								675
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
