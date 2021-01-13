@@ -16,7 +16,7 @@ $mobile-breakpoint: 960px;
 $site-margin:             4%;
 $site-margin-mobile:      5%;
 $site-size:               2.5rem; // absolute value for gaps between things vertically
-$site-size-mobile:        2.0rem;
+$site-size-mobile:        2.0rem; // was 2.0rem before
 $line-height:             1.2 * $site-size;
 $line-height-mobile:      1.2 * $site-size-mobile;
 $site-padding-top:        3.4 * $site-size;
@@ -88,7 +88,8 @@ html {
 	font-size: 10px;
 	overflow-y: scroll; // to force scrollbar on all pages
 	@media only screen and (max-width: $mobile-breakpoint) {
-		padding-bottom: $site-padding-top-mobile + $site-size-mobile * 2;
+		// padding-bottom: $site-padding-top-mobile + $site-size-mobile * 2;
+		padding-bottom: 0;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
 		padding-bottom: $site-padding-top + $site-size * 2;
@@ -97,13 +98,15 @@ html {
 
 body {
 	font-family: $font-family;
-	font-size: $site-size;
 	@media only screen and (max-width: $mobile-breakpoint) {
+		font-size: $site-size-mobile;
 		margin-left:  0px;
 		margin-right: 0px;
+		margin-bottom: 0px;
 		padding-top:  $site-padding-top-mobile * 3 + $site-size-mobile;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		font-size: $site-size;
 		margin-left:  $site-margin;
 		margin-right: $site-margin;
 		padding-top:  $site-padding-top + $site-size * 2;
@@ -167,8 +170,11 @@ footer {
 
 // Rich media content
 img, video {
-	margin-bottom: 0.1rem !important;
 	float: left;
+	margin-bottom: 0.1rem !important;
+	&:last-child {
+		margin-bottom: 0px;
+	}
 }
 
 video {
@@ -183,9 +189,15 @@ p, h1 {
 	word-wrap: break-word;
 	font-family: $font-family;
 	color: $secondary-color;
-	font-size: $site-size;
 	line-height: $line-height;
 	margin-bottom: $line-height * 1;
+	@media only screen and (max-width: $mobile-breakpoint) {
+		font-size: $site-size-mobile;
+		margin-bottom: 0px;
+	}
+	@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		font-size: $site-size;
+	}
 }
 
 a {
@@ -278,6 +290,9 @@ ol {
 	margin-bottom: 1px;
 	background-repeat: no-repeat;
 	background-position: center;
+	&:last-child {
+		margin-bottom: 0px;
+	}
 	
 	p {
 		@extend .p1;
