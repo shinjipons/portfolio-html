@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"min",
+				"min-width"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
 				"back",
 				"background-image"
 			],
@@ -18,10 +30,6 @@
 			[
 				"favicon",
 				"favicon.svg"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"text",
@@ -82,10 +90,6 @@
 			[
 				"small",
 				"smallRanInt"
-			],
-			[
-				"padding",
-				"padding-top"
 			],
 			[
 				"font",
@@ -222,10 +226,6 @@
 			[
 				"ine",
 				"inline"
-			],
-			[
-				"min",
-				"min-height"
 			],
 			[
 				"backgr",
@@ -519,43 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/html/blender-shading.html",
-			"settings":
-			{
-				"buffer_size": 540,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "blender-shading.html"
-			}
-		},
-		{
-			"file": "src/html/-list.html",
-			"settings":
-			{
-				"buffer_size": 3233,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/html/index.html",
-			"settings":
-			{
-				"buffer_size": 2053,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/scss/stylesheet.scss",
-			"settings":
-			{
-				"buffer_size": 8959,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -650,8 +613,11 @@
 	"file_history":
 	[
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/alias.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/index.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/-list.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/blender-shading.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/subd.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/alias.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img/_read-me.txt",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/gulpfile.js",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/_nav.html",
@@ -773,10 +739,7 @@
 		"/Users/shinjipons/Desktop/node-wit/examples/template.js",
 		"/Users/shinjipons/Desktop/portfolio-v2-html/templates/head.php",
 		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/_variables.scss",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/stylesheet.scss",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/templates/nav.php",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/index.php",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/_nav.scss"
+		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/stylesheet.scss"
 	],
 	"find":
 	{
@@ -795,6 +758,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"section",
+			"font-size",
 			".img",
 			"jpg",
 			"<ul>"
@@ -821,203 +786,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/html/blender-shading.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 540,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								382,
-								382
-							],
-							[
-								455,
-								455
-							]
-						],
-						"settings":
-						{
-							"auto_name": "blender-shading.html",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/html/-list.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3233,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								522,
-								522
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/html/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2053,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								675,
-								675
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/scss/stylesheet.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8959,
-						"regions":
-						{
-							"col_00000033":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										3833,
-										3848
-									]
-								],
-								"scope": "col_00000033"
-							},
-							"col_00000033_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_00000033_circle.png",
-								"regions":
-								[
-									[
-										3803,
-										3803
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FF0000FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										304,
-										307
-									]
-								],
-								"scope": "col_FF0000FF"
-							},
-							"col_FF0000FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FF0000FF_circle.png",
-								"regions":
-								[
-									[
-										286,
-										286
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FFFFFFFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										235,
-										242
-									]
-								],
-								"scope": "col_FFFFFFFF"
-							},
-							"col_FFFFFFFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
-								"regions":
-								[
-									[
-										219,
-										219
-									]
-								],
-								"scope": "col_gutter"
-							}
-						},
-						"selection":
-						[
-							[
-								8554,
-								8554
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 6150.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

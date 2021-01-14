@@ -194,6 +194,9 @@ p, h1 {
 	@media only screen and (max-width: $mobile-breakpoint) {
 		font-size: $site-size-mobile;
 		margin-bottom: 0px;
+		&:last-child {
+			margin-bottom: $line-height-mobile;
+		}
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
 		font-size: $site-size;
@@ -234,7 +237,7 @@ ol {
 
 .medium {
 	@media only screen and (max-width: $mobile-breakpoint) {
-		min-height: $line-height-mobile * 5;
+		// min-height: $line-height-mobile * 5;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
 		min-height: $line-height * 10;
@@ -260,6 +263,9 @@ ol {
 	// Classes specific for the project page
 	@extend .w1;
 	@extend .medium;
+	@media only screen and (max-width: $mobile-breakpoint) {
+		margin-bottom: $line-height-mobile;
+	}
 	&:after {
 		display: block;
 		height: 3px * 3 + 1;
@@ -273,7 +279,7 @@ ol {
 	@extend .w3;
 	@extend .medium;
 	@media only screen and (max-width: $mobile-breakpoint) {
-		margin-bottom: $line-height-mobile * 0;
+		margin-bottom: $line-height-mobile;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
 		margin-bottom: $line-height * 4;
