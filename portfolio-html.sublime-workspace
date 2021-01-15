@@ -4,20 +4,28 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
 				"min",
 				"min-width"
 			],
 			[
 				"margin",
 				"margin-bottom"
-			],
-			[
-				"padding",
-				"padding-bottom"
-			],
-			[
-				"back",
-				"background-image"
 			],
 			[
 				"hea",
@@ -30,10 +38,6 @@
 			[
 				"favicon",
 				"favicon.svg"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"base",
@@ -510,15 +514,29 @@
 			[
 				"iamge",
 				"imageAside"
-			],
-			[
-				"bus",
-				"businessCardLink"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/scss/stylesheet.scss",
+			"settings":
+			{
+				"buffer_size": 9894,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/html/blender-shading.html",
+			"settings":
+			{
+				"buffer_size": 674,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -605,18 +623,15 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss"
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html"
 	],
 	"file_history":
 	[
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/subd.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/blender-shading.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/index.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/-list.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/blender-shading.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/subd.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/alias.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img/_read-me.txt",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/gulpfile.js",
@@ -758,6 +773,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";\n",
+			"bottom",
 			"section",
 			"font-size",
 			".img",
@@ -786,8 +803,142 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/scss/stylesheet.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9894,
+						"regions":
+						{
+							"col_00000033":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										4019,
+										4034
+									]
+								],
+								"scope": "col_00000033"
+							},
+							"col_00000033_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00000033_circle.png",
+								"regions":
+								[
+									[
+										3989,
+										3989
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FF0000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										304,
+										307
+									]
+								],
+								"scope": "col_FF0000FF"
+							},
+							"col_FF0000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FF0000FF_circle.png",
+								"regions":
+								[
+									[
+										286,
+										286
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										235,
+										242
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										219,
+										219
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								854,
+								854
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/html/blender-shading.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								417,
+								416
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],

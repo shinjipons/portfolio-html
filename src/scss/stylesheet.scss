@@ -21,6 +21,7 @@ $line-height:             1.2 * $site-size;
 $line-height-mobile:      1.2 * $site-size-mobile;
 $site-padding-top:        3.4 * $site-size;
 $site-padding-top-mobile: 1.0 * $site-size-mobile;
+$thin-gap:                1px; // used for the vertical gap between images, text, etc.
 
 // Grid settings (except margin)
 $grid-gap:                2%;
@@ -31,7 +32,7 @@ $grid-col:                6;
 		// this sets the width of the element
 		padding: 0; // code to remove the margins
 		margin-right: $grid-gap;
-		margin-bottom: 0.1rem;
+		margin-bottom: $thin-gap;
 		float: left;
 		@media only screen and (max-width: $mobile-breakpoint) {
 			width: 100% - $site-margin-mobile * 2;
@@ -100,9 +101,9 @@ body {
 	font-family: $font-family;
 	@media only screen and (max-width: $mobile-breakpoint) {
 		font-size: $site-size-mobile;
-		margin-left:  0px;
-		margin-right: 0px;
-		margin-bottom: 0px;
+		margin-left:   0;
+		margin-right:  0;
+		margin-bottom: 0;
 		padding-top:  $site-padding-top-mobile * 3 + $site-size-mobile;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
@@ -133,7 +134,7 @@ nav {
 		height: $site-padding-top-mobile * 4;
 		background: $primary-color;
 		box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.2);
-		padding-top: $site-size * 1;
+		padding-top: $site-size;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
 		height: $site-padding-top;
@@ -171,9 +172,9 @@ footer {
 // Rich media content
 img, video {
 	float: left;
-	margin-bottom: 0.1rem !important;
+	margin-bottom: $thin-gap !important;
 	&:last-child {
-		margin-bottom: 0px;
+		margin-bottom: 0;
 	}
 }
 
@@ -193,7 +194,7 @@ p, h1 {
 	margin-bottom: $line-height * 1;
 	@media only screen and (max-width: $mobile-breakpoint) {
 		font-size: $site-size-mobile;
-		margin-bottom: 0px;
+		margin-bottom: 0;
 		&:last-child {
 			margin-bottom: $line-height-mobile;
 		}
@@ -245,7 +246,7 @@ ol {
 }
 
 .short  {
-	min-height: $line-height *  5;
+	min-height: $line-height * 5;
 }
 
 .missing {
@@ -268,8 +269,8 @@ ol {
 	}
 	&:after {
 		display: block;
-		height: 3px * 3 + 1;
-		width:  3px * 40 + 1;
+		height: 3px * 3 + $thin-gap;
+		width:  3px * 40 + $thin-gap;
 		background-image: url("../../data/img/general/bg-pattern.png");
 		background-repeat: repeat;
 		content: "";
@@ -293,7 +294,7 @@ ol {
 	width: auto;
 	background-color: $secondary-color;
 	overflow: hidden;
-	margin-bottom: 1px;
+	margin-bottom: $thin-gap;
 	background-repeat: no-repeat;
 	background-position: center;
 	&:last-child {
@@ -311,7 +312,7 @@ ol {
 	@media only screen and (max-width: $mobile-breakpoint) {
 		border-top:    $line-height-mobile solid $secondary-color;
 		border-bottom: $line-height-mobile solid $secondary-color;
-		height:  	   $site-size * 1 * 14;
+		height:  	   $site-size * 14;
 		background-size: contain;
 		p {
 			visibility: hidden;
@@ -388,5 +389,20 @@ ol {
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
 		display: none;
+	}
+}
+
+.block {
+	@extend .c4;
+	background-color: lighten($secondary-color, 0%);
+	padding-bottom: $site-size * 2;
+	padding-top:    $site-size * 2;
+	padding-left:   $site-size * 10;
+	padding-right:  $site-size * 10;
+	margin-bottom: $thin-gap;
+	p {
+		color: $primary-color;
+		margin-bottom: 0px;
+		text-align: center;
 	}
 }
