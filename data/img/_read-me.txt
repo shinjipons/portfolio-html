@@ -25,3 +25,7 @@ If there are two folders of the same name, the one with the 'raw' suffix contain
 					Subsampling factor: default
 				PNG:
 					Compression level: 7
+
+// Most important:
+	Export all the images in WEBP format
+	Why? Because it's now widely supported and extremely efficient

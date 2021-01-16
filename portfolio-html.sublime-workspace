@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"max-",
+				"max-width"
+			],
+			[
 				"back",
 				"background-color"
 			],
@@ -510,33 +514,11 @@
 			[
 				"cre",
 				"createElement"
-			],
-			[
-				"iamge",
-				"imageAside"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "src/scss/stylesheet.scss",
-			"settings":
-			{
-				"buffer_size": 9894,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/html/blender-shading.html",
-			"settings":
-			{
-				"buffer_size": 674,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -623,17 +605,32 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html"
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss"
 	],
 	"file_history":
 	[
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/subd.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/blender-shading.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/urbantorque.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img/_read-me.txt",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/subd.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/nightclub.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/mos.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/modulo.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/louvre.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/dynamo.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/doty.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/cad-sculptor.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/alias.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/basiljs.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/blender-shading.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/basiljs.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/alias.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/bowie.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/index.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/-list.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/alias.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img/_read-me.txt",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/gulpfile.js",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/_nav.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/index.html",
@@ -742,23 +739,11 @@
 		"/Users/shinjipons/Desktop/trkd-tour/src/scss/_scrolltrigger.scss",
 		"/Users/shinjipons/Downloads/webfontkit-20160727-061103/stylesheet.css",
 		"/Users/shinjipons/Desktop/trkd-tour/gulpfile.js",
-		"/Users/shinjipons/Desktop/aframe/gulpfile.js",
-		"/Users/shinjipons/Desktop/aframe/package.json",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/gulpfile.js",
-		"/Users/shinjipons/Desktop/myPexApp/index.html",
-		"/Users/shinjipons/Desktop/myPexApp/main.js",
-		"/Volumes/Plask/README_2015-07-30.txt",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/useful-links.php",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/cv-of-successes.php",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/cv-of-failures.php",
-		"/Users/shinjipons/Desktop/node-wit/examples/template.js",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/templates/head.php",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/_variables.scss",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/src/scss/stylesheet.scss"
+		"/Users/shinjipons/Desktop/aframe/gulpfile.js"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -803,142 +788,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/scss/stylesheet.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9894,
-						"regions":
-						{
-							"col_00000033":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										4019,
-										4034
-									]
-								],
-								"scope": "col_00000033"
-							},
-							"col_00000033_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_00000033_circle.png",
-								"regions":
-								[
-									[
-										3989,
-										3989
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FF0000FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										304,
-										307
-									]
-								],
-								"scope": "col_FF0000FF"
-							},
-							"col_FF0000FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FF0000FF_circle.png",
-								"regions":
-								[
-									[
-										286,
-										286
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FFFFFFFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										235,
-										242
-									]
-								],
-								"scope": "col_FFFFFFFF"
-							},
-							"col_FFFFFFFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
-								"regions":
-								[
-									[
-										219,
-										219
-									]
-								],
-								"scope": "col_gutter"
-							}
-						},
-						"selection":
-						[
-							[
-								854,
-								854
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/html/blender-shading.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 674,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								417,
-								416
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
