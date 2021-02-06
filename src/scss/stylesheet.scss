@@ -1,13 +1,15 @@
-$font-family: "NBAkademieLight", sans-serif;
+$font-family: "Atkinson Hyperlegible", sans-serif;
 @font-face {
-	font-family: "NBAkademieLight";
-	src: url("../../data/fonts/webfont.woff2") format("woff2"), url("../../data/fonts/webfont.woff")  format("woff");
+	font-family: "Atkinson Hyperlegible";
+	src: url("../../data/fonts/Atkinson-Hyperlegible-Regular-102a.woff2") format("woff2"), url("../../data/fonts/Atkinson-Hyperlegible-Regular-102.woff")   format("woff");
 }
 
 // Colors
 $primary-color: #FFFFFF;
 $secondary-color: invert($primary-color);
-$highlight-color: red;
+$link-color:       #999999;
+$link-color-hover: #000000;
+$missing-color: #E3E3E3;
 
 // Breakpoint
 $mobile-breakpoint: 960px;
@@ -42,7 +44,6 @@ $grid-col:                6;
 			width: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * ( $i - 1 );
 		}
 	}
-
 	.c#{$i} {
 		// this sets the width of the centered element
 		display: block;
@@ -89,7 +90,6 @@ html {
 	font-size: 10px;
 	overflow-y: scroll; // to force scrollbar on all pages
 	@media only screen and (max-width: $mobile-breakpoint) {
-		// padding-bottom: $site-padding-top-mobile + $site-size-mobile * 2;
 		padding-bottom: 0;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
@@ -112,6 +112,59 @@ body {
 		margin-right: $site-margin;
 		padding-top:  $site-padding-top + $site-size * 2;
 	}
+}
+
+p, h1 {
+	// Text
+	margin: 0;
+	display: block;
+	font-weight: normal;
+	word-wrap: break-word;
+	font-family: $font-family;
+	color: $secondary-color;
+	line-height: $line-height;
+	margin-bottom: $line-height * 1;
+	@media only screen and (max-width: $mobile-breakpoint) {
+		font-size: $site-size-mobile;
+		margin-bottom: 0;
+		&:last-child {
+			margin-bottom: $line-height-mobile;
+		}
+	}
+	@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		font-size: $site-size;
+	}
+}
+
+a {
+	color: $link-color;
+	text-decoration: none;
+	transition: 150ms;
+	&:hover {
+		color:$link-color-hover;
+	}
+	img {
+		width: 100%;
+	}
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: $line-height;
+	color: $secondary-color;
+	&:after {
+		content: "—";
+		display: block;
+		margin-bottom: $line-height;
+	}
+}
+
+ol {
+	padding-left: 0;
+	color: $secondary-color;
 }
 
 // Navigation
@@ -142,29 +195,11 @@ nav {
 		padding-top: $site-size;
 	}
 	a {
-		color: $secondary-color;
 		@media only screen and (max-width: $mobile-breakpoint) {
 			margin-right: $line-height-mobile * 0.25;
 		}
 		@media only screen and (min-width: $mobile-breakpoint + 1px) {
 			margin-right: $line-height;
-		}
-	}
-}
-
-footer {
-	height: $site-padding-top;
-	padding-top: $site-size;
-	bottom: 0;
-	padding-bottom: 0;
-	@media only screen and (max-width: $mobile-breakpoint) {
-		display: none;
-	}
-	a {
-		color: $secondary-color;
-		&:hover {
-			color: invert($primary-color);
-			border: none;
 		}
 	}
 }
@@ -180,55 +215,6 @@ img, video {
 
 video {
 	outline: none;
-}
-
-p, h1 {
-	// Text
-	margin: 0;
-	display: block;
-	font-weight: normal;
-	word-wrap: break-word;
-	font-family: $font-family;
-	color: $secondary-color;
-	line-height: $line-height;
-	margin-bottom: $line-height * 1;
-	@media only screen and (max-width: $mobile-breakpoint) {
-		font-size: $site-size-mobile;
-		margin-bottom: 0;
-		&:last-child {
-			margin-bottom: $line-height-mobile;
-		}
-	}
-	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		font-size: $site-size;
-	}
-}
-
-a {
-	color: $highlight-color;
-	text-decoration: none;
-	img {
-		width: 100%;
-	}
-}
-
-ul {
-	list-style: none;
-	padding-left: 0;
-	margin-top: 0;
-	margin-bottom: 0;
-	line-height: $line-height;
-	color: $secondary-color;
-	&:after {
-		content: "—";
-		display: block;
-		margin-bottom: $line-height;
-	}
-}
-
-ol {
-	padding-left: 0;
-	color: $secondary-color;
 }
 
 .tall {
@@ -251,7 +237,7 @@ ol {
 
 .missing {
 	// Style for the missing and yet to be filed projects in -list.php
-	color: lighten($secondary-color, 60%);
+	color: $missing-color;
 	cursor: not-allowed;
 }
 
@@ -266,14 +252,6 @@ ol {
 	@extend .medium;
 	@media only screen and (max-width: $mobile-breakpoint) {
 		margin-bottom: $line-height-mobile;
-	}
-	&:after {
-		display: block;
-		height: 3px * 3 + $thin-gap;
-		width:  3px * 40 + $thin-gap;
-		background-image: url("../../data/img/general/bg-pattern.png");
-		background-repeat: repeat;
-		content: "";
 	}
 }
 .project-description {
@@ -394,7 +372,7 @@ ol {
 
 .block {
 	@extend .c4;
-	background-color: lighten($secondary-color, 90%);
+	background-color: $missing-color;
 	margin-bottom: $thin-gap;
 	@media screen and (max-width: $mobile-breakpoint) {
 		padding: $line-height-mobile;
@@ -409,5 +387,13 @@ ol {
 		&:last-child {
 			margin-bottom: 0;
 		}
+	}
+}
+
+// used on the navigation bar
+.highlight {
+	color: $link-color;
+	&:hover {
+		color: $link-color;
 	}
 }

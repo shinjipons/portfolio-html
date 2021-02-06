@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"A",
+				"Atkinson-Hyperlegible-Regular-102.woff"
+			],
+			[
 				"max-",
 				"max-width"
 			],
@@ -510,24 +514,11 @@
 			[
 				"create",
 				"createElement"
-			],
-			[
-				"cre",
-				"createElement"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "src/scss/stylesheet.scss",
-			"settings":
-			{
-				"buffer_size": 10013,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -616,30 +607,39 @@
 	[
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss"
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html"
 	],
 	"file_history":
 	[
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_nav.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/page-template.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/website.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/urbantorque.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img/_read-me.txt",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/subd.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/nightclub.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/mos.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/modulo.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/mayhem.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/louvre.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/dynamo.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/index.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/doty.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/cad-sculptor.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/alias.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/-about.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/-list.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/basiljs.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/blender-shading.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/bowie.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/alias.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/-about.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_footer.html",
+		"/C/Users/Shinji/Downloads/Atkinson-Hyperlegible-Font-Print-and-Web-2020-0514/Web Fonts/WOFF2/Atkinson-Hyperlegible-Regular-102a.woff2",
+		"/C/Users/Shinji/Downloads/PrefSet for beginners.aps",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img/_read-me.txt",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/basiljs.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/alias.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/bowie.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/index.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/-list.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/gulpfile.js",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/_nav.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/index.html",
@@ -738,21 +738,11 @@
 		"/Users/shinjipons/Desktop/Description of TR Job.txt",
 		"/Users/shinjipons/Desktop/trkd-tour/src/scss/stylesheet.scss",
 		"/Users/shinjipons/Desktop/trkd-tour/dist/img/grid.svg",
-		"/Users/shinjipons/Desktop/trkd-tour/dist/img/tree.svg",
-		"/Users/shinjipons/Desktop/trkd-tour/dist/img/list.svg",
-		"/Users/shinjipons/Desktop/try-it-now/index.html",
-		"/Users/shinjipons/Desktop/portfolio-v2-html/spotify.php",
-		"/Users/shinjipons/Desktop/Try It Now Button/button.html",
-		"/Users/shinjipons/Desktop/Try It Now Button/gulpfile.js",
-		"/Users/shinjipons/Desktop/trkd-tour/index.html",
-		"/Users/shinjipons/Desktop/trkd-tour/src/scss/_scrolltrigger.scss",
-		"/Users/shinjipons/Downloads/webfontkit-20160727-061103/stylesheet.css",
-		"/Users/shinjipons/Desktop/trkd-tour/gulpfile.js",
-		"/Users/shinjipons/Desktop/aframe/gulpfile.js"
+		"/Users/shinjipons/Desktop/trkd-tour/dist/img/tree.svg"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -767,6 +757,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"caption",
+			"$highlight-color",
+			">\n",
+			"I'm a result-driven product designer with a passion for technical processes who designs features and tools that deliver ultimate customer satisfaction. My unique experience help me make 3D technology beneficial for creative professionals, especially those in the automotive industry.",
 			";\n",
 			"bottom",
 			"section",
@@ -781,6 +775,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$link-color"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -797,119 +792,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/scss/stylesheet.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10013,
-						"regions":
-						{
-							"col_00000033":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										4019,
-										4034
-									]
-								],
-								"scope": "col_00000033"
-							},
-							"col_00000033_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_00000033_circle.png",
-								"regions":
-								[
-									[
-										3989,
-										3989
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FF0000FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										304,
-										307
-									]
-								],
-								"scope": "col_FF0000FF"
-							},
-							"col_FF0000FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FF0000FF_circle.png",
-								"regions":
-								[
-									[
-										286,
-										286
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FFFFFFFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										235,
-										242
-									]
-								],
-								"scope": "col_FFFFFFFF"
-							},
-							"col_FFFFFFFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
-								"regions":
-								[
-									[
-										219,
-										219
-									]
-								],
-								"scope": "col_gutter"
-							}
-						},
-						"selection":
-						[
-							[
-								9667,
-								9667
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 6678.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -950,7 +840,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 50.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
