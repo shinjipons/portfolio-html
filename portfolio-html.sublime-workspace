@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"su",
+				"substance-painter.html"
+			],
+			[
 				"A",
 				"Atkinson-Hyperlegible-Regular-102.woff"
 			],
@@ -510,15 +514,20 @@
 			[
 				"appen",
 				"appendChild"
-			],
-			[
-				"create",
-				"createElement"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/html/substance-painter.html",
+			"settings":
+			{
+				"buffer_size": 782,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -606,11 +615,15 @@
 	"expanded_folders":
 	[
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img/substance-painter",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html"
 	],
 	"file_history":
 	[
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/index.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_nav.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/page-template.html",
@@ -623,7 +636,6 @@
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/mayhem.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/louvre.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/dynamo.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/index.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/doty.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/cad-sculptor.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/-about.html",
@@ -742,7 +754,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -792,14 +804,43 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/html/substance-painter.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								782,
+								782
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -840,7 +881,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 64.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":

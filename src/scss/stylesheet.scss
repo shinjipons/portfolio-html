@@ -5,11 +5,11 @@ $font-family: "Atkinson Hyperlegible", sans-serif;
 }
 
 // Colors
-$primary-color: #FFFFFF;
-$secondary-color: invert($primary-color);
+$primary-color:    #FFFFFF;
+$secondary-color:  invert($primary-color);
 $link-color:       #999999;
 $link-color-hover: #000000;
-$missing-color: #E3E3E3;
+$missing-color:    #E3E3E3;
 
 // Breakpoint
 $mobile-breakpoint: 960px;
@@ -100,14 +100,14 @@ html {
 body {
 	font-family: $font-family;
 	@media only screen and (max-width: $mobile-breakpoint) {
-		font-size: $site-size-mobile;
+		font-size:     $site-size-mobile;
 		margin-left:   0;
 		margin-right:  0;
 		margin-bottom: 0;
-		padding-top:  $site-padding-top-mobile * 3 + $site-size-mobile;
+		padding-top:   $site-padding-top-mobile * 3 + $site-size-mobile;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		font-size: $site-size;
+		font-size:    $site-size;
 		margin-left:  $site-margin;
 		margin-right: $site-margin;
 		padding-top:  $site-padding-top + $site-size * 2;
@@ -351,6 +351,9 @@ video {
 }
 .blender-shading {
 	background-image: url("../../data/img/blender-shading/blender-shading-001.webp");
+}
+.substance-painter {
+	background-image: url("../../data/img/substance-painter/cycles-render-transparent.webp");
 }
 
 .desktop-only {
