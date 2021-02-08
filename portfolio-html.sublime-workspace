@@ -520,10 +520,19 @@
 	"buffers":
 	[
 		{
-			"file": "src/html/substance-painter.html",
+			"file": "src/scss/stylesheet.scss",
 			"settings":
 			{
-				"buffer_size": 782,
+				"buffer_size": 9854,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/html/alias.html",
+			"settings":
+			{
+				"buffer_size": 951,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -615,14 +624,13 @@
 	"expanded_folders":
 	[
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/data/img/substance-painter",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html"
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss"
 	],
 	"file_history":
 	[
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/substance-painter.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/index.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_nav.html",
@@ -749,8 +757,7 @@
 		"/Users/shinjipons/Desktop/trkd-tour/src/js/script.js",
 		"/Users/shinjipons/Desktop/Description of TR Job.txt",
 		"/Users/shinjipons/Desktop/trkd-tour/src/scss/stylesheet.scss",
-		"/Users/shinjipons/Desktop/trkd-tour/dist/img/grid.svg",
-		"/Users/shinjipons/Desktop/trkd-tour/dist/img/tree.svg"
+		"/Users/shinjipons/Desktop/trkd-tour/dist/img/grid.svg"
 	],
 	"find":
 	{
@@ -809,30 +816,185 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/html/substance-painter.html",
+					"file": "src/scss/stylesheet.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 782,
+						"buffer_size": 9854,
+						"regions":
+						{
+							"col_00000033":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										4965,
+										4980
+									]
+								],
+								"scope": "col_00000033"
+							},
+							"col_00000033_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00000033_circle.png",
+								"regions":
+								[
+									[
+										4935,
+										4935
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										403,
+										410
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										384,
+										384
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_999999FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										375,
+										382
+									]
+								],
+								"scope": "col_999999FF"
+							},
+							"col_999999FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_999999FF_circle.png",
+								"regions":
+								[
+									[
+										356,
+										356
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_E3E3E3FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										431,
+										438
+									]
+								],
+								"scope": "col_E3E3E3FF"
+							},
+							"col_E3E3E3FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_E3E3E3FF_circle.png",
+								"regions":
+								[
+									[
+										412,
+										412
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										304,
+										311
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										285,
+										285
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								5470,
+								5470
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/html/alias.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 951,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								782,
-								782
+								554,
+								554
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 216.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

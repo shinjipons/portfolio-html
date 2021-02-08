@@ -208,6 +208,7 @@ nav {
 img, video {
 	float: left;
 	margin-bottom: $thin-gap !important;
+	background-color: $missing-color;
 	&:last-child {
 		margin-bottom: 0;
 	}
@@ -347,7 +348,7 @@ video {
 	background-image: url("../../data/img/mos/mos-001.webp");
 }
 .alias {
-	background-image: url("../../data/img/alias/heatspreader-001.webp");
+	background-image: url("../../data/img/alias/heatspreader-main-render.webp");
 }
 .blender-shading {
 	background-image: url("../../data/img/blender-shading/blender-shading-001.webp");
