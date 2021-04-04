@@ -523,16 +523,7 @@
 			"file": "src/scss/stylesheet.scss",
 			"settings":
 			{
-				"buffer_size": 9854,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/html/alias.html",
-			"settings":
-			{
-				"buffer_size": 951,
+				"buffer_size": 9971,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -630,6 +621,8 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/alias.html",
+		"/C/Users/Shinji/Desktop/ray-tracing/image.ppm",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/substance-painter.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/index.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
@@ -651,7 +644,6 @@
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/basiljs.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/blender-shading.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/bowie.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/alias.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/-about.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_footer.html",
 		"/C/Users/Shinji/Downloads/Atkinson-Hyperlegible-Font-Print-and-Web-2020-0514/Web Fonts/WOFF2/Atkinson-Hyperlegible-Regular-102a.woff2",
@@ -756,12 +748,11 @@
 		"/Users/shinjipons/Desktop/trkd-tour/dist/img/List.svg",
 		"/Users/shinjipons/Desktop/trkd-tour/src/js/script.js",
 		"/Users/shinjipons/Desktop/Description of TR Job.txt",
-		"/Users/shinjipons/Desktop/trkd-tour/src/scss/stylesheet.scss",
-		"/Users/shinjipons/Desktop/trkd-tour/dist/img/grid.svg"
+		"/Users/shinjipons/Desktop/trkd-tour/src/scss/stylesheet.scss"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -820,7 +811,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9854,
+						"buffer_size": 9971,
 						"regions":
 						{
 							"col_00000033":
@@ -829,8 +820,8 @@
 								"regions":
 								[
 									[
-										4965,
-										4980
+										5076,
+										5091
 									]
 								],
 								"scope": "col_00000033"
@@ -842,83 +833,83 @@
 								"regions":
 								[
 									[
-										4935,
-										4935
+										5046,
+										5046
 									]
 								],
 								"scope": "col_gutter"
 							},
-							"col_000000FF":
+							"col_2E00EEFF":
 							{
 								"flags": 16,
 								"regions":
 								[
 									[
-										403,
-										410
+										494,
+										501
 									]
 								],
-								"scope": "col_000000FF"
+								"scope": "col_2E00EEFF"
 							},
-							"col_000000FF_icon":
+							"col_2E00EEFF_icon":
 							{
 								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"icon": "Packages/User/Color Highlight.cache/col_2E00EEFF_circle.png",
 								"regions":
 								[
 									[
-										384,
-										384
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_999999FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										375,
-										382
-									]
-								],
-								"scope": "col_999999FF"
-							},
-							"col_999999FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_999999FF_circle.png",
-								"regions":
-								[
-									[
-										356,
-										356
+										475,
+										475
 									]
 								],
 								"scope": "col_gutter"
 							},
-							"col_E3E3E3FF":
+							"col_5E5E5EFF":
 							{
 								"flags": 16,
 								"regions":
 								[
 									[
-										431,
-										438
+										466,
+										473
 									]
 								],
-								"scope": "col_E3E3E3FF"
+								"scope": "col_5E5E5EFF"
 							},
-							"col_E3E3E3FF_icon":
+							"col_5E5E5EFF_icon":
 							{
 								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_E3E3E3FF_circle.png",
+								"icon": "Packages/User/Color Highlight.cache/col_5E5E5EFF_circle.png",
 								"regions":
 								[
 									[
-										412,
-										412
+										447,
+										447
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_C9C9C9FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										522,
+										529
+									]
+								],
+								"scope": "col_C9C9C9FF"
+							},
+							"col_C9C9C9FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_C9C9C9FF_circle.png",
+								"regions":
+								[
+									[
+										503,
+										503
 									]
 								],
 								"scope": "col_gutter"
@@ -929,8 +920,8 @@
 								"regions":
 								[
 									[
-										304,
-										311
+										395,
+										402
 									]
 								],
 								"scope": "col_FFFFFFFF"
@@ -942,8 +933,8 @@
 								"regions":
 								[
 									[
-										285,
-										285
+										376,
+										376
 									]
 								],
 								"scope": "col_gutter"
@@ -952,8 +943,12 @@
 						"selection":
 						[
 							[
-								5470,
-								5470
+								6351,
+								6351
+							],
+							[
+								6510,
+								6510
 							]
 						],
 						"settings":
@@ -962,39 +957,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4773.33333333,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/html/alias.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 951,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								554,
-								554
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1002,7 +968,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -1043,7 +1009,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 50.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1592,7 +1558,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 320.0,
 	"status_bar_visible": true,
 	"template_settings":

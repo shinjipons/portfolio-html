@@ -1,4 +1,6 @@
-$font-family: "Atkinson Hyperlegible", sans-serif;
+// $font-family: "Atkinson Hyperlegible", sans-serif;
+// $font-family: "JetBrains Mono Light", sans-serif;
+$font-family: "Inter", sans-serif;
 @font-face {
 	font-family: "Atkinson Hyperlegible";
 	src: url("../../data/fonts/Atkinson-Hyperlegible-Regular-102a.woff2") format("woff2"), url("../../data/fonts/Atkinson-Hyperlegible-Regular-102.woff")   format("woff");
@@ -7,9 +9,9 @@ $font-family: "Atkinson Hyperlegible", sans-serif;
 // Colors
 $primary-color:    #FFFFFF;
 $secondary-color:  invert($primary-color);
-$link-color:       #999999;
-$link-color-hover: #000000;
-$missing-color:    #E3E3E3;
+$link-color:       #5E5E5E;
+$link-color-hover: #2E00EE;
+$missing-color:    #C9C9C9;
 
 // Breakpoint
 $mobile-breakpoint: 960px;
@@ -17,8 +19,8 @@ $mobile-breakpoint: 960px;
 // Site spacing desktop
 $site-margin:             4%;
 $site-margin-mobile:      5%;
-$site-size:               2.5rem; // absolute value for gaps between things vertically
-$site-size-mobile:        2.0rem; // was 2.0rem before
+$site-size:               2.5rem;           // this also controls font size
+$site-size-mobile:        $site-size *1.25; // this also controls font size on mobile
 $line-height:             1.2 * $site-size;
 $line-height-mobile:      1.2 * $site-size-mobile;
 $site-padding-top:        3.4 * $site-size;
@@ -250,14 +252,14 @@ video {
 .project-title {
 	// Classes specific for the project page
 	@extend .w1;
-	@extend .medium;
+	// @extend .medium;
 	@media only screen and (max-width: $mobile-breakpoint) {
 		margin-bottom: $line-height-mobile;
 	}
 }
 .project-description {
 	@extend .w3;
-	@extend .medium;
+	// @extend .medium;
 	@media only screen and (max-width: $mobile-breakpoint) {
 		margin-bottom: $line-height-mobile;
 	}
