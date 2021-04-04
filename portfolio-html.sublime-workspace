@@ -523,7 +523,25 @@
 			"file": "src/scss/stylesheet.scss",
 			"settings":
 			{
-				"buffer_size": 9971,
+				"buffer_size": 9979,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/html/index.html",
+			"settings":
+			{
+				"buffer_size": 1569,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/html/ipod.html",
+			"settings":
+			{
+				"buffer_size": 1038,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -616,11 +634,11 @@
 	[
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss"
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html"
 	],
 	"file_history":
 	[
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_head.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/alias.html",
 		"/C/Users/Shinji/Desktop/ray-tracing/image.ppm",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/substance-painter.html",
@@ -747,8 +765,7 @@
 		"/Users/shinjipons/Desktop/trkd-tour/dist/img/Tree.svg",
 		"/Users/shinjipons/Desktop/trkd-tour/dist/img/List.svg",
 		"/Users/shinjipons/Desktop/trkd-tour/src/js/script.js",
-		"/Users/shinjipons/Desktop/Description of TR Job.txt",
-		"/Users/shinjipons/Desktop/trkd-tour/src/scss/stylesheet.scss"
+		"/Users/shinjipons/Desktop/Description of TR Job.txt"
 	],
 	"find":
 	{
@@ -802,7 +819,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -811,7 +828,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9971,
+						"buffer_size": 9979,
 						"regions":
 						{
 							"col_00000033":
@@ -820,8 +837,8 @@
 								"regions":
 								[
 									[
-										5076,
-										5091
+										5017,
+										5032
 									]
 								],
 								"scope": "col_00000033"
@@ -833,8 +850,8 @@
 								"regions":
 								[
 									[
-										5046,
-										5046
+										4987,
+										4987
 									]
 								],
 								"scope": "col_gutter"
@@ -845,8 +862,8 @@
 								"regions":
 								[
 									[
-										494,
-										501
+										435,
+										442
 									]
 								],
 								"scope": "col_2E00EEFF"
@@ -858,8 +875,8 @@
 								"regions":
 								[
 									[
-										475,
-										475
+										416,
+										416
 									]
 								],
 								"scope": "col_gutter"
@@ -870,8 +887,8 @@
 								"regions":
 								[
 									[
-										466,
-										473
+										407,
+										414
 									]
 								],
 								"scope": "col_5E5E5EFF"
@@ -883,8 +900,8 @@
 								"regions":
 								[
 									[
-										447,
-										447
+										388,
+										388
 									]
 								],
 								"scope": "col_gutter"
@@ -895,8 +912,8 @@
 								"regions":
 								[
 									[
-										522,
-										529
+										463,
+										470
 									]
 								],
 								"scope": "col_C9C9C9FF"
@@ -908,8 +925,8 @@
 								"regions":
 								[
 									[
-										503,
-										503
+										444,
+										444
 									]
 								],
 								"scope": "col_gutter"
@@ -920,8 +937,8 @@
 								"regions":
 								[
 									[
-										395,
-										402
+										336,
+										343
 									]
 								],
 								"scope": "col_FFFFFFFF"
@@ -933,8 +950,8 @@
 								"regions":
 								[
 									[
-										376,
-										376
+										317,
+										317
 									]
 								],
 								"scope": "col_gutter"
@@ -943,12 +960,8 @@
 						"selection":
 						[
 							[
-								6351,
-								6351
-							],
-							[
-								6510,
-								6510
+								9093,
+								9093
 							]
 						],
 						"settings":
@@ -957,7 +970,63 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4773.33333333,
+						"translation.y": 6761.33333333,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/html/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								516,
+								516
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/html/ipod.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								623,
+								623
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 174.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1558,7 +1627,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 320.0,
 	"status_bar_visible": true,
 	"template_settings":
