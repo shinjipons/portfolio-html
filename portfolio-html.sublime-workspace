@@ -520,10 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "src/scss/stylesheet.scss",
+			"file": "src/html/-list.html",
 			"settings":
 			{
-				"buffer_size": 9979,
+				"buffer_size": 2097,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -620,13 +620,14 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/blender-shading.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/index.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/ipod.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_head.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/alias.html",
 		"/C/Users/Shinji/Desktop/ray-tracing/image.ppm",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/substance-painter.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_nav.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/page-template.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/website.html",
@@ -643,7 +644,6 @@
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/-about.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/-list.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/basiljs.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/blender-shading.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/bowie.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/-about.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_footer.html",
@@ -751,7 +751,7 @@
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -766,6 +766,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ms",
 			"caption",
 			"$highlight-color",
 			">\n",
@@ -806,153 +807,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/scss/stylesheet.scss",
+					"file": "src/html/-list.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9979,
+						"buffer_size": 2097,
 						"regions":
 						{
-							"col_00000033":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										5017,
-										5032
-									]
-								],
-								"scope": "col_00000033"
-							},
-							"col_00000033_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_00000033_circle.png",
-								"regions":
-								[
-									[
-										4987,
-										4987
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_2E00EEFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										435,
-										442
-									]
-								],
-								"scope": "col_2E00EEFF"
-							},
-							"col_2E00EEFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_2E00EEFF_circle.png",
-								"regions":
-								[
-									[
-										416,
-										416
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_5E5E5EFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										407,
-										414
-									]
-								],
-								"scope": "col_5E5E5EFF"
-							},
-							"col_5E5E5EFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_5E5E5EFF_circle.png",
-								"regions":
-								[
-									[
-										388,
-										388
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_C9C9C9FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										463,
-										470
-									]
-								],
-								"scope": "col_C9C9C9FF"
-							},
-							"col_C9C9C9FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_C9C9C9FF_circle.png",
-								"regions":
-								[
-									[
-										444,
-										444
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FFFFFFFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										336,
-										343
-									]
-								],
-								"scope": "col_FFFFFFFF"
-							},
-							"col_FFFFFFFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
-								"regions":
-								[
-									[
-										317,
-										317
-									]
-								],
-								"scope": "col_gutter"
-							}
 						},
 						"selection":
 						[
 							[
-								9093,
-								9093
+								1059,
+								1059
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6761.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
