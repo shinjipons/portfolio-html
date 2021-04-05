@@ -527,24 +527,6 @@
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
-		},
-		{
-			"file": "src/html/index.html",
-			"settings":
-			{
-				"buffer_size": 1569,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/html/ipod.html",
-			"settings":
-			{
-				"buffer_size": 1038,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
 		}
 	],
 	"build_system": "",
@@ -638,11 +620,12 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/index.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/ipod.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_head.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/alias.html",
 		"/C/Users/Shinji/Desktop/ray-tracing/image.ppm",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/substance-painter.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/index.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_nav.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/page-template.html",
@@ -764,8 +747,7 @@
 		"/Users/shinjipons/Desktop/makeappicon.com.txt",
 		"/Users/shinjipons/Desktop/trkd-tour/dist/img/Tree.svg",
 		"/Users/shinjipons/Desktop/trkd-tour/dist/img/List.svg",
-		"/Users/shinjipons/Desktop/trkd-tour/src/js/script.js",
-		"/Users/shinjipons/Desktop/Description of TR Job.txt"
+		"/Users/shinjipons/Desktop/trkd-tour/src/js/script.js"
 	],
 	"find":
 	{
@@ -819,7 +801,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -970,63 +952,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6761.33333333,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/html/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1569,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								516,
-								516
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/html/ipod.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1038,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								623,
-								623
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 174.0,
+						"translation.y": 6761.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
