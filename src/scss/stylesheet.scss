@@ -20,7 +20,7 @@ $mobile-breakpoint: 960px;
 $site-margin:             4%;
 $site-margin-mobile:      5%;
 $site-size:               2.4rem;           // this also controls font size
-$site-size-mobile:        $site-size *1.25; // this also controls font size on mobile
+$site-size-mobile:        $site-size; // this also controls font size on mobile
 $line-height:             1.2 * $site-size;
 $line-height-mobile:      1.2 * $site-size-mobile;
 $site-padding-top:        3.4 * $site-size;
@@ -151,6 +151,11 @@ a {
 	img {
 		width: 100%;
 	}
+}
+
+em {
+	font-style: normal;
+	color: #03FF50;
 }
 
 ul {
