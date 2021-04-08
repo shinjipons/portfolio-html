@@ -155,7 +155,12 @@ a {
 
 em {
 	font-style: normal;
-	color: #03FF50;
+	color: #18FF00;
+
+	animation-name: emphasisColorLoop;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 
 ul {
@@ -393,30 +398,29 @@ video {
 	}
 }
 
-// .block {
-// 	@extend .c4;
-// 	background-color: $primary-color;
-// 	margin-bottom: $thin-gap;
-// 	@media screen and (max-width: $mobile-breakpoint) {
-// 		padding: $line-height-mobile;
-// 	}
-// 	@media screen and (min-width: $mobile-breakpoint + 1px) {
-// 		padding-bottom: $site-size * 2;
-// 		padding-top:    $site-size * 2;
-// 	}
-// 	p {
-// 		color: $secondary-color;
-// 		text-align: center;
-// 		&:last-child {
-// 			margin-bottom: 0;
-// 		}
-// 	}
-// }
-
 // used on the navigation bar
 .highlight {
 	color: $link-color;
 	&:hover {
 		color: $link-color;
+	}
+}
+
+// Animations
+@keyframes emphasisColorLoop {
+	0% {
+		color: #18FF00;
+	}
+	25% {
+		color: #FFDE00;
+	}
+	50% {
+		color: #FF0000;
+	}
+	75% {
+		color: #7800FF;
+	}
+	100% {
+		color: #0096FF;
 	}
 }

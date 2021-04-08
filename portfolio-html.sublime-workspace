@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-transform"
+			],
+			[
 				"su",
 				"substance-painter.html"
 			],
@@ -18,10 +22,6 @@
 			[
 				"back",
 				"background-color"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"padding",
@@ -527,6 +527,24 @@
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "src/scss/stylesheet.scss",
+			"settings":
+			{
+				"buffer_size": 10201,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/html/index.html",
+			"settings":
+			{
+				"buffer_size": 1702,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -616,10 +634,13 @@
 	[
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html"
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss"
 	],
 	"file_history":
 	[
+		"/C/Users/Shinji/OneDrive/Road to Alias/5 - Apple Bubble Letters/Mark Costa Folder/Bubble Letter modeling test brief.txt",
+		"/C/xampp/htdocs/stax/wp-config-sample.php",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/blender-shading.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/index.html",
@@ -745,9 +766,7 @@
 		"/Users/shinjipons/Desktop/mojs/index.html",
 		"/Users/shinjipons/Desktop/mojs/gulpfile.js",
 		"/Users/shinjipons/Desktop/makeappicon.com.txt",
-		"/Users/shinjipons/Desktop/trkd-tour/dist/img/Tree.svg",
-		"/Users/shinjipons/Desktop/trkd-tour/dist/img/List.svg",
-		"/Users/shinjipons/Desktop/trkd-tour/src/js/script.js"
+		"/Users/shinjipons/Desktop/trkd-tour/dist/img/Tree.svg"
 	],
 	"find":
 	{
@@ -766,6 +785,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<option value=\"url:li:fsd_industry:",
 			"ms",
 			"caption",
 			"$highlight-color",
@@ -802,7 +822,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -831,7 +851,214 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/scss/stylesheet.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10201,
+						"regions":
+						{
+							"col_00000033":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5107,
+										5122
+									]
+								],
+								"scope": "col_00000033"
+							},
+							"col_00000033_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00000033_circle.png",
+								"regions":
+								[
+									[
+										5077,
+										5077
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										336,
+										343
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										317,
+										317
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_03FF50FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										4375,
+										4382
+									]
+								],
+								"scope": "col_03FF50FF"
+							},
+							"col_03FF50FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_03FF50FF_circle.png",
+								"regions":
+								[
+									[
+										4367,
+										4367
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_383838FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										463,
+										470
+									]
+								],
+								"scope": "col_383838FF"
+							},
+							"col_383838FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_383838FF_circle.png",
+								"regions":
+								[
+									[
+										444,
+										444
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_7C7C7CFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										407,
+										414
+									]
+								],
+								"scope": "col_7C7C7CFF"
+							},
+							"col_7C7C7CFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_7C7C7CFF_circle.png",
+								"regions":
+								[
+									[
+										388,
+										388
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFD300FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										435,
+										442
+									]
+								],
+								"scope": "col_FFD300FF"
+							},
+							"col_FFD300FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFD300FF_circle.png",
+								"regions":
+								[
+									[
+										416,
+										416
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								4517,
+								4517
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2700.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/html/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1702,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								539,
+								539
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
