@@ -520,10 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "src/scss/stylesheet.scss",
+			"file": "src/html/index.html",
 			"settings":
 			{
-				"buffer_size": 10061,
+				"buffer_size": 1702,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -622,12 +622,12 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_nav.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/index.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_nav.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_head.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/-list.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/-about.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
 		"/C/Users/Shinji/OneDrive/Road to Alias/5 - Apple Bubble Letters/Mark Costa Folder/Bubble Letter modeling test brief.txt",
 		"/C/xampp/htdocs/stax/wp-config-sample.php",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/blender-shading.html",
@@ -753,7 +753,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -812,327 +812,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/scss/stylesheet.scss",
+					"file": "src/html/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10061,
+						"buffer_size": 1702,
 						"regions":
 						{
-							"col_00000033":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										5241,
-										5256
-									]
-								],
-								"scope": "col_00000033"
-							},
-							"col_00000033_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_00000033_circle.png",
-								"regions":
-								[
-									[
-										5211,
-										5211
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_000000FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										336,
-										343
-									]
-								],
-								"scope": "col_000000FF"
-							},
-							"col_000000FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
-								"regions":
-								[
-									[
-										317,
-										317
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_0096FFFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										10048,
-										10055
-									]
-								],
-								"scope": "col_0096FFFF"
-							},
-							"col_0096FFFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_0096FFFF_circle.png",
-								"regions":
-								[
-									[
-										10039,
-										10039
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_18FF00FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										4375,
-										4382
-									],
-									[
-										9935,
-										9942
-									]
-								],
-								"scope": "col_18FF00FF"
-							},
-							"col_18FF00FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_18FF00FF_circle.png",
-								"regions":
-								[
-									[
-										4367,
-										4367
-									],
-									[
-										9926,
-										9926
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_383838FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										463,
-										470
-									]
-								],
-								"scope": "col_383838FF"
-							},
-							"col_383838FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_383838FF_circle.png",
-								"regions":
-								[
-									[
-										444,
-										444
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_7800FFFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										10019,
-										10026
-									]
-								],
-								"scope": "col_7800FFFF"
-							},
-							"col_7800FFFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_7800FFFF_circle.png",
-								"regions":
-								[
-									[
-										10010,
-										10010
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_7C7C7CFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										407,
-										414
-									]
-								],
-								"scope": "col_7C7C7CFF"
-							},
-							"col_7C7C7CFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_7C7C7CFF_circle.png",
-								"regions":
-								[
-									[
-										388,
-										388
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FF0000FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										9991,
-										9998
-									]
-								],
-								"scope": "col_FF0000FF"
-							},
-							"col_FF0000FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FF0000FF_circle.png",
-								"regions":
-								[
-									[
-										9982,
-										9982
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FFD300FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										435,
-										442
-									]
-								],
-								"scope": "col_FFD300FF"
-							},
-							"col_FFD300FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FFD300FF_circle.png",
-								"regions":
-								[
-									[
-										416,
-										416
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FFD700FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										5179,
-										5183
-									],
-									[
-										5208,
-										5212
-									],
-									[
-										5425,
-										5429
-									]
-								],
-								"scope": "col_FFD700FF"
-							},
-							"col_FFD700FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FFD700FF_circle.png",
-								"regions":
-								[
-									[
-										5162,
-										5162
-									],
-									[
-										5185,
-										5185
-									],
-									[
-										5408,
-										5408
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FFDE00FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										9963,
-										9970
-									]
-								],
-								"scope": "col_FFDE00FF"
-							},
-							"col_FFDE00FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FFDE00FF_circle.png",
-								"regions":
-								[
-									[
-										9954,
-										9954
-									]
-								],
-								"scope": "col_gutter"
-							}
 						},
 						"selection":
 						[
 							[
-								4443,
-								4443
+								143,
+								143
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2261.33333333,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1733,7 +1433,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 253.0,
 	"status_bar_visible": true,
 	"template_settings":
