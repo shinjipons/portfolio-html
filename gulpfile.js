@@ -13,7 +13,7 @@ gulp.task('css', function() {
   return gulp.src('src/scss/stylesheet.scss')
     .pipe(plumbError())    
     .pipe(sass())
-      .pipe(purgecss({content:['*.html']}))
+      // .pipe(purgecss({content:['*.html']}))
       .pipe(gcmq())
       .pipe(cleanCSS())
     .pipe(gulp.dest('dist/css/'))

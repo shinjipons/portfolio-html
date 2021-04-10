@@ -13,13 +13,19 @@
 </head>
 <body>
 
-	<nav>
-	<a href="index.html" class="w1 desktop-only">Shinji Pons</a>
-	<a href="index.html" class="w1 mobile-only">[Home]</a>
-	<a href="-list.html">Works</a>
-	<a href="-about.html">About</a>
-	<a href="https://linkedin.com/in/shinji-pons/" target="_blank">Linkedin</a>
-	<a href="https://blog.shinjipons.com/"         target="_blank">Blog</a>
+	<nav id="menu-target">
+	<a href="index.html">Shinji Pons</a>
+	<button id=menu-trigger>
+		<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path id=svg-path fill-rule="evenodd" clip-rule="evenodd" d="M16 2H14V14H2V16H14V28H16V16H28V14H16V2Z" fill="white"/>
+		</svg>
+	</button>
+	<div class="nav-content">
+		<a href="-list.html">Works</a>
+		<a href="-about.html">About</a>
+		<a href="https://linkedin.com/in/shinji-pons/" target="_blank">Linkedin</a>
+		<a href="https://blog.shinjipons.com/"         target="_blank">Blog</a>
+	</div>
 </nav>
 
 
@@ -44,6 +50,38 @@
 	<img src="data/img/urbantorque/photo-step-3.webp"    class="c4">
 	<img src="data/img/urbantorque/photo-step-4.webp"    class="c4">
 	<img src="data/img/urbantorque/photo-step-5.webp"    class="c4">
+
+	<script type="text/javascript">
+	var menuButton = document.getElementById( "menu-trigger" );
+	var nav = document.getElementById( "menu-target" );
+
+	window.addEventListener('click', function(e){
+		if ( nav.contains( e.target ) ) {
+			// Clicked in box
+			toggleMyShizzle();
+		} else {
+	    	// Clicked outside the box
+	    	if ( nav.classList.contains( "nav-open" ) == true ) {
+	    		removeMyShizzle();
+	    	}
+	    }
+	});
+
+	function toggleMyShizzle() {
+		nav.classList.toggle( "nav-open" );
+		menuButton.classList.toggle( "button-rotated");
+	}
+
+	function addMyShizzle() {
+		nav.classList.add( "nav-open" );
+		menuButton.classList.add( "button-rotated" );
+	}
+
+	function removeMyShizzle() {
+		nav.classList.remove( "nav-open" );
+		menuButton.classList.remove( "button-rotated" );
+	}
+</script>
 
 </body>
 </html>
