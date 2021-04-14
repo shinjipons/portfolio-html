@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"tet",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"Ex",
+				"Exetegue-Light.woff"
+			],
+			[
 				"remove",
 				"removeMyShizzle"
 			],
@@ -30,10 +46,6 @@
 			[
 				"menu",
 				"menuButton"
-			],
-			[
-				"text",
-				"text-transform"
 			],
 			[
 				"su",
@@ -158,10 +170,6 @@
 			[
 				"animation",
 				"animation-duration\tproperty"
-			],
-			[
-				"font-s",
-				"font-size\tproperty"
 			],
 			[
 				"op",
@@ -506,55 +514,11 @@
 			[
 				"brow",
 				"browserSync"
-			],
-			[
-				"src",
-				"srcElement"
-			],
-			[
-				"moda",
-				"modalBackgroundRemove"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "src/html/-list.html",
-			"settings":
-			{
-				"buffer_size": 2127,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/html/-about.html",
-			"settings":
-			{
-				"buffer_size": 1666,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/scss/stylesheet.scss",
-			"settings":
-			{
-				"buffer_size": 11226,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": " Had to reduce the poly count down from 2m to make Blender usable but at least Eevee does a decent job out of the box.",
-			"settings":
-			{
-				"buffer_size": 118,
-				"line_ending": "Windows",
-				"name": "Had to reduce the poly count down from 2m to make"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -643,10 +607,18 @@
 	[
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss"
 	],
 	"file_history":
 	[
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_nav.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/gulpfile.js",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/_script.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/_nav.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/-about.html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/-list.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/cad-sculptor.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/doty.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/dynamo.html",
@@ -664,15 +636,10 @@
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/basiljs.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/blender-shading.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/bowie.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_script.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/index.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_nav.html",
 		"/C/Users/Shinji/Desktop/menu-icon.svg",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/gulpfile.js",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_head.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/-list.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/-about.html",
 		"/C/Users/Shinji/OneDrive/Road to Alias/5 - Apple Bubble Letters/Mark Costa Folder/Bubble Letter modeling test brief.txt",
 		"/C/xampp/htdocs/stax/wp-config-sample.php",
 		"/C/Users/Shinji/Desktop/ray-tracing/image.ppm",
@@ -685,7 +652,6 @@
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/basiljs.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/alias.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/bowie.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/_nav.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/index.html",
 		"/Users/shinjipons/Desktop/portfolio-html/archive.html",
 		"/Users/shinjipons/Desktop/portfolio-html/links.html",
@@ -773,18 +739,18 @@
 		"/Users/shinjipons/Desktop/login data.txt",
 		"/Users/shinjipons/Desktop/ReactJS Notes.js",
 		"/Users/shinjipons/Desktop/ReactJS Notes.txt",
-		"/Users/shinjipons/Desktop/mojs/index.html",
-		"/Users/shinjipons/Desktop/mojs/gulpfile.js"
+		"/Users/shinjipons/Desktop/mojs/index.html"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
 		"height": 187.0,
 		"where_history":
 		[
+			"<current file>",
 			""
 		]
 	},
@@ -793,6 +759,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"border-bottom",
+			"color",
+			"header",
+			"header-font",
+			"$font-family",
 			"transition",
 			"webfont",
 			"project",
@@ -818,6 +789,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$body-font",
 			"$link-color"
 		],
 		"reverse": false,
@@ -835,428 +807,14 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/html/-list.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2127,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2109,
-								2109
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/html/-about.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1666,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1648,
-								1648
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 641.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/scss/stylesheet.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11226,
-						"regions":
-						{
-							"col_00000033":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										5403,
-										5418
-									]
-								],
-								"scope": "col_00000033"
-							},
-							"col_00000033_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_00000033_circle.png",
-								"regions":
-								[
-									[
-										5373,
-										5373
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_000000FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										229,
-										236
-									]
-								],
-								"scope": "col_000000FF"
-							},
-							"col_000000FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
-								"regions":
-								[
-									[
-										210,
-										210
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_0096FFFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										11049,
-										11056
-									],
-									[
-										11213,
-										11220
-									]
-								],
-								"scope": "col_0096FFFF"
-							},
-							"col_0096FFFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_0096FFFF_circle.png",
-								"regions":
-								[
-									[
-										11040,
-										11040
-									],
-									[
-										11205,
-										11205
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_18FF00FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										4392,
-										4399
-									],
-									[
-										10936,
-										10943
-									],
-									[
-										11104,
-										11111
-									]
-								],
-								"scope": "col_18FF00FF"
-							},
-							"col_18FF00FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_18FF00FF_circle.png",
-								"regions":
-								[
-									[
-										4384,
-										4384
-									],
-									[
-										10927,
-										10927
-									],
-									[
-										11096,
-										11096
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_383838FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										356,
-										363
-									]
-								],
-								"scope": "col_383838FF"
-							},
-							"col_383838FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_383838FF_circle.png",
-								"regions":
-								[
-									[
-										337,
-										337
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_7800FFFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										11020,
-										11027
-									],
-									[
-										11185,
-										11192
-									]
-								],
-								"scope": "col_7800FFFF"
-							},
-							"col_7800FFFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_7800FFFF_circle.png",
-								"regions":
-								[
-									[
-										11011,
-										11011
-									],
-									[
-										11177,
-										11177
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_7C7C7CFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										300,
-										307
-									]
-								],
-								"scope": "col_7C7C7CFF"
-							},
-							"col_7C7C7CFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_7C7C7CFF_circle.png",
-								"regions":
-								[
-									[
-										281,
-										281
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FF0000FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										10992,
-										10999
-									],
-									[
-										11158,
-										11165
-									]
-								],
-								"scope": "col_FF0000FF"
-							},
-							"col_FF0000FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FF0000FF_circle.png",
-								"regions":
-								[
-									[
-										10983,
-										10983
-									],
-									[
-										11150,
-										11150
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FFD300FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										328,
-										335
-									]
-								],
-								"scope": "col_FFD300FF"
-							},
-							"col_FFD300FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FFD300FF_circle.png",
-								"regions":
-								[
-									[
-										309,
-										309
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_FFDE00FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										10964,
-										10971
-									],
-									[
-										11131,
-										11138
-									]
-								],
-								"scope": "col_FFDE00FF"
-							},
-							"col_FFDE00FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FFDE00FF_circle.png",
-								"regions":
-								[
-									[
-										10955,
-										10955
-									],
-									[
-										11123,
-										11123
-									]
-								],
-								"scope": "col_gutter"
-							}
-						},
-						"selection":
-						[
-							[
-								6074,
-								6089
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3226.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 118,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								118
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Had to reduce the poly count down from 2m to make",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -1846,7 +1404,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 311.0,
 	"status_bar_visible": true,
 	"template_settings":

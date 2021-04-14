@@ -6,6 +6,14 @@
 	font-family: "Exetegue Bold";
 	src: url("../../data/fonts/Exetegue-Bold.woff") format("woff");
 }
+@font-face {
+	font-family: "Exetegue Light";
+	src: url("../../data/fonts/Exetegue-Light.woff") format("woff");
+}
+@font-face {
+	font-family: "Exetegue Regular";
+	src: url("../../data/fonts/Exetegue-Regular.woff") format("woff");
+}
 
 $body-font: "Inter", sans-serif;
 $header-font: "Exetegue Bold";
@@ -241,24 +249,30 @@ nav {
 		padding-top: 8.4rem;
 	}
 	a {
-		display: inline-block;
-		margin-right: 2rem;
 		font-family: $header-font;
-		text-transform: uppercase;
-		// border: 1px solid gold;
+		margin-right: 2rem;
 		padding-top: 4rem;
 		padding-bottom: 0rem;
 		margin-top: 2rem;
+		text-transform: uppercase;
 		text-decoration: none;
+		transition: $transition-unit ease-in-out;
 		&:hover {
-			text-decoration: underline;
+			transition: 0s;
 		}
 		@media only screen and (max-width: $mobile-breakpoint) {
 			font-size: $site-size-mobile;	
 		}
 		@media only screen and (min-width: $mobile-breakpoint + 1px) {
 			font-size: $site-size * 6;
-			line-height: $line-height * 4.4;
+			
+			// option 1
+			// display: inline-block;
+			// line-height: $line-height * 1.2;
+
+			// option 2
+			display: block;
+			line-height: $line-height * 2;
 		}	
 	}
 }
