@@ -1,8 +1,14 @@
-$font-family: "Inter", sans-serif;
 @font-face {
 	font-family: "Inter";
 	src: url("../../data/fonts/Inter-Regular.woff2") format("woff2"), url("../../data/fonts/Inter-Regular.woff") format("woff");
 }
+@font-face {
+	font-family: "Exetegue Bold";
+	src: url("../../data/fonts/Exetegue-Bold.woff") format("woff");
+}
+
+$body-font: "Inter", sans-serif;
+$header-font: "Exetegue Bold";
 
 // Colors
 $primary-color:    #000000;
@@ -102,7 +108,7 @@ html {
 }
 
 body {
-	font-family: $font-family;
+	font-family: $body-font;
 	@media only screen and (max-width: $mobile-breakpoint) {
 		font-size:     $site-size-mobile;
 		margin-left:   0;
@@ -123,7 +129,7 @@ p, h1 {
 	display: block;
 	font-weight: normal;
 	word-wrap: break-word;
-	font-family: $font-family;
+	font-family: $body-font;
 	color: $secondary-color;
 	
 	@media only screen and (max-width: $mobile-breakpoint) {
@@ -155,12 +161,7 @@ a {
 
 em {
 	font-style: normal;
-	color: #18FF00;
-
-	animation-name: emphasisColorLoop;
-	animation-duration: 40s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
+	color: #FC0000;
 }
 
 ul {
@@ -198,7 +199,7 @@ nav, footer {
 
 nav {
 	top: 0;
-	transition: $transition-unit * 3 $timing-function;
+	transition: $transition-unit * 5 $timing-function;
 	border-bottom: 1px solid $secondary-color;
 	overflow: hidden;
 	background: $primary-color;
@@ -214,20 +215,12 @@ nav {
 		height: $site-padding-top;
 		padding-top: $site-size;
 	}
-	a {
-		@media only screen and (max-width: $mobile-breakpoint) {
-			margin-right: $line-height-mobile * 0.25;
-		}
-		@media only screen and (min-width: $mobile-breakpoint + 1px) {
-			margin-right: $line-height;
-		}
-	}
 	button {
 		border: none;
 		float: right;
 		background: $primary-color;
 		height: 3rem;
-		width: 3rem;
+		width:  3rem;
 		padding: 0px;
 		transition: $transition-unit * 3 $timing-function;
 		box-sizing: border-box;
@@ -248,18 +241,35 @@ nav {
 		padding-top: 8.4rem;
 	}
 	a {
-		display: block;
-		margin-right: 0px;
+		display: inline-block;
+		margin-right: 2rem;
+		font-family: $header-font;
+		text-transform: uppercase;
+		// border: 1px solid gold;
+		padding-top: 4rem;
+		padding-bottom: 0rem;
+		margin-top: 2rem;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+		@media only screen and (max-width: $mobile-breakpoint) {
+			font-size: $site-size-mobile;	
+		}
+		@media only screen and (min-width: $mobile-breakpoint + 1px) {
+			font-size: $site-size * 6;
+			line-height: $line-height * 4.4;
+		}	
 	}
 }
 
 #svg-path {
-	// transition: $transition-unit * 3 $timing-function;
 	fill: $secondary-color;
 }
 
 .nav-open {
 	height: 100vh;
+	border-bottom: 1px solid $primary-color;
 }
 
 .button-rotated {
@@ -312,14 +322,12 @@ video {
 .project-title {
 	// Classes specific for the project page
 	@extend .w1;
-	// @extend .medium;
 	@media only screen and (max-width: $mobile-breakpoint) {
 		margin-bottom: $line-height-mobile;
 	}
 }
 .project-description {
 	@extend .w2;
-	// @extend .medium;
 	@media only screen and (max-width: $mobile-breakpoint) {
 		margin-bottom: $line-height-mobile;
 		p {
@@ -357,9 +365,9 @@ video {
 		position: absolute;
 		margin-top: $site-size * 2;
 		text-shadow: 0rem 0rem 0.5rem $primary-color;
-		// transition: $transition-unit $timing-function;
 	}
 	@media only screen and (max-width: $mobile-breakpoint) {
+		// border top and bottom used to give some space for the image to "breathe"
 		border-top:    $line-height-mobile solid $primary-color;
 		border-bottom: $line-height-mobile solid $primary-color;
 		height:  	   $site-size * 14;
@@ -369,6 +377,7 @@ video {
 		}
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		// border top and bottom used to give some space for the image to "breathe"
 		border-top:    $line-height solid $primary-color;
 		border-bottom: $line-height solid $primary-color;
 		height:    	   $site-size * 2 * 14;
@@ -453,42 +462,5 @@ video {
 	color: $link-color;
 	&:hover {
 		color: $link-color;
-	}
-}
-
-// Animations
-@keyframes emphasisColorLoop {
-	0% {
-		color: #18FF00;
-	}
-	25% {
-		color: #FFDE00;
-	}
-	50% {
-		color: #FF0000;
-	}
-	75% {
-		color: #7800FF;
-	}
-	100% {
-		color: #0096FF;
-	}
-}
-
-@keyframes pathFillLoop {
-	0% {
-		fill: #18FF00;
-	}
-	25% {
-		fill: #FFDE00;
-	}
-	50% {
-		fill: #FF0000;
-	}
-	75% {
-		fill: #7800FF;
-	}
-	100% {
-		fill: #0096FF;
 	}
 }
