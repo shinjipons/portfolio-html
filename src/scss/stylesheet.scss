@@ -22,7 +22,7 @@ $header-font: "Exetegue Bold";
 $primary-color:    #000000;
 $secondary-color:  invert($primary-color);
 $link-color:       #7C7C7C;
-$link-color-hover: #FFD300;
+$link-hover-color: #00B4FF;
 $missing-color:    #383838;
 
 // Breakpoint
@@ -158,9 +158,8 @@ p, h1 {
 a {
 	color: $link-color;
 	text-decoration: none;
-	// transition: $transition-unit $timing-function;
 	&:hover {
-		color:$link-color-hover;
+		color: $link-hover-color;
 	}
 	img {
 		width: 100%;
@@ -169,7 +168,7 @@ a {
 
 em {
 	font-style: normal;
-	color: #FC0000;
+	color: $link-hover-color;
 }
 
 ul {
@@ -207,8 +206,7 @@ nav, footer {
 
 nav {
 	top: 0;
-	transition: $transition-unit * 5 $timing-function;
-	border-bottom: 1px solid $secondary-color;
+	transition: $transition-unit * 1.75 ease-in-out;
 	overflow: hidden;
 	background: $primary-color;
 	backdrop-filter: blur(0px);
@@ -234,7 +232,7 @@ nav {
 		box-sizing: border-box;
 		&:hover {
 			#svg-path {
-				fill: $link-color-hover;
+				fill: $link-hover-color;
 			}
 		}
 	}
@@ -242,6 +240,7 @@ nav {
 
 // nav related classes
 .nav-content {
+	overflow: scroll-y;
 	@media only screen and (max-width: $mobile-breakpoint) {
 		padding-top: $site-size-mobile * 4;	
 	}
@@ -249,31 +248,32 @@ nav {
 		padding-top: 8.4rem;
 	}
 	a {
+		display: block;
 		font-family: $header-font;
-		margin-right: 2rem;
-		padding-top: 4rem;
+		text-align: center;
 		padding-bottom: 0rem;
-		margin-top: 2rem;
 		text-transform: uppercase;
 		text-decoration: none;
-		transition: $transition-unit ease-in-out;
-		&:hover {
-			transition: 0s;
-		}
+		text-stroke:         1px $secondary-color;
+		-webkit-text-stroke: 1px $secondary-color;
+		color: $primary-color;
 		@media only screen and (max-width: $mobile-breakpoint) {
-			font-size: $site-size-mobile;	
+			font-size:   $site-size-mobile * 4;
+			line-height: $line-height-mobile * 2.4;
+			padding-top: 1.5rem;
 		}
 		@media only screen and (min-width: $mobile-breakpoint + 1px) {
-			font-size: $site-size * 6;
-			
-			// option 1
-			// display: inline-block;
-			// line-height: $line-height * 1.2;
-
-			// option 2
-			display: block;
-			line-height: $line-height * 2;
+			font-size:   $site-size   * 8;
+			line-height: $line-height * 3.2;
+			margin-top: 2rem;
+			padding-top: 4rem;
 		}	
+		&:hover {
+			// color: $secondary-color;
+			color: $link-hover-color;
+			text-stroke:         1px $link-hover-color;
+			-webkit-text-stroke: 1px $link-hover-color;
+		}
 	}
 }
 
@@ -368,7 +368,7 @@ video {
 	}
 	&:hover {
 		p {
-			color: $link-color-hover;
+			color: $link-hover-color;
 		}
 	}
 	
