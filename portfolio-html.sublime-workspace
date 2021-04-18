@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-right"
+			],
+			[
 				"tet",
 				"text-decoration"
 			],
@@ -226,10 +230,6 @@
 			[
 				"font-",
 				"font-weight"
-			],
-			[
-				"mar",
-				"margin-bottom"
 			],
 			[
 				"sc",
@@ -519,24 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/scss/stylesheet.scss",
-			"settings":
-			{
-				"buffer_size": 11645,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/html/_nav.html",
-			"settings":
-			{
-				"buffer_size": 756,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -630,6 +612,7 @@
 	"file_history":
 	[
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_nav.html",
+		"/C/Users/Shinji/AppData/Local/Temp/7zO0EABA336/readme.md",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/gulpfile.js",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/_script.html",
@@ -755,12 +738,11 @@
 		"/Users/shinjipons/Desktop/ReactJS Notes.jsx",
 		"/Users/shinjipons/Desktop/login data.txt",
 		"/Users/shinjipons/Desktop/ReactJS Notes.js",
-		"/Users/shinjipons/Desktop/ReactJS Notes.txt",
-		"/Users/shinjipons/Desktop/mojs/index.html"
+		"/Users/shinjipons/Desktop/ReactJS Notes.txt"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -826,223 +808,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/scss/stylesheet.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11645,
-						"regions":
-						{
-							"col_00000033":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										5574,
-										5589
-									]
-								],
-								"scope": "col_00000033"
-							},
-							"col_00000033_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_00000033_circle.png",
-								"regions":
-								[
-									[
-										5544,
-										5544
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_000000FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										624,
-										631
-									]
-								],
-								"scope": "col_000000FF"
-							},
-							"col_000000FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
-								"regions":
-								[
-									[
-										605,
-										605
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_00B4FFFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										723,
-										730
-									]
-								],
-								"scope": "col_00B4FFFF"
-							},
-							"col_00B4FFFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_00B4FFFF_circle.png",
-								"regions":
-								[
-									[
-										704,
-										704
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_383838FF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										751,
-										758
-									]
-								],
-								"scope": "col_383838FF"
-							},
-							"col_383838FF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_383838FF_circle.png",
-								"regions":
-								[
-									[
-										732,
-										732
-									]
-								],
-								"scope": "col_gutter"
-							},
-							"col_7C7C7CFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										695,
-										702
-									]
-								],
-								"scope": "col_7C7C7CFF"
-							},
-							"col_7C7C7CFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_7C7C7CFF_circle.png",
-								"regions":
-								[
-									[
-										676,
-										676
-									]
-								],
-								"scope": "col_gutter"
-							}
-						},
-						"selection":
-						[
-							[
-								528,
-								278
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/html/_nav.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 756,
-						"regions":
-						{
-							"col_FFFFFFFF":
-							{
-								"flags": 16,
-								"regions":
-								[
-									[
-										301,
-										306
-									]
-								],
-								"scope": "col_FFFFFFFF"
-							},
-							"col_FFFFFFFF_icon":
-							{
-								"flags": 16,
-								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
-								"regions":
-								[
-									[
-										187,
-										187
-									]
-								],
-								"scope": "col_gutter"
-							}
-						},
-						"selection":
-						[
-							[
-								504,
-								504
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -1083,7 +856,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 46.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1632,7 +1405,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 311.0,
 	"status_bar_visible": true,
 	"template_settings":
