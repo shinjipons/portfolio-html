@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <meta charset="UTF-8">
+	<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="robots" content="noindex,nofollow">
 <title>Shinji Pons</title>
 <link rel="preload" href="data/fonts/webfont.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="dist/css/stylesheet.css">
 
-
 </head>
 <body>
 
-  <nav>
-	<a href="index.html" class="w1 desktop-only">Shinji Pons</a>
-	<a href="index.html" class="w1 mobile-only">[Home]</a>
-	<a href="-list.html">Works</a>
-	<a href="-about.html">About</a>
-	<a href="https://linkedin.com/in/shinji-pons/" target="_blank">Linkedin</a>
-	<a href="https://blog.shinjipons.com/"         target="_blank">Blog</a>
+	<nav id="menu-target">
+	<a href="index.html">Shinji Pons</a>
+	<button id="menu-trigger">
+		<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path id="svg-path" fill-rule="evenodd" clip-rule="evenodd" d="M16 2H14V14H2V16H14V28H16V16H28V14H16V2Z" fill="white"/>
+		</svg>
+	</button>
+	<div class="nav-content">
+		<a href="-list.html">Projects</a>
+		<a href="-about.html">Info</a>
+		<a href="https://blog.shinjipons.com/"          target="_blank">Blog</a>
+		<a href="https://linkedin.com/in/shinji-pons/"  target="_blank">Linkedin</a>
+		<a href="https://www.instagram.com/shinjipons/" target="_blank">Instagram</a>
+		<a href="https://github.com/quickp0int"         target="_blank">Github</a>
+		<a href="mailto:hello@shinjipons.com">Email</a>
+	</div>
 </nav>
 
 
 	<section class="medium p1 w2">
 		<p>Shinji is an international designer born in <em>Japan</em>, raised in <em>France</em> and currently based in <em>Denmark</em>.</p>
-		<br>
 		<p>He currently works full-time as a senior product designer at <em>LEGO</em>, making the next generation of desktop software for LEGO designers.</p>
-		<br>
 		<p>He also has a keen interest in high quality surface modelling using <em>Autodesk Alias</em>.</p>
-		<br>
 		<p>For more info, email <a href="mailto:hello@shinjipons.com">hello@shinjipons.com</a></p>
 	</section>
 
@@ -46,6 +50,38 @@
     	<a href="modulo.html"            class="card modulo"> 			<p>Modulo Typeface</p></a>
 		<a href="doty.html" 		     class="card doty">   			<p>Designs of the Year 2015</p></a>
 	</section>
+
+	<script type="text/javascript">
+	var menuButton = document.getElementById( "menu-trigger" );
+	var nav = document.getElementById( "menu-target" );
+
+	window.addEventListener('click', function(e){
+		if ( nav.contains( e.target ) ) {
+			// Clicked in box
+			toggleMyShizzle();
+		} else {
+	    	// Clicked outside the box
+	    	if ( nav.classList.contains( "nav-open" ) == true ) {
+	    		removeMyShizzle();
+	    	}
+	    }
+	});
+
+	function toggleMyShizzle() {
+		nav.classList.toggle( "nav-open" );
+		menuButton.classList.toggle( "button-rotated");
+	}
+
+	function addMyShizzle() {
+		nav.classList.add( "nav-open" );
+		menuButton.classList.add( "button-rotated" );
+	}
+
+	function removeMyShizzle() {
+		nav.classList.remove( "nav-open" );
+		menuButton.classList.remove( "button-rotated" );
+	}
+</script>
 
 </body>
 </html>

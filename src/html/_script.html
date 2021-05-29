@@ -1,0 +1,31 @@
+<script type="text/javascript">
+	var menuButton = document.getElementById( "menu-trigger" );
+	var nav = document.getElementById( "menu-target" );
+
+	window.addEventListener('click', function(e){
+		if ( nav.contains( e.target ) ) {
+			// Clicked in box
+			toggleMyShizzle();
+		} else {
+	    	// Clicked outside the box
+	    	if ( nav.classList.contains( "nav-open" ) == true ) {
+	    		removeMyShizzle();
+	    	}
+	    }
+	});
+
+	function toggleMyShizzle() {
+		nav.classList.toggle( "nav-open" );
+		menuButton.classList.toggle( "button-rotated");
+	}
+
+	function addMyShizzle() {
+		nav.classList.add( "nav-open" );
+		menuButton.classList.add( "button-rotated" );
+	}
+
+	function removeMyShizzle() {
+		nav.classList.remove( "nav-open" );
+		menuButton.classList.remove( "button-rotated" );
+	}
+</script>

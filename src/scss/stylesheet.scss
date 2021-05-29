@@ -1,16 +1,28 @@
-// $font-family: "Atkinson Hyperlegible", sans-serif;
-// $font-family: "JetBrains Mono Light", sans-serif;
-$font-family: "Inter", sans-serif;
 @font-face {
 	font-family: "Inter";
 	src: url("../../data/fonts/Inter-Regular.woff2") format("woff2"), url("../../data/fonts/Inter-Regular.woff") format("woff");
 }
+@font-face {
+	font-family: "Exetegue Bold";
+	src: url("../../data/fonts/Exetegue-Bold.woff") format("woff");
+}
+// @font-face {
+// 	font-family: "Exetegue Light";
+// 	src: url("../../data/fonts/Exetegue-Light.woff") format("woff");
+// }
+// @font-face {
+// 	font-family: "Exetegue Regular";
+// 	src: url("../../data/fonts/Exetegue-Regular.woff") format("woff");
+// }
+
+$body-font: "Inter", sans-serif;
+$header-font: "Exetegue Bold";
 
 // Colors
 $primary-color:    #000000;
 $secondary-color:  invert($primary-color);
 $link-color:       #7C7C7C;
-$link-color-hover: #FFD300;
+$link-hover-color: #00B4FF;
 $missing-color:    #383838;
 
 // Breakpoint
@@ -19,7 +31,7 @@ $mobile-breakpoint: 960px;
 // Site spacing desktop
 $site-margin:             4%;
 $site-margin-mobile:      5%;
-$site-size:               2.4rem;           // this also controls font size
+$site-size:               2.4rem; // this also controls font size
 $site-size-mobile:        $site-size; // this also controls font size on mobile
 $line-height:             1.2 * $site-size;
 $line-height-mobile:      1.2 * $site-size-mobile;
@@ -28,7 +40,8 @@ $site-padding-top-mobile: 1.0 * $site-size-mobile;
 $thin-gap:                1px; // used for the vertical gap between images, text, etc.
 
 // Animation
-$transition-unit: 150ms;
+$transition-unit:         150ms;
+$timing-function:         cubic-bezier(.86,0,.07,1);
 
 // Grid settings (except margin)
 $grid-gap:                2%;
@@ -103,7 +116,7 @@ html {
 }
 
 body {
-	font-family: $font-family;
+	font-family: $body-font;
 	@media only screen and (max-width: $mobile-breakpoint) {
 		font-size:     $site-size-mobile;
 		margin-left:   0;
@@ -120,33 +133,33 @@ body {
 }
 
 p, h1 {
-	// Text
 	margin: 0;
 	display: block;
 	font-weight: normal;
 	word-wrap: break-word;
-	font-family: $font-family;
+	font-family: $body-font;
 	color: $secondary-color;
-	line-height: $line-height;
-	margin-bottom: $line-height * 1;
+	
 	@media only screen and (max-width: $mobile-breakpoint) {
 		font-size: $site-size-mobile;
-		margin-bottom: 0;
+		margin-bottom: $line-height-mobile * 1;
+		line-height: $line-height-mobile;
 		&:last-child {
 			margin-bottom: $line-height-mobile;
 		}
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
 		font-size: $site-size;
+		margin-bottom: $line-height * 1;
+		line-height: $line-height;
 	}
 }
 
 a {
 	color: $link-color;
 	text-decoration: none;
-	transition: $transition-unit;
 	&:hover {
-		color:$link-color-hover;
+		color: $link-hover-color;
 	}
 	img {
 		width: 100%;
@@ -155,12 +168,7 @@ a {
 
 em {
 	font-style: normal;
-	color: #18FF00;
-
-	animation-name: emphasisColorLoop;
-	animation-duration: 40s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
+	color: $link-hover-color;
 }
 
 ul {
@@ -198,25 +206,90 @@ nav, footer {
 
 nav {
 	top: 0;
+	transition: $transition-unit * 1.75 ease-in-out;
+	overflow: hidden;
+	background: $primary-color;
+	backdrop-filter: blur(0px);
 	@media only screen and (max-width: $mobile-breakpoint) {
-		height: $site-padding-top-mobile * 4;
-		background: $primary-color;
+		height: $site-padding-top-mobile * 3.2;
 		box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.2);
 		padding-top: $site-size;
+		padding-left:  $site-margin-mobile;
+		padding-right: $site-margin-mobile;
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
 		height: $site-padding-top;
-		background: $primary-color;
 		padding-top: $site-size;
 	}
-	a {
-		@media only screen and (max-width: $mobile-breakpoint) {
-			margin-right: $line-height-mobile * 0.25;
-		}
-		@media only screen and (min-width: $mobile-breakpoint + 1px) {
-			margin-right: $line-height;
+	button {
+		border: none;
+		float: right;
+		background: $primary-color;
+		height: 3rem;
+		width:  3rem;
+		padding: 0px;
+		transition: $transition-unit * 3 $timing-function;
+		box-sizing: border-box;
+		&:hover {
+			#svg-path {
+				fill: $link-hover-color;
+			}
 		}
 	}
+}
+
+// nav related classes
+.nav-content {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-direction: column;
+	@media only screen and (max-width: $mobile-breakpoint) {
+		padding-top: $site-size-mobile * 4;	
+	}
+	@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		padding-top: 8.4rem;
+	}
+	a {
+		font-family: $header-font;
+		padding-bottom: 0rem;
+		text-transform: uppercase;
+		text-decoration: none;
+		text-stroke:         1px $secondary-color;
+		-webkit-text-stroke: 1px $secondary-color;
+		color: $primary-color;
+		@media only screen and (max-width: $mobile-breakpoint) {
+			font-size:   $site-size-mobile * 3;
+			line-height: $line-height-mobile * 1.6;
+			padding-top: 1.5rem;
+		}
+		@media only screen and (min-width: $mobile-breakpoint + 1px) {
+			font-size:   $site-size   * 6;
+			line-height: $line-height * 2.2;
+			margin-top:  2rem;
+			padding-top: 4rem;
+		}	
+		&:hover {
+			// color: $secondary-color;
+			color: $link-hover-color;
+			text-stroke:         1px $link-hover-color;
+			-webkit-text-stroke: 1px $link-hover-color;
+		}
+	}
+}
+
+#svg-path {
+	fill: $secondary-color;
+}
+
+.nav-open {
+	height: 100vh;
+	border-bottom: 1px solid $primary-color;
+}
+
+.button-rotated {
+	transform: rotate(3 * 45deg);
 }
 
 // Rich media content
@@ -265,16 +338,17 @@ video {
 .project-title {
 	// Classes specific for the project page
 	@extend .w1;
-	// @extend .medium;
 	@media only screen and (max-width: $mobile-breakpoint) {
 		margin-bottom: $line-height-mobile;
 	}
 }
 .project-description {
 	@extend .w2;
-	// @extend .medium;
 	@media only screen and (max-width: $mobile-breakpoint) {
 		margin-bottom: $line-height-mobile;
+		p {
+			margin-bottom: $site-size-mobile * 1;
+		}
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
 		margin-bottom: $line-height * 2;
@@ -296,7 +370,7 @@ video {
 	}
 	&:hover {
 		p {
-			color: $link-color-hover;
+			color: $link-hover-color;
 		}
 	}
 	
@@ -307,9 +381,9 @@ video {
 		position: absolute;
 		margin-top: $site-size * 2;
 		text-shadow: 0rem 0rem 0.5rem $primary-color;
-		transition: $transition-unit;
 	}
 	@media only screen and (max-width: $mobile-breakpoint) {
+		// border top and bottom used to give some space for the image to "breathe"
 		border-top:    $line-height-mobile solid $primary-color;
 		border-bottom: $line-height-mobile solid $primary-color;
 		height:  	   $site-size * 14;
@@ -319,6 +393,7 @@ video {
 		}
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		// border top and bottom used to give some space for the image to "breathe"
 		border-top:    $line-height solid $primary-color;
 		border-bottom: $line-height solid $primary-color;
 		height:    	   $site-size * 2 * 14;
@@ -403,24 +478,5 @@ video {
 	color: $link-color;
 	&:hover {
 		color: $link-color;
-	}
-}
-
-// Animations
-@keyframes emphasisColorLoop {
-	0% {
-		color: #18FF00;
-	}
-	25% {
-		color: #FFDE00;
-	}
-	50% {
-		color: #FF0000;
-	}
-	75% {
-		color: #7800FF;
-	}
-	100% {
-		color: #0096FF;
 	}
 }
