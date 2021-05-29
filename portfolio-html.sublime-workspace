@@ -519,6 +519,284 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/scss/stylesheet.scss",
+			"settings":
+			{
+				"buffer_size": 11691,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"left_delete",
+					null,
+					"AQAAADYbAAAAAAAANhsAAAAAAAABAAAAOA",
+					"AQAAAAAAAAABAAAANxsAAAAAAAA3GwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "4"
+					},
+					"AQAAADYbAAAAAAAANxsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANhsAAAAAAAA2GwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"left_delete",
+					null,
+					"AQAAADYbAAAAAAAANhsAAAAAAAABAAAANA",
+					"AQAAAAAAAAABAAAANxsAAAAAAAA3GwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "6"
+					},
+					"AQAAADYbAAAAAAAANxsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANhsAAAAAAAA2GwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"cut",
+					null,
+					"AQAAAA8YAAAAAAAADxgAAAAAAAAUAAAAZmxleC1kaXJlY3Rpb246IHJvdzs",
+					"AQAAAAAAAAABAAAAIxgAAAAAAAAPGAAAAAAAAAAAAAAAAEJA"
+				],
+				[
+					22,
+					2,
+					"left_delete",
+					null,
+					"AgAAAA4YAAAAAAAADhgAAAAAAAABAAAACQ0YAAAAAAAADRgAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAADxgAAAAAAAAPGAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAANYYAAAAAAAA1xgAAAAAAAAAAAAA1xgAAAAAAADZGAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1hgAAAAAAADWGAAAAAAAAP///////+9/"
+				],
+				[
+					28,
+					1,
+					"paste",
+					null,
+					"AQAAANkYAAAAAAAA7RgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2RgAAAAAAADZGAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAEcZAAAAAAAASBkAAAAAAAAAAAAASBkAAAAAAABKGQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARxkAAAAAAABHGQAAAAAAAAAAAAAAgG9A"
+				],
+				[
+					31,
+					1,
+					"paste",
+					null,
+					"AQAAAEoZAAAAAAAAXhkAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAShkAAAAAAABKGQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"delete_word",
+					{
+						"forward": false
+					},
+					"AQAAAFoZAAAAAAAAWhkAAAAAAAADAAAAcm93",
+					"AQAAAAAAAAABAAAAXRkAAAAAAABdGQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					1,
+					"insert",
+					{
+						"characters": "column"
+					},
+					"BgAAAFoZAAAAAAAAWxkAAAAAAAAAAAAAWxkAAAAAAABcGQAAAAAAAAAAAABcGQAAAAAAAF0ZAAAAAAAAAAAAAF0ZAAAAAAAAXhkAAAAAAAAAAAAAXhkAAAAAAABfGQAAAAAAAAAAAABfGQAAAAAAAGAZAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWhkAAAAAAABaGQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEAYAAAAAAAAQBgAAAAAAAA1AAAACgkvLyBhbGlnbi1pdGVtczogc3RyZXRjaDsKCS8vIGFsaWduLWNvbnRlbnQ6IGNlbnRlcjs",
+					"AQAAAAAAAAABAAAAdRgAAAAAAABAGAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					43,
+					1,
+					"left_delete",
+					null,
+					"AQAAAD4bAAAAAAAAPhsAAAAAAAABAAAAMw",
+					"AQAAAAAAAAABAAAAPxsAAAAAAAA/GwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					44,
+					1,
+					"insert",
+					{
+						"characters": "2"
+					},
+					"AQAAAD4bAAAAAAAAPxsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPhsAAAAAAAA+GwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					52,
+					3,
+					"left_delete",
+					null,
+					"AwAAALYYAAAAAAAAthgAAAAAAAABAAAAd7UYAAAAAAAAtRgAAAAAAAABAAAAb7QYAAAAAAAAtBgAAAAAAAABAAAAcg",
+					"AQAAAAAAAAABAAAAtxgAAAAAAAC3GAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					53,
+					1,
+					"insert",
+					{
+						"characters": "column"
+					},
+					"BgAAALQYAAAAAAAAtRgAAAAAAAAAAAAAtRgAAAAAAAC2GAAAAAAAAAAAAAC2GAAAAAAAALcYAAAAAAAAAAAAALcYAAAAAAAAuBgAAAAAAAAAAAAAuBgAAAAAAAC5GAAAAAAAAAAAAAC5GAAAAAAAALoYAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtBgAAAAAAAC0GAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					56,
+					1,
+					"cut",
+					null,
+					"AQAAAKQYAAAAAAAApBgAAAAAAAAXAAAAZmxleC1kaXJlY3Rpb246IGNvbHVtbjs",
+					"AQAAAAAAAAABAAAAuxgAAAAAAACkGAAAAAAAAAAAAAAAAFJA"
+				],
+				[
+					57,
+					3,
+					"left_delete",
+					null,
+					"AwAAAKMYAAAAAAAAoxgAAAAAAAABAAAACaIYAAAAAAAAohgAAAAAAAABAAAACaEYAAAAAAAAoRgAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAApBgAAAAAAACkGAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					60,
+					4,
+					"left_delete",
+					null,
+					"BAAAAP4YAAAAAAAA/hgAAAAAAAAXAAAAZmxleC1kaXJlY3Rpb246IGNvbHVtbjv9GAAAAAAAAP0YAAAAAAAAAQAAAAn8GAAAAAAAAPwYAAAAAAAAAQAAAAn7GAAAAAAAAPsYAAAAAAAAAQAAAAo",
+					"AQAAAAAAAAABAAAAFRkAAAAAAAD+GAAAAAAAAAAAAAAAAFJA"
+				],
+				[
+					63,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAEAYAAAAAAAAQRgAAAAAAAAAAAAAQRgAAAAAAABCGAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQBgAAAAAAABAGAAAAAAAAP///////+9/"
+				],
+				[
+					64,
+					1,
+					"paste",
+					null,
+					"AQAAAEIYAAAAAAAAWRgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQhgAAAAAAABCGAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					67,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAADobAAAAAAAAOxsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOhsAAAAAAAA6GwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					72,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFoaAAAAAAAAWhoAAAAAAAABAAAANA",
+					"AQAAAAAAAAABAAAAWxoAAAAAAABbGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					73,
+					1,
+					"insert",
+					{
+						"characters": "3"
+					},
+					"AQAAAFoaAAAAAAAAWxoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWhoAAAAAAABaGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					76,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIUaAAAAAAAAhRoAAAAAAAABAAAANA",
+					"AQAAAAAAAAABAAAAhhoAAAAAAACGGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					77,
+					1,
+					"insert",
+					{
+						"characters": "2"
+					},
+					"AQAAAIUaAAAAAAAAhhoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhRoAAAAAAACFGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					78,
+					2,
+					"left_delete",
+					null,
+					"AgAAAIUaAAAAAAAAhRoAAAAAAAABAAAAMoQaAAAAAAAAhBoAAAAAAAABAAAALg",
+					"AQAAAAAAAAABAAAAhhoAAAAAAACGGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					79,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIMaAAAAAAAAgxoAAAAAAAABAAAAMg",
+					"AQAAAAAAAAABAAAAhBoAAAAAAACEGgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					80,
+					1,
+					"insert",
+					{
+						"characters": "1.6"
+					},
+					"AwAAAIMaAAAAAAAAhBoAAAAAAAAAAAAAhBoAAAAAAACFGgAAAAAAAAAAAACFGgAAAAAAAIYaAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgxoAAAAAAACDGgAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -606,11 +884,15 @@
 	"expanded_folders":
 	[
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/dist",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/dist/css"
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html",
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss"
 	],
 	"file_history":
 	[
+		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/modulo.html",
+		"/C/Users/Shinji/OneDrive/Alias Software/password.txt",
+		"/C/Users/Shinji/Downloads/Alias.2018.Crash.on.BigSur.txt",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/_nav.html",
 		"/C/Users/Shinji/AppData/Local/Temp/7zO0EABA336/readme.md",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/scss/stylesheet.scss",
@@ -625,7 +907,6 @@
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/ipod.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/louvre.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/mayhem.html",
-		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/modulo.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/mos.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/nightclub.html",
 		"/C/Users/Shinji/Documents/GitHub/portfolio-html/src/html/page-template.html",
@@ -736,13 +1017,11 @@
 		"/Volumes/Flinto [Crack]/How 2 Install.txt",
 		"/Users/shinjipons/Dropbox/Documents/Thomson Reuters/start date.txt",
 		"/Users/shinjipons/Desktop/ReactJS Notes.jsx",
-		"/Users/shinjipons/Desktop/login data.txt",
-		"/Users/shinjipons/Desktop/ReactJS Notes.js",
-		"/Users/shinjipons/Desktop/ReactJS Notes.txt"
+		"/Users/shinjipons/Desktop/login data.txt"
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -758,6 +1037,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"flex",
+			"opengl",
 			"$link-color-hover",
 			"border-bottom",
 			"color",
@@ -793,9 +1074,11 @@
 			"$body-font",
 			"$link-color"
 		],
-		"reverse": true,
+		"reverse": false,
+		"scrollbar_highlights": true,
 		"show_context": true,
 		"use_buffer2": true,
+		"use_gitignore": true,
 		"whole_word": false,
 		"wrap": true
 	},
@@ -810,12 +1093,169 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/scss/stylesheet.scss",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11691,
+						"regions":
+						{
+							"col_00000033":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5574,
+										5589
+									]
+								],
+								"scope": "col_00000033"
+							},
+							"col_00000033_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00000033_circle.png",
+								"regions":
+								[
+									[
+										5544,
+										5544
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										624,
+										631
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										605,
+										605
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_00B4FFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										723,
+										730
+									]
+								],
+								"scope": "col_00B4FFFF"
+							},
+							"col_00B4FFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00B4FFFF_circle.png",
+								"regions":
+								[
+									[
+										704,
+										704
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_383838FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										751,
+										758
+									]
+								],
+								"scope": "col_383838FF"
+							},
+							"col_383838FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_383838FF_circle.png",
+								"regions":
+								[
+									[
+										732,
+										732
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_7C7C7CFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										695,
+										702
+									]
+								],
+								"scope": "col_7C7C7CFF"
+							},
+							"col_7C7C7CFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_7C7C7CFF_circle.png",
+								"regions":
+								[
+									[
+										676,
+										676
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								6790,
+								6790
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4482.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 29.3333333333
 	},
 	"input":
 	{
@@ -856,7 +1296,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 54.0
+		"height": 54.6666666667
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1405,7 +1845,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 311.0,
 	"status_bar_visible": true,
 	"template_settings":

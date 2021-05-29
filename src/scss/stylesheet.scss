@@ -242,11 +242,9 @@ nav {
 .nav-content {
 	width: 100%;
 	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	// align-items: stretch;
-	// align-content: center;
+	flex-direction: column;
 	@media only screen and (max-width: $mobile-breakpoint) {
 		padding-top: $site-size-mobile * 4;	
 	}
@@ -262,14 +260,14 @@ nav {
 		-webkit-text-stroke: 1px $secondary-color;
 		color: $primary-color;
 		@media only screen and (max-width: $mobile-breakpoint) {
-			font-size:   $site-size-mobile * 4;
-			line-height: $line-height-mobile * 2.4;
+			font-size:   $site-size-mobile * 3;
+			line-height: $line-height-mobile * 1.6;
 			padding-top: 1.5rem;
 		}
 		@media only screen and (min-width: $mobile-breakpoint + 1px) {
-			font-size:   $site-size   * 8;
-			line-height: $line-height * 3.2;
-			margin-top: 2rem;
+			font-size:   $site-size   * 6;
+			line-height: $line-height * 2.2;
+			margin-top:  2rem;
 			padding-top: 4rem;
 		}	
 		&:hover {
