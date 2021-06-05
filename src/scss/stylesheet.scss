@@ -265,8 +265,8 @@ nav {
 			padding-top: 1.5rem;
 		}
 		@media only screen and (min-width: $mobile-breakpoint + 1px) {
-			font-size:   $site-size   * 6;
-			line-height: $line-height * 2.2;
+			font-size:   $site-size   * 5; // 11.4rem
+			line-height: $line-height * 1.5; // 3.336 rem
 			margin-top:  2rem;
 			padding-top: 4rem;
 		}	
