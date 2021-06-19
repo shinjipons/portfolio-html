@@ -6,14 +6,6 @@
 	font-family: "Exetegue Bold";
 	src: url("../../data/fonts/Exetegue-Bold.woff") format("woff");
 }
-// @font-face {
-// 	font-family: "Exetegue Light";
-// 	src: url("../../data/fonts/Exetegue-Light.woff") format("woff");
-// }
-// @font-face {
-// 	font-family: "Exetegue Regular";
-// 	src: url("../../data/fonts/Exetegue-Regular.woff") format("woff");
-// }
 
 $body-font: "Inter", sans-serif;
 $header-font: "Exetegue Bold";
@@ -28,16 +20,8 @@ $missing-color:    #383838;
 // Breakpoint
 $mobile-breakpoint: 960px;
 
-// Site spacing desktop
-$site-margin:             4%;
-$site-margin-mobile:      5%;
-$site-size:               2.4rem; // this also controls font size
-$site-size-mobile:        $site-size; // this also controls font size on mobile
-$line-height:             1.2 * $site-size;
-$line-height-mobile:      1.2 * $site-size-mobile;
-$site-padding-top:        3.4 * $site-size;
-$site-padding-top-mobile: 1.0 * $site-size-mobile;
-$thin-gap:                1px; // used for the vertical gap between images, text, etc.
+// Site spacing
+
 
 // Animation
 $transition-unit:         150ms;
@@ -104,379 +88,34 @@ $grid-col:                6;
 
 html {
 	box-sizing: border-box;
-	background: $primary-color;
+	// background: $primary-color;
 	font-size: 10px;
 	overflow-y: scroll; // to force scrollbar on all pages
 	@media only screen and (max-width: $mobile-breakpoint) {
-		padding-bottom: 0;
+		
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		padding-bottom: $site-padding-top + $site-size * 2;
+		
 	}
 }
 
 body {
-	font-family: $body-font;
 	@media only screen and (max-width: $mobile-breakpoint) {
-		font-size:     $site-size-mobile;
-		margin-left:   0;
-		margin-right:  0;
-		margin-bottom: 0;
-		padding-top:   $site-padding-top-mobile * 3 + $site-size-mobile;
+		
 	}
 	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		font-size:    $site-size;
-		margin-left:  $site-margin;
-		margin-right: $site-margin;
-		padding-top:  $site-padding-top + $site-size * 2;
+		
 	}
-}
-
-p, h1 {
-	margin: 0;
-	display: block;
-	font-weight: normal;
-	word-wrap: break-word;
-	font-family: $body-font;
-	color: $secondary-color;
-	
-	@media only screen and (max-width: $mobile-breakpoint) {
-		font-size: $site-size-mobile;
-		margin-bottom: $line-height-mobile * 1;
-		line-height: $line-height-mobile;
-		&:last-child {
-			margin-bottom: $line-height-mobile;
-		}
-	}
-	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		font-size: $site-size;
-		margin-bottom: $line-height * 1;
-		line-height: $line-height;
-	}
-}
-
-a {
-	color: $link-color;
-	text-decoration: none;
-	&:hover {
-		color: $link-hover-color;
-	}
-	img {
-		width: 100%;
-	}
-}
-
-em {
-	font-style: normal;
-	color: $link-hover-color;
-}
-
-ul {
-	list-style: none;
-	padding-left: 0;
-	margin-top: 0;
-	margin-bottom: 0;
-	line-height: $line-height;
-	color: $secondary-color;
-	&:after {
-		content: "—";
-		display: block;
-		margin-bottom: $line-height;
-	}
-}
-
-ol {
-	padding-left: 0;
-	color: $secondary-color;
-}
-
-// Navigation
-nav, footer {
-	display: block;
-	position: fixed;
-	background: transparent;
-	z-index: 9;
-	@media only screen and (max-width: $mobile-breakpoint) {
-		width: 100%;
-	}
-	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		width: 100% - $site-margin * 2;
-	}
-}
-
-nav {
-	top: 0;
-	transition: $transition-unit * 1.75 ease-in-out;
-	overflow: hidden;
-	background: $primary-color;
-	backdrop-filter: blur(0px);
-	@media only screen and (max-width: $mobile-breakpoint) {
-		height: $site-padding-top-mobile * 3.2;
-		box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.2);
-		padding-top: $site-size;
-		padding-left:  $site-margin-mobile;
-		padding-right: $site-margin-mobile;
-	}
-	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		height: $site-padding-top;
-		padding-top: $site-size;
-	}
-	button {
-		border: none;
-		float: right;
-		background: $primary-color;
-		height: 3rem;
-		width:  3rem;
-		padding: 0px;
-		transition: $transition-unit * 3 $timing-function;
-		box-sizing: border-box;
-		&:hover {
-			#svg-path {
-				fill: $link-hover-color;
-			}
-		}
-	}
-}
-
-// nav related classes
-.nav-content {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	flex-direction: column;
-	@media only screen and (max-width: $mobile-breakpoint) {
-		padding-top: $site-size-mobile * 4;	
-	}
-	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		padding-top: 8.4rem;
-	}
-	a {
-		font-family: $header-font;
-		padding-bottom: 0rem;
-		text-transform: uppercase;
-		text-decoration: none;
-		text-stroke:         1px $secondary-color;
-		-webkit-text-stroke: 1px $secondary-color;
-		color: $primary-color;
-		@media only screen and (max-width: $mobile-breakpoint) {
-			font-size:   $site-size-mobile * 3;
-			line-height: $line-height-mobile * 1.6;
-			padding-top: 1.5rem;
-		}
-		@media only screen and (min-width: $mobile-breakpoint + 1px) {
-			font-size:   $site-size   * 5; // 11.4rem
-			line-height: $line-height * 1.5; // 3.336 rem
-			margin-top:  2rem;
-			padding-top: 4rem;
-		}	
-		&:hover {
-			// color: $secondary-color;
-			color: $link-hover-color;
-			text-stroke:         1px $link-hover-color;
-			-webkit-text-stroke: 1px $link-hover-color;
-		}
-	}
-}
-
-#svg-path {
-	fill: $secondary-color;
-}
-
-.nav-open {
-	height: 100vh;
-	border-bottom: 1px solid $primary-color;
-}
-
-.button-rotated {
-	transform: rotate(3 * 45deg);
 }
 
 // Rich media content
 img, video {
-	float: left;
-	margin-bottom: $thin-gap !important;
-	background-color: $missing-color;
+	// float: left;
 	&:last-child {
-		margin-bottom: 0;
+		// margin-bottom: 0;
 	}
 }
 
 video {
 	outline: none;
-}
-
-.tall {
-	// To modify the minimum height of some text blocks
-	min-height: $line-height * 20;
-}
-
-.medium {
-	@media only screen and (max-width: $mobile-breakpoint) {
-		// min-height: $line-height-mobile * 5;
-	}
-	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		min-height: $line-height * 10;
-	}
-}
-
-.short  {
-	min-height: $line-height * 5;
-}
-
-.missing {
-	// Style for the missing and yet to be filed projects in -list.php
-	color: $missing-color;
-	cursor: not-allowed;
-}
-
-.no-rm {
-	// Removes the last right margin to make row add to 100%
-	margin-right: 0;
-}
-
-.project-title {
-	// Classes specific for the project page
-	@extend .w1;
-	@media only screen and (max-width: $mobile-breakpoint) {
-		margin-bottom: $line-height-mobile;
-	}
-}
-.project-description {
-	@extend .w2;
-	@media only screen and (max-width: $mobile-breakpoint) {
-		margin-bottom: $line-height-mobile;
-		p {
-			margin-bottom: $site-size-mobile * 1;
-		}
-	}
-	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		margin-bottom: $line-height * 2;
-	}
-}
-
-.card {
-	// homepage card
-	@extend .c6;
-	position: relative;
-	width: auto;
-	background-color: $primary-color;
-	overflow: hidden;
-	margin-bottom: $thin-gap;
-	background-repeat: no-repeat;
-	background-position: center;
-	&:last-child {
-		margin-bottom: 0px;
-	}
-	&:hover {
-		p {
-			color: $link-hover-color;
-		}
-	}
-	
-	p {
-		@extend .p1;
-		@extend .w2;
-		color: $secondary-color;
-		position: absolute;
-		margin-top: $site-size * 2;
-		text-shadow: 0rem 0rem 0.5rem $primary-color;
-	}
-	@media only screen and (max-width: $mobile-breakpoint) {
-		// border top and bottom used to give some space for the image to "breathe"
-		border-top:    $line-height-mobile solid $primary-color;
-		border-bottom: $line-height-mobile solid $primary-color;
-		height:  	   $site-size * 14;
-		background-size: contain;
-		p {
-			visibility: hidden;
-		}
-	}
-	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		// border top and bottom used to give some space for the image to "breathe"
-		border-top:    $line-height solid $primary-color;
-		border-bottom: $line-height solid $primary-color;
-		height:    	   $site-size * 2 * 14;
-		background-size: contain;
-	}
-}
-
-.apple { 
-	background-image: url("../../data/img/cad-sculptor/cad-sculptor-001.webp");
-}
-.subd { 
-	background-image: url("../../data/img/subd/subd-005.webp");
-}
-.louvre { 
-	background-image: url("../../data/img/louvre/louvre-cover.webp");
-}
-.modulo { 
-	background-image: url("../../data/img/modulo/modulo-cover.webp");
-}
-.nightclub { 
-	background-image: url("../../data/img/nightclub/nightclub-007.webp");
-}
-.dynamo { 
-	background-image: url("../../data/img/dynamo/dynamo-cover.webp");
-}
-.urbantorque { 
-	background-image: url("../../data/img/urbantorque/urbantorque-cover.webp");
-}
-.bowie { 
-	background-image: url("../../data/img/bowie/bowie-2.jpg");
-}
-.basiljs {
-	background-image: url("../../data/img/basiljs/basiljs-011.webp");
-}
-.doty {
-	background-image: url("../../data/img/doty/doty-cover.webp");
-}
-.business-card {
-	background-image: url("../../data/img/business-card/business-card-001.jpg");
-}
-.clay {
-	background-image: url("../../data/img/clay/clay-007.jpg");
-}
-.mayhem {
-	background-image: url("../../data/img/mayhem/mayhem-001.svg");
-}
-.mos {
-	background-image: url("../../data/img/mos/mos-001.webp");
-}
-.alias {
-	background-image: url("../../data/img/alias/heatspreader-main-render.webp");
-}
-.blender-shading {
-	background-image: url("../../data/img/blender-shading/blender-shading-001.webp");
-}
-.substance-painter {
-	background-image: url("../../data/img/substance-painter/cycles-render-transparent.webp");
-}
-.ipod {
-	background-image: url("../../data/img/ipod/0003.webp");
-}
-
-.desktop-only {
-	@media only screen and (max-width: $mobile-breakpoint) {
-		display: none;
-	}
-	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		display: inline-block;
-	}
-}
-.mobile-only {
-	@media only screen and (max-width: $mobile-breakpoint) {
-		display: inline-block;
-	}
-	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		display: none;
-	}
-}
-
-// used on the navigation bar
-.highlight {
-	color: $link-color;
-	&:hover {
-		color: $link-color;
-	}
 }
