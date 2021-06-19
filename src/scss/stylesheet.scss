@@ -1,35 +1,71 @@
-@font-face {
-	font-family: "Inter";
-	src: url("../../data/fonts/Inter-Regular.woff2") format("woff2"), url("../../data/fonts/Inter-Regular.woff") format("woff");
-}
-@font-face {
-	font-family: "Exetegue Bold";
-	src: url("../../data/fonts/Exetegue-Bold.woff") format("woff");
+// Mixin for breakpoint
+$mobile-breakpoint: 960px;
+@mixin breakpoint($point) {
+	@if $point == desktop {
+		@media (min-width: $mobile-breakpoint + 1px) {
+			@content;
+		}
+	}
+	@else if $point == mobile {
+		@media (max-width: $mobile-breakpoint) {
+			@content;
+		}
+	}
 }
 
-$body-font: "Inter", sans-serif;
-$header-font: "Exetegue Bold";
+// Debug border
+@mixin debug {
+	border: 1px solid red;
+}
+
+// Typography settings
+$inter: "Inter", sans-serif;
+$jetbrains: "JetBrains Mono", monospace;
+
+@mixin body-text-desktop {
+	font-family: $inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.6rem;
+	line-height: 1.9rem;
+	color: $secondary-color;
+}
+
+@mixin header-text-desktop {
+	font-family: $inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3rem;
+	line-height: 4rem;
+	color: $secondary-color;
+}
+
+@mixin subheader-text-desktop {
+	font-family: $jetbrains;
+	font-style: normal;
+	font-weight: 500; // this is strange...
+	font-style: 1.2rem;
+	line-height: 1.6rem;
+	text-transform: uppercase;
+}
 
 // Colors
-$primary-color:    #000000;
-$secondary-color:  invert($primary-color);
-$link-color:       #7C7C7C;
-$link-hover-color: #00B4FF;
-$missing-color:    #383838;
-
-// Breakpoint
-$mobile-breakpoint: 960px;
+$primary-color:    black;
+$secondary-color:  white;
+$accent-color:     #00B4FF;
+$bg-color:         #0F0F0F;
+$section-bg-color: #5E5340;
 
 // Site spacing
-
+$thin-gap: 10px; // random value for now
+$site-margin-mobile: 1%; // random value for now, must be in %
 
 // Animation
-$transition-unit:         150ms;
-$timing-function:         cubic-bezier(.86,0,.07,1);
+$transition-unit: 150ms;
 
 // Grid settings (except margin)
-$grid-gap:                2%;
-$grid-col:                6;
+$grid-gap: 1%;
+$grid-col: 6;
 
 @for $i from 1 through 6 {
 	.w#{$i} {
@@ -38,11 +74,11 @@ $grid-col:                6;
 		margin-right: $grid-gap;
 		margin-bottom: $thin-gap;
 		float: left;
-		@media only screen and (max-width: $mobile-breakpoint) {
+		@include breakpoint(mobile) {
 			width: 100% - $site-margin-mobile * 2;
 			margin-left: $site-margin-mobile;
 		}
-		@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		@include breakpoint(desktop) {
 			width: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * ( $i - 1 );
 		}
 	}
@@ -53,28 +89,28 @@ $grid-col:                6;
 		margin-right: auto;
 		clear: both;
 		float: none;
-		@media only screen and (max-width: $mobile-breakpoint) {
+		@include breakpoint(mobile) {
 			width: 100%;
 		}
-		@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		@include breakpoint(desktop) {
 			width: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * ( $i - 1 );
 		}
 	}
 	.p#{$i} {
 		// this pushes the element to the right by adding a left margin
-		@media only screen and (max-width: $mobile-breakpoint) {
+		@include breakpoint(mobile) {
 			margin-left: 0px;
 		}
-		@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		@include breakpoint(desktop) {
 			margin-left: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * $i;
 		}
 	}
 	.f#{$i} {
 		// this fills the space to the right of the element, to make the next element in the next grid row
-		@media only screen and (max-width: $mobile-breakpoint) {
+		@include breakpoint(mobile) {
 			margin-right: 0px;
 		}
-		@media only screen and (min-width: $mobile-breakpoint + 1px) {
+		@include breakpoint(desktop) {
 			margin-right: ( ( 100% - ( $grid-col - 1 ) * $grid-gap ) / $grid-col ) * $i + $grid-gap * $i;
 		}
 	}
@@ -88,34 +124,142 @@ $grid-col:                6;
 
 html {
 	box-sizing: border-box;
-	// background: $primary-color;
+	background: $primary-color;
+	color: $secondary-color;
 	font-size: 10px;
 	overflow-y: scroll; // to force scrollbar on all pages
-	@media only screen and (max-width: $mobile-breakpoint) {
-		
-	}
-	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		
-	}
 }
 
 body {
-	@media only screen and (max-width: $mobile-breakpoint) {
-		
-	}
-	@media only screen and (min-width: $mobile-breakpoint + 1px) {
-		
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	@include breakpoint(desktop) {
+		margin-top: 0px;
+		@include header-text-desktop;
 	}
 }
 
-// Rich media content
-img, video {
-	// float: left;
-	&:last-child {
-		// margin-bottom: 0;
+p {
+	@include breakpoint(desktop) {
+		@include body-text-desktop;
 	}
 }
 
-video {
-	outline: none;
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+	@include subheader-text-desktop;
+}
+
+footer {
+	background: $section-bg-color;
+	display: flex;
+	flex-direction: column;
+	padding: 6rem 8rem;
+}
+
+.above-the-fold {
+	display: flex;
+	align-items: end;
+	background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0.2), rgba(15, 15, 15, 1.0)), url('../../data/img/alias/heatspreader-half.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.site-landing-description {
+	@extend .c4;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	bottom: 0px;
+}
+
+.featured-work {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	h1 {
+		@extend .c4;
+		text-align: center;
+	}
+	img {
+		@extend .c4;
+		box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+	}
+	p {
+		@extend .c2;
+		text-align: center;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+	}
+}
+
+.alias-feature {
+	background-color: #392128;
+}
+.dynamo-feature {
+	background-color: #725D59;
+}
+
+.big-fucking-button {
+	@include breakpoint(desktop) {
+		padding: 1.3rem 1.6rem;
+		background-color: transparent;
+		border: 1px solid $secondary-color;
+		color: $secondary-color;
+		border-radius: 0.4rem;
+		transition: 300ms;
+		@include body-text-desktop;
+		&:hover {
+			background-color: $secondary-color;
+			color: $primary-color;
+			transition: 150ms;
+		}
+	}
+}
+
+.projects-container {
+	padding: 8rem;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.project-card {
+	display: inline-block;
+	position: relative;
+	width: 413px;
+	border-radius: 1.4rem;
+	overflow: hidden;
+	img {
+		width: 100%;
+		height: auto;
+	}
+	.text-container {
+		display: block;
+		position: absolute;
+		width: 100%;
+		bottom: 0px;
+		background: rgba(1,1,1,0.2);
+		backdrop-filter: blur(12px);
+		padding: 1.6rem;
+		h2 {
+			@include subheader-text-desktop;
+			color: $secondary-color;
+			margin: 0rem 0rem 0.5rem 0rem;
+		}
+		p {
+			@include body-text-desktop;
+			color: $secondary-color;
+			margin: 0.5rem 0rem 0rem 0rem;
+		}
+	}
 }
